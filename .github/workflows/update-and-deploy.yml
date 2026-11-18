@@ -74,3 +74,21 @@ jobs:
       - name: Deploy
         id: deploy
         uses: actions/deploy-pages@v4
+
+      - name: Check the published site answers
+        run: |
+          URL="${{ steps.deploy.outputs.page_url }}"
+          CODE=""
+          for attempt in 1 2 3 4 5 6; do
+            CODE="$(curl -s -o /tmp/site.html -w '%{http_code}' "$URL")"
+            [ "$CODE" = "200" ] && break
+            echo "attempt $attempt: HTTP $CODE, waiting for Pages to settle"
+            sleep 10
+          done
+          if [ "$CODE" != "200" ]; then
+            echo "the site returned HTTP $CODE" >&2
+            exit 1
+          fi
+          grep -q "Community Funding Finder" /tmp/site.html
+          curl -sf "${URL}js/data.js" | grep -q "const FUNDS"
+          echo "site ok: $URL"
