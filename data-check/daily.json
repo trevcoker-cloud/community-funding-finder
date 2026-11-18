@@ -1,7 +1,7 @@
 {
-  "run_at": "2026-11-18T13:16:23+00:00",
+  "run_at": "2026-11-18T13:18:25+00:00",
   "date": "2026-11-18",
-  "duration_s": 33.9,
+  "duration_s": 26.0,
   "added": [],
   "queued": [],
   "queued_total": 0,
@@ -10,13 +10,13 @@
     "total": 80,
     "counts": {
       "changed": 0,
-      "baseline": 0,
+      "baseline": 4,
       "unchanged": 73,
       "blocked": 1,
-      "unreachable": 6
+      "unreachable": 2
     },
     "report": "report-2026-11-18.md",
-    "run_at": "2026-11-18T13:16:39+00:00",
+    "run_at": "2026-11-18T13:18:36+00:00",
     "verified": "2026-10-23"
   },
   "notes": []
