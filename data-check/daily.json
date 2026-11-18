@@ -1,0 +1,31 @@
+{
+  "run_at": "2026-11-07T14:12:47+00:00",
+  "date": "2026-11-07",
+  "duration_s": 51.6,
+  "added": [
+    {
+      "id": "rathsherry-community-benefit-fund",
+      "name": "Rathsherry Community Benefit Fund",
+      "funder": "Community Foundation Northern Ireland",
+      "reason": "open programme on communityfoundationni.org, closes 2026-12-03, \u00a31,000\u2013\u00a39,000 as published on the funder's page",
+      "seed": "https://communityfoundationni.org/achieving-impact/available-grants/"
+    }
+  ],
+  "queued": [],
+  "queued_total": 0,
+  "auto_total": 19,
+  "check": {
+    "total": 79,
+    "counts": {
+      "changed": 16,
+      "baseline": 1,
+      "unchanged": 59,
+      "blocked": 1,
+      "unreachable": 2
+    },
+    "report": "report-2026-11-07.md",
+    "run_at": "2026-11-07T14:13:14+00:00",
+    "verified": "2026-10-23"
+  },
+  "notes": []
+}

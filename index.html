@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Community Funding Finder — grants for CICs, charities and non-profits</title>
+  <meta name="description" content="Search UK grants and funds open to Community Interest Companies, charities and non-profits. Filter by cause, region, award size and organisation type, track open and close dates, and draft applications with the built-in assistant.">
+  <meta name="theme-color" content="#0f5c4a">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f5c4a'/%3E%3Cpath d='M16 6l8 4.6v9.6L16 25l-8-4.8V10.6L16 6z' fill='none' stroke='%23eaf5ef' stroke-width='1.6'/%3E%3Cpath d='M12 19v-4M16 19v-6M20 19v-3' stroke='%23eaf5ef' stroke-width='1.8' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=20261107a">
+</head>
+<body>
+  <a class="skip-link" href="#results">Skip to results</a>
+
+  <header class="topbar">
+    <div class="topbar__inner">
+      <a class="brand" href="#" aria-label="Community Funding Finder home">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" role="img"><path d="M16 3l11 6.4v13.2L16 29 5 22.6V9.4L16 3z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M11 20v-5.5M16 20V11M21 20v-4" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+        </span>
+        <span class="brand__text"><strong>Community Funding Finder</strong><small>Grants for CICs, charities &amp; non-profits</small></span>
+      </a>
+      <nav class="tabs" aria-label="Views">
+        <button class="tab is-active" data-view="search" aria-current="page">Search</button>
+        <button class="tab" data-view="deadlines">Deadlines</button>
+        <button class="tab" data-view="tracker">My tracker <span class="tab__count" id="trackerCount" hidden>0</span></button>
+      </nav>
+      <div class="topbar__actions">
+        <button class="btn btn--ghost" id="findFunds" title="Search the funders' own pages and the funding directories for programmes that are not in this list yet">
+          <span aria-hidden="true">＋</span> Find new funds
+        </button>
+        <button class="btn btn--ghost" id="checkSources" title="Re-fetch the monitored funder pages and flag anything that changed">
+          <span aria-hidden="true">⟳</span> Check sources
+        </button>
+        <button class="btn btn--ghost" id="openAssistantTop">
+          <span aria-hidden="true">✦</span> Application studio
+        </button>
+      </div>
+      <button class="icon-btn topbar__menu" id="mobileFilters" aria-label="Show filters" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M7 12h10M10 17h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span class="topbar__menu-label">Filters</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <div class="livebar" id="liveBar" data-state="running" aria-live="polite" hidden>
+      <span class="livebar__dot" aria-hidden="true"></span>
+      <div class="livebar__body">
+        <p class="livebar__text" id="liveText">Searching funder pages for new data…</p>
+        <ul class="livebar__list livebar__list--added" id="liveAdded" hidden></ul>
+        <ul class="livebar__list" id="liveList" hidden></ul>
+        <p class="livebar__meta" id="liveMeta"></p>
+      </div>
+      <div class="livebar__actions">
+        <button class="text-btn" id="liveFindFunds" type="button" hidden>Find new funds</button>
+        <button class="text-btn" id="liveReview" type="button">Review</button>
+        <button class="icon-btn livebar__close" id="liveDismiss" type="button" aria-label="Hide the live source check">&times;</button>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="hero__inner">
+        <div class="hero__content">
+        <p class="eyebrow">Built for UK CICs, charities and non-profits</p>
+        <h1>Find funding that actually <em>fits your organisation.</em></h1>
+        <p class="hero__lede">
+          Search UK grants and funds for community organisations, filter by cause, place, award size and legal form, and see exactly when each one opens and closes. Then draft your answers in the application studio.
+        </p>
+
+        <div class="search-shell">
+          <svg class="search-shell__icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16.5 16.5L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <label class="sr-only" for="searchInput">Search grants and funds</label>
+          <input id="searchInput" type="search" placeholder="Try “youth”, “climate”, “Scotland”, “core costs”…" autocomplete="off" spellcheck="false">
+          <button class="search-shell__clear" id="clearSearch" aria-label="Clear search" hidden>&times;</button>
+          <kbd class="search-shell__kbd" aria-hidden="true">/</kbd>
+        </div>
+
+        <div class="hero__stats" aria-live="polite">
+          <div class="stat"><span class="stat__value" id="statOpen">—</span><span class="stat__label">open now</span></div>
+          <div class="stat"><span class="stat__value" id="statClosing">—</span><span class="stat__label">closing in 30 days</span></div>
+          <div class="stat"><span class="stat__value" id="statTotal">—</span><span class="stat__label">funds indexed</span></div>
+          <div class="stat stat--note"><span class="stat__value" id="statVerified">—</span><span class="stat__label">last source check</span></div>
+        </div>
+        </div>
+
+        <aside class="hero__panel" aria-label="Next deadlines">
+          <div class="hero__panel-head">
+            <span class="eyebrow">Next deadlines</span>
+            <span class="hero__panel-count" id="heroDeadlineCount"></span>
+          </div>
+          <ul class="hero__deadlines" id="heroDeadlines"></ul>
+          <button class="hero__panel-link" type="button" data-goto-deadlines>See the full deadline calendar <span aria-hidden="true">→</span></button>
+          <p class="hero__panel-note">Rolling programmes are not shown here — they never close.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="workspace" id="results" aria-label="Grant search">
+      <aside class="filters" id="filtersPanel" aria-label="Filters">
+        <div class="filters__head">
+          <h2>Filters</h2>
+          <div class="filters__head-actions">
+            <button class="text-btn" id="resetFilters" type="button">Reset all</button>
+            <button class="icon-btn filters__close" id="closeFilters" aria-label="Close filters">&times;</button>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <h3>Your organisation</h3>
+          <div class="chips" id="orgFilters" role="group" aria-label="Organisation type"></div>
+          <p class="filter-hint">Pick a legal form to hide funds that exclude it.</p>
+        </div>
+
+        <div class="filter-group">
+          <h3>Status</h3>
+          <div class="chips" id="statusFilters" role="group" aria-label="Deadline status"></div>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-group__head">
+            <h3>Causes</h3>
+            <span class="filter-hint">multi-select</span>
+          </div>
+          <div class="chips" id="categoryFilters" role="group" aria-label="Causes"></div>
+        </div>
+
+        <div class="filter-group">
+          <h3>Where you work</h3>
+          <label class="field">
+            <span class="sr-only">Nation or region</span>
+            <select id="scopeFilter">
+              <option value="">Anywhere in the UK</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="filter-group">
+          <h3>Award size</h3>
+          <div class="chips" id="sizeFilters" role="group" aria-label="Award size"></div>
+        </div>
+
+        <div class="filter-group">
+          <h3>Funding type</h3>
+          <div class="chips" id="typeFilters" role="group" aria-label="Funding type"></div>
+        </div>
+
+        <div class="filter-group">
+          <h3>Application effort</h3>
+          <div class="chips" id="effortFilters" role="group" aria-label="Application effort"></div>
+        </div>
+
+        <div class="filter-group">
+          <h3>Deadline window</h3>
+          <label class="field">
+            <span class="sr-only">Closing within</span>
+            <select id="deadlineFilter">
+              <option value="">Any time (incl. rolling)</option>
+              <option value="30">Closing within 30 days</option>
+              <option value="90">Closing within 3 months</option>
+              <option value="180">Closing within 6 months</option>
+            </select>
+          </label>
+        </div>
+
+        <label class="switch">
+          <input type="checkbox" id="confirmedOnly">
+          <span class="switch__track" aria-hidden="true"><span class="switch__dot"></span></span>
+          <span class="switch__label">Confirmed eligibility only</span>
+        </label>
+
+        <label class="switch">
+          <input type="checkbox" id="hideAuto">
+          <span class="switch__track" aria-hidden="true"><span class="switch__dot"></span></span>
+          <span class="switch__label">Hide auto-found entries</span>
+        </label>
+
+        <div class="filters__foot">
+          <p>Every entry links to the funder’s own page. Deadlines change — always confirm before applying.</p>
+          <button class="text-btn" id="openMethodology" type="button">How this list is checked</button>
+        </div>
+
+        <button class="btn btn--primary btn--block filters__apply" id="applyFilters" type="button">Show results</button>
+      </aside>
+
+      <div class="results">
+        <div class="results__toolbar">
+          <div>
+            <h2 class="results__title" id="resultsTitle">Funding opportunities</h2>
+            <p class="results__meta" id="resultsMeta" aria-live="polite">Loading…</p>
+          </div>
+          <div class="toolbar-actions">
+            <label class="select-wrap">
+              <span class="sr-only">Sort results</span>
+              <select id="sortSelect">
+                <option value="deadline">Closing soonest</option>
+                <option value="value">Largest award</option>
+                <option value="az">A–Z</option>
+              </select>
+            </label>
+            <button class="btn btn--secondary" id="exportCsv" type="button" title="Download the filtered list as CSV">Export CSV</button>
+          </div>
+        </div>
+
+        <div class="active-filters" id="activeFilters" hidden></div>
+
+        <div id="searchView">
+          <div class="grid" id="resultsGrid"></div>
+          <div class="empty" id="emptyState" hidden>
+            <div class="empty__art" aria-hidden="true">◔</div>
+            <h3>No funds match those filters</h3>
+            <p>Try widening the award size, clearing causes or organisation type, or turning off “confirmed eligibility only”.</p>
+            <button class="btn btn--primary" id="emptyReset" type="button">Reset filters</button>
+          </div>
+        </div>
+
+        <div id="deadlinesView" hidden>
+          <div class="timeline-legend">
+            <span class="dot dot--amber"></span> closing in 30 days
+            <span class="dot dot--green"></span> open
+            <span class="dot dot--grey"></span> closed / paused
+          </div>
+          <div id="timeline"></div>
+        </div>
+
+        <div id="trackerView" hidden>
+          <div class="tracker-head">
+            <div>
+              <h3>Your saved funds</h3>
+              <p>Saved in this browser only. Add notes and track where each application has got to.</p>
+            </div>
+            <button class="btn btn--secondary" id="downloadCalendar" type="button">Add deadlines to calendar</button>
+          </div>
+          <div id="trackerList"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="studio-teaser">
+      <div>
+        <p class="eyebrow">Application studio</p>
+        <h2>Blank page? Start with a structured draft.</h2>
+        <p>Pick a fund, tell the studio about your organisation, and it will build an answer scaffold around that funder’s priorities — with word counts and the evidence reviewers look for. Works offline, or connect your own AI model for full prose.</p>
+        <div class="studio-teaser__actions">
+          <button class="btn btn--primary" id="openAssistantTeaser" type="button">Open the application studio</button>
+          <button class="btn btn--ghost" id="openMethodologyTeaser" type="button">How scoring works</button>
+        </div>
+      </div>
+      <ul class="studio-teaser__list">
+        <li><strong>Grant-aware</strong><span>Drafts reference the actual award range, priorities and eligibility rules.</span></li>
+        <li><strong>Private by default</strong><span>Your answers stay in this browser. Nothing is uploaded unless you connect a model.</span></li>
+        <li><strong>Editable</strong><span>Every draft is a starting point — copy it out to your own application form.</span></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p><strong>Community Funding Finder</strong> · A research tool for UK CICs, charities and non-profits. Not affiliated with any funder.</p>
+    <p>Grant data checked 22 October 2026 against funder pages. Award ranges, eligibility and deadlines can change without notice — confirm on the funder’s site before applying.</p>
+  </footer>
+
+  <!-- Grant detail drawer -->
+  <div class="overlay" id="drawerOverlay" hidden></div>
+  <aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle" hidden>
+    <div class="drawer__bar">
+      <span class="drawer__eyebrow" id="drawerFunder"></span>
+      <button class="icon-btn" id="closeDrawer" aria-label="Close details">&times;</button>
+    </div>
+    <div class="drawer__body" id="drawerBody"></div>
+  </aside>
+
+  <!-- Application studio -->
+  <aside class="studio" id="studio" role="dialog" aria-modal="true" aria-labelledby="studioTitle" hidden>
+    <div class="studio__head">
+      <div>
+        <p class="eyebrow">Application studio</p>
+        <h2 id="studioTitle">Draft a stronger answer</h2>
+      </div>
+      <button class="icon-btn" id="closeStudio" aria-label="Close the application studio">&times;</button>
+    </div>
+
+    <div class="studio__scroll">
+      <div class="studio__grid">
+        <div class="studio__controls">
+          <label class="field">
+            <span class="field__label">Funding programme</span>
+            <select id="studioGrant"></select>
+            <span class="studio__grant-meta" id="studioGrantMeta"></span>
+          </label>
+
+          <label class="field">
+            <span class="field__label">Question to answer</span>
+            <select id="studioQuestion">
+              <option value="organisation">Tell us about your organisation</option>
+              <option value="need">What is the need or problem you are addressing?</option>
+              <option value="project">Describe your project and what you will do</option>
+              <option value="beneficiaries">Who will benefit and how will they be involved?</option>
+              <option value="outcomes">What outcomes will you achieve, and how will you measure them?</option>
+              <option value="budget">Explain your budget and value for money</option>
+              <option value="sustainability">How will the work continue after the grant?</option>
+              <option value="structure">Why is your organisation the right structure for this work?</option>
+              <option value="custom">A custom question…</option>
+            </select>
+          </label>
+
+          <label class="field" id="customQuestionWrap" hidden>
+            <span class="field__label">Your question</span>
+            <textarea id="customQuestion" rows="2" placeholder="Paste the funder’s question here"></textarea>
+          </label>
+
+          <button class="btn btn--primary btn--block" id="generateDraft" type="button">
+            <span aria-hidden="true">✦</span> Build my draft
+          </button>
+
+          <details class="profile" id="profileDetails">
+            <summary><span>Your organisation profile</span><span class="profile__hint" id="profileHint">Used to personalise drafts</span></summary>
+            <div class="profile__grid">
+              <label class="field field--wide">
+                <span class="field__label">Organisation type</span>
+                <select id="pOrgType">
+                  <option value="cic">Community Interest Company (CIC)</option>
+                  <option value="charity">Registered charity or CIO</option>
+                  <option value="nonprofit">Non-profit, voluntary or community group</option>
+                </select>
+              </label>
+              <label class="field">
+                <span class="field__label">Organisation name</span>
+                <input id="pName" type="text" placeholder="e.g. Meadow Well Connects">
+              </label>
+              <label class="field">
+                <span class="field__label">Where you work</span>
+                <input id="pPlace" type="text" placeholder="e.g. North Shields, North Tyneside">
+              </label>
+              <label class="field field--wide">
+                <span class="field__label">Mission in one sentence</span>
+                <textarea id="pMission" rows="2" placeholder="What your organisation exists to change"></textarea>
+              </label>
+              <label class="field field--wide">
+                <span class="field__label">Who you work with</span>
+                <textarea id="pPeople" rows="2" placeholder="e.g. 120 young people aged 11–16 who are excluded from mainstream sport"></textarea>
+              </label>
+              <label class="field field--wide">
+                <span class="field__label">Track record &amp; evidence</span>
+                <textarea id="pTrack" rows="2" placeholder="Numbers, outcomes, partners, feedback"></textarea>
+              </label>
+              <label class="field field--wide">
+                <span class="field__label">Project idea for this fund</span>
+                <textarea id="pProject" rows="2" placeholder="What you would do with this grant"></textarea>
+              </label>
+              <div class="profile__row">
+                <label class="field">
+                  <span class="field__label">Amount requested (£)</span>
+                  <input id="pAmount" type="number" min="0" step="100" placeholder="e.g. 18000">
+                </label>
+                <label class="field">
+                  <span class="field__label">Tone</span>
+                  <select id="pTone">
+                    <option value="plain">Plain and direct</option>
+                    <option value="warm">Warm and community-led</option>
+                    <option value="formal">Formal and evidence-led</option>
+                  </select>
+                </label>
+                <label class="field field--wide">
+                  <span class="field__label">Word limit</span>
+                  <select id="pWords">
+                    <option value="250">250 words</option>
+                    <option value="400" selected>400 words</option>
+                    <option value="600">600 words</option>
+                    <option value="900">900 words</option>
+                  </select>
+                </label>
+              </div>
+            </div>
+          </details>
+
+          <details class="model-panel" id="modelPanel">
+            <summary><span class="model-panel__dot" id="modelDot" aria-hidden="true"></span> Connect your own AI model <span class="model-panel__hint">optional</span></summary>
+            <div class="model-panel__body">
+              <p class="model-panel__intro">The studio works offline. Connecting a model turns the scaffold into full prose. Your key is stored only in this browser and sent directly to the provider you choose.</p>
+              <div class="profile__row">
+                <label class="field">
+                  <span class="field__label">Provider</span>
+                  <select id="providerSelect">
+                    <option value="openai">OpenAI</option>
+                    <option value="anthropic">Anthropic</option>
+                    <option value="groq">Groq</option>
+                    <option value="ollama">Local Ollama</option>
+                  </select>
+                </label>
+                <label class="field">
+                  <span class="field__label">Model</span>
+                  <input id="modelName" type="text" placeholder="gpt-4o-mini" autocomplete="off">
+                </label>
+              </div>
+              <label class="field">
+                <span class="field__label">API key <span class="field__hint">(not needed for local Ollama)</span></span>
+                <input id="apiKey" type="password" placeholder="Paste key — stored locally" autocomplete="off">
+              </label>
+              <div class="model-panel__actions">
+                <button class="btn btn--secondary" id="saveModel" type="button">Save connection</button>
+                <button class="btn btn--primary" id="generateAI" type="button">Generate with AI</button>
+                <button class="text-btn" id="forgetModel" type="button">Forget key</button>
+              </div>
+              <p class="model-panel__status" id="modelStatus" aria-live="polite"></p>
+            </div>
+          </details>
+          <p class="studio__privacy">No account, no upload. Your profile is saved in this browser.</p>
+        </div>
+
+        <div class="studio__output">
+          <div class="studio__toolbar">
+            <div class="studio__meta">
+              <span id="draftStatus">Ready when you are</span>
+              <span id="wordCount"></span>
+            </div>
+            <div class="studio__toolbar-actions">
+              <button class="text-btn" id="copyDraft" type="button" disabled>Copy</button>
+              <button class="text-btn" id="downloadDraft" type="button" disabled>Download</button>
+              <button class="text-btn" id="clearDraft" type="button" disabled>Clear</button>
+            </div>
+          </div>
+          <textarea id="draftOutput" class="draft" spellcheck="true" placeholder="Your draft will appear here. It is fully editable — rewrite it in your own voice before submitting."></textarea>
+          <div class="studio__notes" id="draftNotes" hidden></div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Methodology dialog -->
+  <div class="overlay" id="methodOverlay" hidden></div>
+  <div class="modal" id="methodModal" role="dialog" aria-modal="true" aria-labelledby="methodTitle" hidden>
+    <div class="modal__head">
+      <h2 id="methodTitle">How this list is checked</h2>
+      <button class="icon-btn" id="closeMethod" aria-label="Close">&times;</button>
+    </div>
+    <div class="modal__body">
+      <p>Every programme in this index was checked against the funder’s own pages on <strong>22–23 October 2026</strong>. Each entry records eligibility separately for CICs, registered charities and non-profit or community organisations, and links to the source page used.</p>
+      <h3>What the labels mean</h3>
+      <ul>
+        <li><strong>Eligible</strong> — the funder names that legal form, or its published criteria clearly cover it.</li>
+        <li><strong>Check</strong> — the form appears to fit, or the page could not be fully checked. Confirm before writing an application.</li>
+        <li><strong>Not eligible</strong> — the funder excludes that form, or restricts applications to registered charities.</li>
+      </ul>
+      <h3>Organisation types</h3>
+      <ul>
+        <li><strong>CIC</strong> — a community interest company limited by guarantee or shares.</li>
+        <li><strong>Charity</strong> — a registered charity or charitable incorporated organisation (CIO).</li>
+        <li><strong>Non-profit</strong> — a constituted voluntary, community or not-for-profit organisation. Unincorporated groups should check whether the funder requires a particular legal form.</li>
+      </ul>
+      <h3>Open and close dates</h3>
+      <ul>
+        <li><strong>Rolling</strong> means the programme is open with no published closing date. It is still shown as open, but can pause at short notice.</li>
+        <li><strong>Round-based</strong> funds have fixed windows; dates shown are for the current or next known round.</li>
+        <li><strong>Closed / paused</strong> entries are kept so you can see status at a glance and prepare for the next round.</li>
+      </ul>
+      <h3>What is not here</h3>
+      <p>This is a curated starting point, not a complete register. Local community foundations, lottery distributors in the devolved nations and corporate foundations run many more schemes. Funds that exclude every one of these organisation types are left out; funds that serve only charities, such as Garfield Weston and the Leathersellers, are included and labelled “Not eligible” for CICs. Closed and paused programmes are kept where they are likely to reopen, with the status shown on the card.</p>
+      <h3>Checking for changes</h3>
+      <p>Every time the page opens, it re-fetches all monitored funder pages and compares them with the last saved snapshots, then lists any new dates, amounts and round wording in the strip above. Detected changes stay listed for 30 days or until you mark them reviewed, so a reload cannot hide them. It reports for review and never edits the dataset automatically. A changed page is a prompt to read the source, not proof that a deadline moved.</p>
+      <button class="text-btn" id="checkSourcesMethod" type="button">Run a live source check now</button>
+      <p class="modal__foot">Always read the current guidance. Nothing here is legal or financial advice.</p>
+    </div>
+  </div>
+
+  <!-- Source check dialog -->
+  <div class="overlay" id="sourceOverlay" hidden></div>
+  <div class="modal" id="sourceModal" role="dialog" aria-modal="true" aria-labelledby="sourceTitle" hidden>
+    <div class="modal__head">
+      <div>
+        <p class="eyebrow">Live source check</p>
+        <h2 id="sourceTitle">Checking funder pages</h2>
+      </div>
+      <button class="icon-btn" id="closeSource" aria-label="Close">&times;</button>
+    </div>
+    <div class="modal__body" id="sourceBody"></div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="js/data.js?v=20261107a"></script>
+  <script src="js/app.js?v=20261107a"></script>
+  <script src="js/assistant.js?v=20261107a"></script>
+</body>
+</html>

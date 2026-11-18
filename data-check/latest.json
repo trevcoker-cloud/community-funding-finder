@@ -1,0 +1,408 @@
+{
+  "run_at": "2026-11-07T17:13:04+00:00",
+  "date": "2026-11-07",
+  "verified": "2026-10-23",
+  "verified_age_days": 15,
+  "partial": false,
+  "report": "report-2026-11-07.md",
+  "total": 79,
+  "counts": {
+    "changed": 0,
+    "baseline": 0,
+    "unchanged": 76,
+    "blocked": 1,
+    "unreachable": 2
+  },
+  "pending_total": 16,
+  "pending": [
+    {
+      "id": "unltd-climate-action",
+      "first_seen": "2026-10-23T14:41:55+00:00",
+      "runs": 3,
+      "dates": [
+        "6 January 2027",
+        "5 November 2026"
+      ],
+      "money": [],
+      "signals": [
+        "Next round on 6 January 2027 at 10:00 (59 days)",
+        "Last updated: 5 November 2026 at 14:41",
+        "Applications for this programme are currently closed but will reopen in January 2027.",
+        "For our initial rounds of applications, including those opening in January 2027, we'll be focusing on founders who are at the ideas stage, or who have been trading for less than one year.",
+        "Opportunities for founders at a later stage, including those who have already been creating impact for over a year, will open later in 2027."
+      ],
+      "name": "Community Climate Action",
+      "funder": "UnLtd",
+      "url": "https://unltd.org.uk/community-climate-action/",
+      "last_seen": "2026-11-07T14:13:14+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "unltd-awards",
+      "first_seen": "2026-10-23T14:41:55+00:00",
+      "runs": 3,
+      "dates": [
+        "6 January 2027"
+      ],
+      "money": [],
+      "signals": [
+        "Next round on 6 January 2027 at 10:00 (60 days)"
+      ],
+      "name": "Starting Up and Scaling Up Awards",
+      "funder": "UnLtd",
+      "url": "https://unltd.org.uk/awards/eligibility-criteria/",
+      "last_seen": "2026-11-07T14:13:14+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "big-issue-invest",
+      "first_seen": "2026-10-27T10:19:06+00:00",
+      "runs": 2,
+      "dates": [],
+      "money": [],
+      "signals": [],
+      "name": "Social impact loans and blended finance",
+      "funder": "Big Issue Invest",
+      "url": "https://www.bigissue.com/invest/",
+      "last_seen": "2026-11-07T14:13:14+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "heritage-grants",
+      "first_seen": "2026-11-07T14:13:14+00:00",
+      "runs": 1,
+      "dates": [],
+      "money": [],
+      "signals": [],
+      "name": "National Lottery Heritage Grants \u00a310,000\u2013\u00a3250,000",
+      "funder": "The National Lottery Heritage Fund",
+      "url": "https://www.heritagefund.org.uk/funding/national-lottery-heritage-grants-10k-250k-0",
+      "last_seen": "2026-11-07T14:13:14+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "coop-green-opportunities",
+      "first_seen": "2026-11-07T14:13:14+00:00",
+      "runs": 1,
+      "dates": [],
+      "money": [
+        "\u00a32.4m"
+      ],
+      "signals": [
+        "This fund isn't currently open to applications. We'll be opening round two in 2027, sign up to our blog below to be the first to hear",
+        "Round one",
+        "The first round launched in 2026, funding seven organisations across the UK. You can find out more about the work we\u2019ll be supporting through round one here.",
+        "In 2027 we will be launching the second round of our Green Opportunities Fund."
+      ],
+      "name": "Green Opportunities Fund",
+      "funder": "Co-op Foundation",
+      "url": "https://www.coopfoundation.org.uk/how-we-fund/green-opportunities-fund/",
+      "last_seen": "2026-11-07T14:13:14+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "city-bridge-economic-change",
+      "first_seen": "2026-11-07T14:13:14+00:00",
+      "runs": 1,
+      "dates": [
+        "22 September 2026",
+        "3 November 2026",
+        "11 January 2027",
+        "28 February 2027",
+        "16 March 2027"
+      ],
+      "money": [
+        "\u00a3450,000",
+        "\u00a350,000",
+        "\u00a31.5 million"
+      ],
+      "signals": [
+        "Currently closed to new applications",
+        "Our Economic Justice programme is not currently open to applications.",
+        "The first round of our Economic Justice programme, Communities Building Economic Change, offered core and flexible, five-year grants of up to \u00a3450,000 for organisations with an annual income of \u00a350,000 to \u00a31.5 million.",
+        "This funding was open to small- to medium-sized organisations rooted in communities experiencing economic injustice, who:",
+        "Applications opened on 22 September 2026. They closed at 12 noon on 3 November 2026, with 271 applications received.",
+        "We are operating a two-stage assessment process for this funding. Applicants will be notified by 11 January 2027 whether their application will progress to Stage 2 assessment and visits. These will be completed by 28 February 2027.",
+        "We expect to notify Stage 2 applicants by 16 March 2027.",
+        "We publish supporting documents from previous rounds to be transparent about how our programmes operate and to help organisations prepare for future funding opportunities. These documents are programme-specific and may be updated before the next round opens.",
+        "Applications for the first round of funding closed on 3 November 2026. We will update this page and share news via our newsletter and LinkedIn as future rounds become available."
+      ],
+      "name": "Communities Building Economic Change",
+      "funder": "City Bridge Foundation",
+      "url": "https://www.citybridgefoundation.org.uk/funding/economic-justice",
+      "last_seen": "2026-11-07T14:13:14+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "heritage-grants-large",
+      "first_seen": "2026-11-07T14:13:14+00:00",
+      "runs": 1,
+      "dates": [],
+      "money": [],
+      "signals": [],
+      "name": "National Lottery Heritage Grants \u00a3250,000\u2013\u00a310m",
+      "funder": "The National Lottery Heritage Fund",
+      "url": "https://www.heritagefund.org.uk/funding/national-lottery-heritage-grants-250k-10m/deadlines",
+      "last_seen": "2026-11-07T14:13:14+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "cfni-foyle",
+      "first_seen": "2026-11-07T14:13:14+00:00",
+      "runs": 1,
+      "dates": [],
+      "money": [
+        "\u00a35,000",
+        "\u00a31,000",
+        "\u00a33,000",
+        "\u00a39,000"
+      ],
+      "signals": [
+        "Closing Date: Dec 3, 2026 13:00",
+        "This local community fund has been set up by Energia Renewables, working in close partnership with local groups from the areas surrounding the Tyrone 3 Windfarms. The Tyrone 3 Windfarms comprises three farms, which are:",
+        "The windfarms are situated in close proximity to each other between the town of Ballygawley and the villages of Carrickmore, Sixmilecross and Beragh in County Tyrone. They are located in the Mid Ulster District and Fermanagh and Omagh District Council areas respectively.",
+        "Closing Date:",
+        "This local community fund has been set up by Energia Renewables, working in close partnership with local groups from the areas surrounding Rathsherry Windfarm.",
+        "Open"
+      ],
+      "name": "The Foyle Foundation Fund",
+      "funder": "Community Foundation Northern Ireland",
+      "url": "https://communityfoundationni.org/achieving-impact/available-grants/",
+      "last_seen": "2026-11-07T14:13:14+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "quartet-express",
+      "first_seen": "2026-11-07T14:13:14+00:00",
+      "runs": 1,
+      "dates": [
+        "2 November 2026",
+        "28 October 2026"
+      ],
+      "money": [],
+      "signals": [
+        "2 November 2026",
+        "28 October 2026"
+      ],
+      "name": "Express Grant Programme",
+      "funder": "Quartet Community Foundation",
+      "url": "https://quartetcf.org.uk/grants/express-grant-programme/",
+      "last_seen": "2026-11-07T14:13:14+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "pilgrim-historic-buildings",
+      "first_seen": "2026-11-07T14:13:14+00:00",
+      "runs": 1,
+      "dates": [],
+      "money": [
+        "\u00a35,000"
+      ],
+      "signals": [
+        "You may apply for a grant anytime throughout the year after taking our eligibility quiz. There is a two-stage application process. We aim to give a response to the stage one application within four weeks of submission. If you are invited to make a stage two application it will\u2026"
+      ],
+      "name": "Historic Buildings and Structures",
+      "funder": "The Pilgrim Trust",
+      "url": "https://www.thepilgrimtrust.org.uk/preservation-and-conservation-grants/historic-buildings-and-structures/",
+      "last_seen": "2026-11-07T14:13:14+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "sylvia-waddilove",
+      "first_seen": "2026-11-07T14:13:14+00:00",
+      "runs": 1,
+      "dates": [],
+      "money": [],
+      "signals": [
+        "The Autumn 2026 application round is now CLOSED. The next application round will open in January 2027"
+      ],
+      "name": "Sylvia Waddilove Foundation UK Grants",
+      "funder": "The Sylvia Waddilove Foundation UK",
+      "url": "https://pwwsolicitors.co.uk/charity-grants/waddilove-foundation-uk/",
+      "last_seen": "2026-11-07T14:13:14+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "toy-trust",
+      "first_seen": "2026-11-07T14:13:14+00:00",
+      "runs": 1,
+      "dates": [
+        "5 February 2027",
+        "28 May 2027",
+        "27 August 2027",
+        "29 October 2027"
+      ],
+      "money": [],
+      "signals": [
+        "4 January \u2013 5 February 2027: March meeting",
+        "3 \u2013 28 May 2027: July meeting",
+        "2 \u2013 27 August 2027: October meeting",
+        "4 \u2013 29 October 2027: December meeting"
+      ],
+      "name": "Toy Trust Grants",
+      "funder": "The Toy Trust",
+      "url": "https://www.toytrust.co.uk/apply/",
+      "last_seen": "2026-11-07T14:13:14+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "bath-west-community-energy-fund",
+      "first_seen": "2026-11-07T14:13:14+00:00",
+      "runs": 1,
+      "dates": [
+        "2 November 2026",
+        "28 October 2026"
+      ],
+      "money": [],
+      "signals": [
+        "This grant programme is currently closed to applications.",
+        "2 November 2026",
+        "28 October 2026"
+      ],
+      "name": "Bath & West Community Energy Fund",
+      "funder": "Quartet Community Foundation",
+      "url": "https://quartetcf.org.uk/grants/bath-west-community-energy-fund/",
+      "last_seen": "2026-11-07T14:13:14+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "north-somerset-community-transport-grant",
+      "first_seen": "2026-11-07T14:13:14+00:00",
+      "runs": 1,
+      "dates": [
+        "2 November 2026",
+        "28 October 2026"
+      ],
+      "money": [],
+      "signals": [
+        "2 November 2026",
+        "28 October 2026"
+      ],
+      "name": "North Somerset Community Transport Grant",
+      "funder": "Quartet Community Foundation",
+      "url": "https://quartetcf.org.uk/grants/north-somerset-community-transport-grant/",
+      "last_seen": "2026-11-07T14:13:14+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "swef-enterprise-fund-start-up-grant",
+      "first_seen": "2026-11-07T14:13:14+00:00",
+      "runs": 1,
+      "dates": [],
+      "money": [],
+      "signals": [],
+      "name": "SWEF Enterprise Fund Start-Up Grant",
+      "funder": "Community Foundation Northern Ireland",
+      "url": "https://communityfoundationni.org/grants/swef-enterprise-fund-start-up-grant/",
+      "last_seen": "2026-11-07T14:13:14+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "swef-enterprise-fund-business-grant",
+      "first_seen": "2026-11-07T14:13:14+00:00",
+      "runs": 1,
+      "dates": [],
+      "money": [],
+      "signals": [],
+      "name": "SWEF Enterprise Fund Business Grant",
+      "funder": "Community Foundation Northern Ireland",
+      "url": "https://communityfoundationni.org/grants/swef-enterprise-fund-business-grant/",
+      "last_seen": "2026-11-07T14:13:14+00:00",
+      "title_changed": false
+    }
+  ],
+  "items": [
+    {
+      "id": "ace-project-grants",
+      "name": "National Lottery Project Grants",
+      "funder": "Arts Council England",
+      "url": "https://www.artscouncil.org.uk/ProjectGrants/national-lottery-project-grants-guidance-library",
+      "change": "blocked",
+      "status": 403,
+      "error": "HTTP 403 Forbidden",
+      "note": "",
+      "title_changed": false,
+      "dates": [],
+      "money": [],
+      "signals": [],
+      "added": [],
+      "removed": []
+    },
+    {
+      "id": "brockaghboy-community-benefit-fund",
+      "name": "Brockaghboy Community Benefit Fund",
+      "funder": "Community Foundation Northern Ireland",
+      "url": "https://communityfoundationni.org/grants/brockaghboy-wind-farm/",
+      "change": "unreachable",
+      "status": 404,
+      "error": "HTTP 404 Not Found",
+      "note": "",
+      "title_changed": false,
+      "dates": [],
+      "money": [],
+      "signals": [],
+      "added": [],
+      "removed": []
+    },
+    {
+      "id": "community-wellbeing-health-fund",
+      "name": "Community Wellbeing & Health Fund",
+      "funder": "Quartet Community Foundation",
+      "url": "https://quartetcf.org.uk/grants/to-improve-wellbeing-and-health-outcomes-through-community-based-support/",
+      "change": "unreachable",
+      "status": 404,
+      "error": "HTTP 404 Not Found",
+      "note": "",
+      "title_changed": false,
+      "dates": [],
+      "money": [],
+      "signals": [],
+      "added": [],
+      "removed": []
+    }
+  ],
+  "stale": [
+    {
+      "id": "city-bridge-economic-change",
+      "name": "Communities Building Economic Change",
+      "closes": "2026-11-03",
+      "problem": "deadline passed 4 days ago"
+    },
+    {
+      "id": "spen-community-benefit",
+      "name": "SP Energy Networks Community Benefit Programme",
+      "closes": "2026-11-06",
+      "problem": "deadline passed 1 day ago"
+    },
+    {
+      "id": "oglesby-climate-action",
+      "name": "Spotlight: Local Climate Action",
+      "closes": "2026-11-03",
+      "problem": "deadline passed 4 days ago"
+    },
+    {
+      "id": "sylvia-waddilove",
+      "name": "Sylvia Waddilove Foundation UK Grants",
+      "closes": "2026-10-30",
+      "problem": "deadline passed 8 days ago"
+    },
+    {
+      "id": "bath-west-community-energy-fund",
+      "name": "Bath & West Community Energy Fund",
+      "closes": "2026-10-29",
+      "problem": "deadline passed 9 days ago"
+    },
+    {
+      "id": "brockaghboy-community-benefit-fund",
+      "name": "Brockaghboy Community Benefit Fund",
+      "closes": "2026-11-05",
+      "problem": "deadline passed 2 days ago"
+    },
+    {
+      "id": "community-wellbeing-health-fund",
+      "name": "Community Wellbeing & Health Fund",
+      "closes": "2026-11-02",
+      "problem": "deadline passed 5 days ago"
+    }
+  ]
+}

@@ -1,0 +1,1108 @@
+{
+  "candidates": {
+    "https://quartetcf.org.uk/grants-support/current-grant-programmes": {
+      "status": "rejected",
+      "reason": "could not be read: HTTP 404 Not Found",
+      "label": "Back",
+      "seed": "https://quartetcf.org.uk/grants/express-grant-programme/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://bbcchildreninneed.co.uk/grants/communities-for-children/communities-for-children-transformative-philanthropy-in-action": {
+      "status": "rejected",
+      "reason": "could not be read: HTTP 404 Not Found",
+      "label": "Communities for Children",
+      "seed": "https://www.citybridgefoundation.org.uk/funding/economic-justice",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://mkcommunityfoundation.co.uk/apply-for-a-grant/seed-grants": {
+      "status": "added",
+      "id": "seed-grants",
+      "name": "Seed Grants",
+      "funder": "Milton Keynes Community Foundation",
+      "seed": "https://mkcommunityfoundation.co.uk/apply-for-a-grant/",
+      "reason": "open programme on mkcommunityfoundation.co.uk, rolling, up to \u00a3750 as published on the funder's page",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://arts.wales/funding/individuals/create-and-engage": {
+      "status": "added",
+      "id": "create-and-engage",
+      "name": "Create and Engage",
+      "funder": "Arts Council of Wales",
+      "seed": "https://arts.wales/funding/organisations/major-productions",
+      "reason": "open programme on arts.wales, closes 2026-12-16, \u00a310,000\u2013\u00a3100,000 as published on the funder's page",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://www.bigissue.com/invest/apply-for-funding/loans/": {
+      "status": "added",
+      "id": "social-impact-loans-for-social-enterprises-and-c",
+      "name": "Social Impact Loans for Social Enterprises and Charities",
+      "funder": "Big Issue Invest",
+      "seed": "https://www.bigissue.com/invest/",
+      "reason": "open programme on bigissue.com, rolling, \u00a320,000\u2013\u00a3200,000 as published on the funder's page",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://rosauk.org/our-programmes/voices-from-the-frontline/": {
+      "status": "added",
+      "id": "voices-from-the-frontline",
+      "name": "Voices from the Frontline",
+      "funder": "Rosa",
+      "seed": "https://rosauk.org/2026/10/06/applications-open-for-rosas-voices-from-the-frontline-fund-2026/",
+      "reason": "open programme on rosauk.org, closes 2026-11-16, up to \u00a310,000 as published on the funder's page",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://www.therobertsontrust.org.uk/funding/types-of-funding/community-spaces-grants": {
+      "status": "added",
+      "id": "community-spaces-grants",
+      "name": "Community Spaces Grants",
+      "funder": "The Robertson Trust",
+      "seed": "https://www.therobertsontrust.org.uk/funding/types-of-funding",
+      "reason": "open programme on therobertsontrust.org.uk, rolling, \u00a35,000\u2013\u00a330,000 as published on the funder's page",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://quartetcf.org.uk/grants/bath-west-community-energy-fund/": {
+      "status": "added",
+      "id": "bath-west-community-energy-fund",
+      "name": "Bath & West Community Energy Fund",
+      "funder": "Quartet Community Foundation",
+      "seed": "https://quartetcf.org.uk/apply-for-funding/apply-for-a-grant/",
+      "reason": "open programme on quartetcf.org.uk, closes 2026-10-29, up to \u00a35,000 as published on the funder's page",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://www.bigissue.com/invest/apply-for-funding/equity/": {
+      "status": "added",
+      "id": "equity-revenue-participation-or-quasi-equity",
+      "name": "Equity & Revenue Participation or Quasi-Equity",
+      "funder": "Big Issue Invest",
+      "seed": "https://www.bigissue.com/invest/",
+      "reason": "open programme on bigissue.com, rolling, \u00a3150,000\u2013\u00a3750,000 as published on the funder's page",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://www.therobertsontrust.org.uk/funding/types-of-funding/small-grants": {
+      "status": "added",
+      "id": "small-grants",
+      "name": "Small Grants",
+      "funder": "The Robertson Trust",
+      "seed": "https://www.therobertsontrust.org.uk/funding/types-of-funding",
+      "reason": "open programme on therobertsontrust.org.uk, rolling, \u00a35,000\u2013\u00a330,000 as published on the funder's page",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://quartetcf.org.uk/grants/north-somerset-community-transport-grant/": {
+      "status": "added",
+      "id": "north-somerset-community-transport-grant",
+      "name": "North Somerset Community Transport Grant",
+      "funder": "Quartet Community Foundation",
+      "seed": "https://quartetcf.org.uk/apply-for-funding/apply-for-a-grant/",
+      "reason": "open programme on quartetcf.org.uk, rolling, up to \u00a3500 as published on the funder's page",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://mkcommunityfoundation.co.uk/apply-for-a-grant/oak-grants": {
+      "status": "added",
+      "id": "oak-grants",
+      "name": "Oak Grants",
+      "funder": "Milton Keynes Community Foundation",
+      "seed": "https://mkcommunityfoundation.co.uk/apply-for-a-grant/",
+      "reason": "open programme on mkcommunityfoundation.co.uk, closes 2026-12-11, up to \u00a315,000 as published on the funder's page",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:36:23+00:00"
+    },
+    "https://www.bbcchildreninneed.co.uk/grants/apply/project-costs-funding-stream/": {
+      "status": "added",
+      "id": "project-grants",
+      "name": "Project Grants",
+      "funder": "BBC Children in Need",
+      "seed": "https://www.bbcchildreninneed.co.uk/grants/apply/minimum-standards/",
+      "reason": "open programme on bbcchildreninneed.co.uk, rolling, \u00a315,000\u2013\u00a3120,000 as published on the funder's page",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://scvo.scot/funding/guide": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "Find out more",
+      "seed": "https://funding.scot/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://quartetcf.org.uk/grants/t-g-heckels-bursary-fund": {
+      "status": "rejected",
+      "reason": "the page looks aimed at individuals rather than organisations",
+      "label": "T G Heckels Fund",
+      "seed": "https://quartetcf.org.uk/apply-for-funding/apply-for-a-grant/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://tnlcommunityfund.org.uk/funding/funding-programmes/the-uk-fund/our-funding-aims": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "funding aims",
+      "seed": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/the-uk-fund/how-to-apply",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://tnlcommunityfund.org.uk/funding/funding-support/managing-your-funding": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "guide to managing your funding",
+      "seed": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/strengthening-communities/how-to-apply",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://heritagefund.org.uk/funding/national-lottery-heritage-grants-10k-250k/application-questions-0": {
+      "status": "rejected",
+      "reason": "the page is guidance, an index or a sub-fund of a listed programme ('Application questions: \u00a310,000 to \u00a3250,000 Application questions: \u00a310,000 to \u00a3250,000')",
+      "label": "Application questions: \u00a310,000 to \u00a3250,000",
+      "seed": "https://www.heritagefund.org.uk/funding/national-lottery-heritage-grants-10k-250k-0",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://warwickdc.gov.uk/info/20468/sustainability_and_climate_change/2111/community_climate_and_nature_fund/2": {
+      "status": "rejected",
+      "reason": "the page is guidance, an index or a sub-fund of a listed programme ('Community Climate and Nature Fund guidance notes')",
+      "label": "Community Climate and Nature Fund guidance notes",
+      "seed": "https://www.warwickdc.gov.uk/info/20468/sustainability_and_climate_change/2111/community_climate_and_nature_fund",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://bbcchildreninneed.co.uk/grants/apply/safonau-gofynnol-ar-gyfer-dyfarnu-grantiau": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "cliciwch yma",
+      "seed": "https://www.bbcchildreninneed.co.uk/grants/apply/minimum-standards/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://thekeyfund.co.uk/funding/northern-impact-fund-2": {
+      "status": "rejected",
+      "reason": "no deadline, no amount and no clear apply route on the page",
+      "label": "Read More",
+      "seed": "https://thekeyfund.co.uk/funding/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://coopfoundation.org.uk/how-we-fund/future-communities-fund": {
+      "status": "rejected",
+      "reason": "the page lists 8 other programmes \u2014 it is a grants index, not one fund",
+      "label": "Future Communities Fund",
+      "seed": "https://www.coopfoundation.org.uk/how-we-fund/green-opportunities-fund/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://garfieldweston.org/what-we-fund/organisations-we-have-funded/bournemouth-symphony-orchestra": {
+      "status": "rejected",
+      "reason": "no deadline, no amount and no clear apply route on the page",
+      "label": "Bournemouth Symphony Orchestra",
+      "seed": "https://garfieldweston.org/what-we-fund/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://phf.org.uk/funding/find-the-right-fund-for-you/general-exclusions": {
+      "status": "rejected",
+      "reason": "the page looks aimed at individuals rather than organisations",
+      "label": "general exclusions",
+      "seed": "https://www.phf.org.uk/funding/youth-fund",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://citybridgefoundation.org.uk/funding/economic-justice/communities-building-economic-change": {
+      "status": "rejected",
+      "reason": "the page lists 5 other programmes \u2014 it is a grants index, not one fund",
+      "label": "Communities Building Economic Change",
+      "seed": "https://www.citybridgefoundation.org.uk/funding/economic-justice",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://trustforlondon.org.uk/funding/social-justice/disability-justice/adhd-babes-2026": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "ADHD Babes Creating a community by and for Black women with ADHD.",
+      "seed": "https://trustforlondon.org.uk/funding/social-justice/disability-justice/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://artscouncil-ni.org/funding/funding-for-organisations": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "All Funding for Organisations",
+      "seed": "https://artscouncil-ni.org/funding-for-organisations/small-capital-grants-programme",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://lechetrust.org/what-we-fund/performing-arts-grants": {
+      "status": "rejected",
+      "reason": "the page looks aimed at individuals rather than organisations",
+      "label": "Learn more & apply",
+      "seed": "https://www.lechetrust.org/what-we-fund",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://heritagefund.org.uk/funding/national-lottery-heritage-grants-250k-10m/development-receiving-a-grant": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "Receiving a grant: development phase grants \u00a3250,000 to \u00a310million",
+      "seed": "https://www.heritagefund.org.uk/funding/national-lottery-heritage-grants-250k-10m/deadlines",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://morrisonsfoundation.com/connecting-communities-grant-request": {
+      "status": "rejected",
+      "reason": "looks like the existing entry \u201cConnecting Communities\u201d",
+      "label": "More Info",
+      "seed": "https://www.morrisonsfoundation.com/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://communityfoundationni.org/grants/the-foyle-foundation-fund": {
+      "status": "rejected",
+      "reason": "the page looks aimed at individuals rather than organisations",
+      "label": "Find out more",
+      "seed": "https://communityfoundationni.org/achieving-impact/available-grants/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://communityfoundationwales.org.uk/grants-overview/minimum-expected-standards": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "Click here",
+      "seed": "https://communityfoundationwales.org.uk/grants/fund-for-wales/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://quartetcf.org.uk/apply-for-funding/grants-awarded": {
+      "status": "rejected",
+      "reason": "the page describes a closed or paused round",
+      "label": "here",
+      "seed": "https://quartetcf.org.uk/grants/express-grant-programme/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://localgiving.org/sp-energy-networks-community-benefit-funding-Chirmorie-Overhead-Lines": {
+      "status": "rejected",
+      "reason": "the page is guidance, an index or a sub-fund of a listed programme ('Chirmorie Overhead Lines is part of SP Energy Networks' Community Benefit')",
+      "label": "Barrhill",
+      "seed": "https://localgiving.org/sp-energy-networks-community-benefit-funding",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://thepilgrimtrust.org.uk/young-womens-mental-health-grants": {
+      "status": "rejected",
+      "reason": "the page lists 13 other programmes \u2014 it is a grants index, not one fund",
+      "label": "Young women\u2019s mental health grants 2026-2028",
+      "seed": "https://www.thepilgrimtrust.org.uk/preservation-and-conservation-grants/historic-buildings-and-structures/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://tescoplc.com/fruit-and-veg-grants": {
+      "status": "rejected",
+      "reason": "almost no readable text (JavaScript-rendered or a stub page)",
+      "label": "www.tescoplc.com/fruit-and-veg-grants",
+      "seed": "https://tescostrongerstarts.org.uk/apply-for-a-grant/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://funding.scot/funders/001b000003KtyNSAAZ/western-isles-development-trust": {
+      "status": "rejected",
+      "reason": "no deadline, no amount and no clear apply route on the page",
+      "label": "Funder",
+      "seed": "https://funding.scot/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://mkcommunityfoundation.co.uk/apply-for-a-grant/sapling-grants": {
+      "status": "rejected",
+      "reason": "looks like the existing entry \u201cSapling Grants\u201d",
+      "label": "Sapling grants Apply by last Friday of each month Up to \u00a35,000 4 week decision time",
+      "seed": "https://mkcommunityfoundation.co.uk/apply-for-a-grant/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://tnlcommunityfund.org.uk/funding/funding-support/getting-ready-to-apply/processing-your-application/guide-to-checks-we-do-on-your-information": {
+      "status": "rejected",
+      "reason": "no deadline, no amount and no clear apply route on the page",
+      "label": "Learn more about our checks.",
+      "seed": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/strengthening-communities/how-to-apply",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://heritagefund.org.uk/funding/national-lottery-heritage-grants-10k-250k/watch-how-apply-video": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "Watch: how to apply for \u00a310,000\u2013\u00a3250,000 funding for a heritage project",
+      "seed": "https://www.heritagefund.org.uk/funding/national-lottery-heritage-grants-10k-250k-0",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://warwickdc.gov.uk/xfp/form/537": {
+      "status": "rejected",
+      "reason": "almost no readable text (JavaScript-rendered or a stub page)",
+      "label": "Community Climate and Nature Fund application form",
+      "seed": "https://www.warwickdc.gov.uk/info/20468/sustainability_and_climate_change/2111/community_climate_and_nature_fund",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://bbcchildreninneed.co.uk/grants/apply/core-costs": {
+      "status": "rejected",
+      "reason": "the page title is too generic to name a fund ('Core')",
+      "label": "Core",
+      "seed": "https://www.bbcchildreninneed.co.uk/grants/apply/minimum-standards/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://thekeyfund.co.uk/funding/regional-growth-fund": {
+      "status": "rejected",
+      "reason": "almost no readable text (JavaScript-rendered or a stub page)",
+      "label": "Read More",
+      "seed": "https://thekeyfund.co.uk/funding/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://coopfoundation.org.uk/how-we-fund/young-gamechangers": {
+      "status": "rejected",
+      "reason": "the page lists 7 other programmes \u2014 it is a grants index, not one fund",
+      "label": "Young Gamechangers Fund",
+      "seed": "https://www.coopfoundation.org.uk/how-we-fund/green-opportunities-fund/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://garfieldweston.org/what-we-fund/organisations-we-have-funded/bright-green-nature": {
+      "status": "rejected",
+      "reason": "no deadline, no amount and no clear apply route on the page",
+      "label": "Bright Green Nature",
+      "seed": "https://garfieldweston.org/what-we-fund/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://phf.org.uk/funding/access-support-bursary": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "More about our accessibility support",
+      "seed": "https://www.phf.org.uk/funding/youth-fund",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://citybridgefoundation.org.uk/funding/standing-with-londoners": {
+      "status": "rejected",
+      "reason": "no deadline, no amount and no clear apply route on the page",
+      "label": "Standing with Londoners",
+      "seed": "https://www.citybridgefoundation.org.uk/funding/economic-justice",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://tfaforms.com/5142580": {
+      "status": "rejected",
+      "reason": "almost no readable text (JavaScript-rendered or a stub page)",
+      "label": "book a conversation with a grants manager (usually via Zoom)",
+      "seed": "https://trustforlondon.org.uk/funding/social-justice/disability-justice/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://heritagefund.org.uk/funding/national-lottery-heritage-grants-250k-10m/delivery-receiving-a-grant": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "Receiving a grant: delivery phase grants \u00a3250,000 to \u00a310million",
+      "seed": "https://www.heritagefund.org.uk/funding/national-lottery-heritage-grants-250k-10m/deadlines",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://morrisonsfoundation.com/match-funding-request": {
+      "status": "rejected",
+      "reason": "no deadline, no amount and no clear apply route on the page",
+      "label": "More Info",
+      "seed": "https://www.morrisonsfoundation.com/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://communityfoundationni.org/grants/thornog-community-benefit-fund": {
+      "status": "rejected",
+      "reason": "the page looks aimed at individuals rather than organisations",
+      "label": "Find out more",
+      "seed": "https://communityfoundationni.org/achieving-impact/available-grants/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://localgiving.org/sp-energy-networks-community-benefit-funding-lorg-overhead-lines-substation": {
+      "status": "rejected",
+      "reason": "the page is guidance, an index or a sub-fund of a listed programme ('Lorg Overhead Line and New Substation Community Benefit Fund is part of SP Energy Networks' Community Benefit')",
+      "label": "Carsphairn",
+      "seed": "https://localgiving.org/sp-energy-networks-community-benefit-funding",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://thepilgrimtrust.org.uk/preservation-and-conservation-grants": {
+      "status": "rejected",
+      "reason": "the page lists 16 other programmes \u2014 it is a grants index, not one fund",
+      "label": "Preservation and conservation grants",
+      "seed": "https://www.thepilgrimtrust.org.uk/preservation-and-conservation-grants/historic-buildings-and-structures/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://funding.scot/funders/001b000000rQUSzAAO/kincardineshire-development-partnership": {
+      "status": "rejected",
+      "reason": "no deadline, no amount and no clear apply route on the page",
+      "label": "Funder",
+      "seed": "https://funding.scot/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://heritagefund.org.uk/funding/national-lottery-heritage-grants-10k-250k/receiving-a-grant-0": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "Receiving a grant: \u00a310,000 to \u00a3250,000",
+      "seed": "https://www.heritagefund.org.uk/funding/national-lottery-heritage-grants-10k-250k-0",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://thekeyfund.co.uk/funding/property-fund": {
+      "status": "rejected",
+      "reason": "almost no readable text (JavaScript-rendered or a stub page)",
+      "label": "Read More",
+      "seed": "https://thekeyfund.co.uk/funding/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://coopfoundation.org.uk/how-we-fund/carbon-innovation-fund-2": {
+      "status": "rejected",
+      "reason": "the page lists 7 other programmes \u2014 it is a grants index, not one fund",
+      "label": "Carbon Innovation Fund",
+      "seed": "https://www.coopfoundation.org.uk/how-we-fund/green-opportunities-fund/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://garfieldweston.org/what-we-fund/organisations-we-have-funded/dacorum-heritage-trust": {
+      "status": "rejected",
+      "reason": "no deadline, no amount and no clear apply route on the page",
+      "label": "Dacorum Heritage Trust",
+      "seed": "https://garfieldweston.org/what-we-fund/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://trustforlondon.org.uk/funding/apply-for-funding/apply-now": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "download our application forms here",
+      "seed": "https://trustforlondon.org.uk/funding/social-justice/disability-justice/",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://heritagefund.org.uk/funding/national-lottery-heritage-grants-10k-250k": {
+      "status": "rejected",
+      "reason": "the page lists 8 other programmes \u2014 it is a grants index, not one fund",
+      "label": "under \u00a3250,000",
+      "seed": "https://www.heritagefund.org.uk/funding/national-lottery-heritage-grants-250k-10m/deadlines",
+      "first_seen": "2026-10-27T10:18:51+00:00",
+      "last_checked": "2026-10-27T10:18:51+00:00"
+    },
+    "https://smallwoodtrust.org.uk/local-resilience-fund": {
+      "status": "rejected",
+      "reason": "could not be read: connection failed: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'smallwoodtrust.org.uk'. (_ssl.c:1032)",
+      "label": "Local Resilience Fund",
+      "seed": "https://www.citybridgefoundation.org.uk/funding/economic-justice",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://www.therobertsontrust.org.uk/funding/types-of-funding/large-grants": {
+      "status": "added",
+      "id": "large-grants",
+      "name": "Large Grants",
+      "funder": "The Robertson Trust",
+      "seed": "https://www.therobertsontrust.org.uk/funding/types-of-funding",
+      "reason": "open programme on therobertsontrust.org.uk, rolling, \u00a320,000\u2013\u00a3200,000 as published on the funder's page",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://communityfoundationni.org/grants/brockaghboy-wind-farm/": {
+      "status": "added",
+      "id": "brockaghboy-community-benefit-fund",
+      "name": "Brockaghboy Community Benefit Fund",
+      "funder": "Community Foundation Northern Ireland",
+      "seed": "https://communityfoundationni.org/achieving-impact/available-grants/",
+      "reason": "open programme on communityfoundationni.org, closes 2026-11-05, up to \u00a33,000 as published on the funder's page",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://www.bigissue.com/invest/growth-impact-fund-big-issue-invest/": {
+      "status": "added",
+      "id": "growth-impact-fund",
+      "name": "Growth Impact Fund",
+      "funder": "Big Issue Invest",
+      "seed": "https://www.bigissue.com/invest/apply-for-funding/equity/",
+      "reason": "open programme on bigissue.com, rolling, \u00a3200,000\u2013\u00a31,500,000 as published on the funder's page",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://quartetcf.org.uk/grants/to-improve-wellbeing-and-health-outcomes-through-community-based-support/": {
+      "status": "added",
+      "id": "community-wellbeing-health-fund",
+      "name": "Community Wellbeing & Health Fund",
+      "funder": "Quartet Community Foundation",
+      "seed": "https://quartetcf.org.uk/apply-for-funding/apply-for-a-grant/",
+      "reason": "open programme on quartetcf.org.uk, closes 2026-11-02, \u00a310,000\u2013\u00a350,000 as published on the funder's page",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://communityfoundationni.org/grants/swef-enterprise-fund-start-up-grant/": {
+      "status": "added",
+      "id": "swef-enterprise-fund-start-up-grant",
+      "name": "SWEF Enterprise Fund Start-Up Grant",
+      "funder": "Community Foundation Northern Ireland",
+      "seed": "https://communityfoundationni.org/achieving-impact/available-grants/",
+      "reason": "open programme on communityfoundationni.org, rolling, \u00a3500\u2013\u00a31,500 as published on the funder's page",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://communityfoundationni.org/grants/swef-enterprise-fund-business-grant/": {
+      "status": "added",
+      "id": "swef-enterprise-fund-business-grant",
+      "name": "SWEF Enterprise Fund Business Grant",
+      "funder": "Community Foundation Northern Ireland",
+      "seed": "https://communityfoundationni.org/achieving-impact/available-grants/",
+      "reason": "open programme on communityfoundationni.org, rolling, \u00a32,000\u2013\u00a310,000 as published on the funder's page",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://www.sibgroup.org.uk/fund/energy-resilience-fund/": {
+      "status": "added",
+      "id": "energy-resilience-fund",
+      "name": "Energy Resilience Fund",
+      "funder": "Social Investment Business",
+      "seed": "https://thekeyfund.co.uk/funding/",
+      "reason": "open programme on sibgroup.org.uk, rolling, up to \u00a3100,000 as published on the funder's page",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:32:41+00:00"
+    },
+    "https://funding.scot/funders/001b000000WZI7cAAH/scottish-southern-energy-sse": {
+      "status": "rejected",
+      "reason": "the page lists 25 other programmes \u2014 it is a grants index, not one fund",
+      "label": "Funder",
+      "seed": "https://funding.scot/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://heritagefund.org.uk/funding/investment-principles": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "investment principles",
+      "seed": "https://www.heritagefund.org.uk/funding/national-lottery-heritage-grants-10k-250k-0",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://thekeyfund.co.uk/funding/community-business-fund": {
+      "status": "rejected",
+      "reason": "almost no readable text (JavaScript-rendered or a stub page)",
+      "label": "Read More",
+      "seed": "https://thekeyfund.co.uk/funding/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://coopfoundation.org.uk/how-we-fund/funding-futures": {
+      "status": "rejected",
+      "reason": "the page lists 9 other programmes \u2014 it is a grants index, not one fund",
+      "label": "Funding Futures Programme",
+      "seed": "https://www.coopfoundation.org.uk/how-we-fund/green-opportunities-fund/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://garfieldweston.org/what-we-fund/organisations-we-have-funded": {
+      "status": "rejected",
+      "reason": "the page lists 11 other programmes \u2014 it is a grants index, not one fund",
+      "label": "View more organisations we have funded",
+      "seed": "https://garfieldweston.org/what-we-fund/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://trustforlondon.org.uk/funding/social-justice/racial-justice": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "Racial Justice Fund",
+      "seed": "https://www.citybridgefoundation.org.uk/funding/economic-justice",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://trustforlondon.org.uk/funding/help-with-your-application": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "further help with applications",
+      "seed": "https://trustforlondon.org.uk/funding/social-justice/disability-justice/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://localgiving.org/sp-energy-networks-community-benefit-funding-Mark-Hill-Substation": {
+      "status": "rejected",
+      "reason": "the page is guidance, an index or a sub-fund of a listed programme ('Mark Hill substation is part of SP Energy Networks' Community Benefit')",
+      "label": "Girvan",
+      "seed": "https://localgiving.org/sp-energy-networks-community-benefit-funding",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://thepilgrimtrust.org.uk/preservation-and-conservation-grants/places-of-worship": {
+      "status": "rejected",
+      "reason": "the page lists 12 other programmes \u2014 it is a grants index, not one fund",
+      "label": "Places of worship",
+      "seed": "https://www.thepilgrimtrust.org.uk/preservation-and-conservation-grants/historic-buildings-and-structures/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://arts.wales/creative-practice": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "please see our Creative Practice fund",
+      "seed": "https://arts.wales/funding/individuals/create-and-engage",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://funding.scot/funders/001b000000St6vTAAR/worshipful-company-of-information-technologists": {
+      "status": "rejected",
+      "reason": "no deadline, no amount and no clear apply route on the page",
+      "label": "Funder",
+      "seed": "https://funding.scot/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://heritagefund.org.uk/funding/using-ai": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "using artificial intelligence (AI)",
+      "seed": "https://www.heritagefund.org.uk/funding/national-lottery-heritage-grants-10k-250k-0",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://thekeyfund.co.uk/funding/more-than-a-pub": {
+      "status": "rejected",
+      "reason": "almost no readable text (JavaScript-rendered or a stub page)",
+      "label": "Read More",
+      "seed": "https://thekeyfund.co.uk/funding/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://coopfoundation.org.uk/how-we-fund/lead-the-change": {
+      "status": "rejected",
+      "reason": "the page lists 8 other programmes \u2014 it is a grants index, not one fund",
+      "label": "Lead the Change",
+      "seed": "https://www.coopfoundation.org.uk/how-we-fund/green-opportunities-fund/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://garfieldweston.org/what-we-fund/capital-projects": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "Capital projects",
+      "seed": "https://garfieldweston.org/what-we-fund/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://therobertsontrust.org.uk/funding/types-of-funding/transport-grants": {
+      "status": "rejected",
+      "reason": "the page describes a closed or paused round",
+      "label": "Find out more",
+      "seed": "https://www.therobertsontrust.org.uk/funding/types-of-funding",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://communityfoundationni.org/grants/long-mountain-community-benefit-fund-copy": {
+      "status": "rejected",
+      "reason": "the page looks aimed at individuals rather than organisations",
+      "label": "Find out more",
+      "seed": "https://communityfoundationni.org/achieving-impact/available-grants/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://localgiving.org/sp-energy-networks-community-benefit-funding-Stranoch-Overhead-Lines-Substation": {
+      "status": "rejected",
+      "reason": "the page is guidance, an index or a sub-fund of a listed programme ('Stranoch Overhead Line and Substation is part of SP Energy Networks' Community Benefit')",
+      "label": "New Luce",
+      "seed": "https://localgiving.org/sp-energy-networks-community-benefit-funding",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://thepilgrimtrust.org.uk/preservation-and-conservation-grants/conservation-of-cultural-heritage": {
+      "status": "rejected",
+      "reason": "the page lists 15 other programmes \u2014 it is a grants index, not one fund",
+      "label": "Conservation of cultural heritage",
+      "seed": "https://www.thepilgrimtrust.org.uk/preservation-and-conservation-grants/historic-buildings-and-structures/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://funding.scot/funders/001b000000St92iAAB/idlewild-trust": {
+      "status": "rejected",
+      "reason": "no deadline, no amount and no clear apply route on the page",
+      "label": "Funder",
+      "seed": "https://funding.scot/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://quartetcf.org.uk/grants/bristol-temple-quarter-grant-programme-tier-1-larger-grant": {
+      "status": "rejected",
+      "reason": "the page describes a closed or paused round",
+      "label": "Bristol Temple Quarter Grant Programme (Tier 1: Larger Grant)",
+      "seed": "https://quartetcf.org.uk/apply-for-funding/apply-for-a-grant/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://heritagefund.org.uk/funding/acknowledging-your-grant": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "acknowledgement guidance",
+      "seed": "https://www.heritagefund.org.uk/funding/national-lottery-heritage-grants-10k-250k-0",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://thekeyfund.co.uk/funding/northern-cultural-regeneration-fund": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "Read More",
+      "seed": "https://thekeyfund.co.uk/funding/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://coopfoundation.org.uk/how-we-fund/systemic-change-funding": {
+      "status": "rejected",
+      "reason": "the page lists 8 other programmes \u2014 it is a grants index, not one fund",
+      "label": "Systemic Change funding",
+      "seed": "https://www.coopfoundation.org.uk/how-we-fund/green-opportunities-fund/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://garfieldweston.org/what-we-fund/operating-core-costs": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "Operating/Core costs",
+      "seed": "https://garfieldweston.org/what-we-fund/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://citybridgefoundation.org.uk/funding/our-approach-to-funding": {
+      "status": "rejected",
+      "reason": "the page lists 5 other programmes \u2014 it is a grants index, not one fund",
+      "label": "Our approach to funding",
+      "seed": "https://www.citybridgefoundation.org.uk/funding/economic-justice",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://therobertsontrust.org.uk/funding/types-of-funding/advancing-racial-justice-fund": {
+      "status": "rejected",
+      "reason": "the page describes a closed or paused round",
+      "label": "Apply now",
+      "seed": "https://www.therobertsontrust.org.uk/funding/types-of-funding",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://thepilgrimtrust.org.uk/preservation-and-conservation-grants/archives-revealed": {
+      "status": "rejected",
+      "reason": "the page lists 13 other programmes \u2014 it is a grants index, not one fund",
+      "label": "Archives Revealed",
+      "seed": "https://www.thepilgrimtrust.org.uk/preservation-and-conservation-grants/historic-buildings-and-structures/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://funding.scot/funders/001P100000EzBkrIAF/educational-opportunity-foundation": {
+      "status": "rejected",
+      "reason": "no deadline, no amount and no clear apply route on the page",
+      "label": "Funder",
+      "seed": "https://funding.scot/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://quartetcf.org.uk/grants/bristol-temple-quarter-grant-programme-tier-2-smaller-grant": {
+      "status": "rejected",
+      "reason": "the page describes a closed or paused round",
+      "label": "Bristol Temple Quarter Grant Programme (Tier 2: Smaller Grant)",
+      "seed": "https://quartetcf.org.uk/apply-for-funding/apply-for-a-grant/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://thekeyfund.co.uk/funding/european-regional-development-fund": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "Read More",
+      "seed": "https://thekeyfund.co.uk/funding/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://garfieldweston.org/what-we-fund/projects-or-activity": {
+      "status": "rejected",
+      "reason": "almost no readable text (JavaScript-rendered or a stub page)",
+      "label": "Projects/specific activity",
+      "seed": "https://garfieldweston.org/what-we-fund/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://therobertsontrust.org.uk/funding/types-of-funding/big-change-that-lasts-fund": {
+      "status": "rejected",
+      "reason": "looks like the existing entry \u201cBig Change That Lasts Fund\u201d",
+      "label": "Find out more",
+      "seed": "https://www.therobertsontrust.org.uk/funding/types-of-funding",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://thepilgrimtrust.org.uk/grants-awarded": {
+      "status": "rejected",
+      "reason": "the page lists 29 other programmes \u2014 it is a grants index, not one fund",
+      "label": "Grants awarded",
+      "seed": "https://www.thepilgrimtrust.org.uk/preservation-and-conservation-grants/historic-buildings-and-structures/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://quartetcf.org.uk/grants/bristol-local-food-fund-grant": {
+      "status": "rejected",
+      "reason": "the page describes a closed or paused round",
+      "label": "Bristol Local Food Fund Grant",
+      "seed": "https://quartetcf.org.uk/apply-for-funding/apply-for-a-grant/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://thekeyfund.co.uk/funding/flexible-finance": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "Read More",
+      "seed": "https://thekeyfund.co.uk/funding/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://thepilgrimtrust.org.uk/grants-awarded/360-giving": {
+      "status": "rejected",
+      "reason": "the page lists 12 other programmes \u2014 it is a grants index, not one fund",
+      "label": "360 Giving",
+      "seed": "https://www.thepilgrimtrust.org.uk/preservation-and-conservation-grants/historic-buildings-and-structures/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://quartetcf.org.uk/grants/shakespeare-at-the-tobacco-factory-bursary-fund": {
+      "status": "rejected",
+      "reason": "the page looks aimed at individuals rather than organisations",
+      "label": "Shakespeare at the Tobacco Factory Bursary Fund",
+      "seed": "https://quartetcf.org.uk/apply-for-funding/apply-for-a-grant/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://thekeyfund.co.uk/funding/local-access-partnerships": {
+      "status": "rejected",
+      "reason": "no deadline, no amount and no clear apply route on the page",
+      "label": "Read More",
+      "seed": "https://thekeyfund.co.uk/funding/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://thepilgrimtrust.org.uk/grants-awarded/recent-grant-awards": {
+      "status": "rejected",
+      "reason": "the page lists 14 other programmes \u2014 it is a grants index, not one fund",
+      "label": "Recent grant awards",
+      "seed": "https://www.thepilgrimtrust.org.uk/preservation-and-conservation-grants/historic-buildings-and-structures/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://quartetcf.org.uk/grants/bath-womens-fund": {
+      "status": "rejected",
+      "reason": "the page describes a closed or paused round",
+      "label": "Bath Women\u2019s Fund",
+      "seed": "https://quartetcf.org.uk/apply-for-funding/apply-for-a-grant/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://thepilgrimtrust.org.uk/getting-started": {
+      "status": "rejected",
+      "reason": "the page lists 14 other programmes \u2014 it is a grants index, not one fund",
+      "label": "Grant holders",
+      "seed": "https://www.thepilgrimtrust.org.uk/preservation-and-conservation-grants/historic-buildings-and-structures/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://quartetcf.org.uk/grants/bristol-youth-community-action-holiday-activities-grant": {
+      "status": "rejected",
+      "reason": "the page describes a closed or paused round",
+      "label": "Bristol Youth & Community Action \u2013 Holiday Activities Grant",
+      "seed": "https://quartetcf.org.uk/apply-for-funding/apply-for-a-grant/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://quartetcf.org.uk/grants/lead-the-change": {
+      "status": "rejected",
+      "reason": "the page describes a closed or paused round",
+      "label": "Lead the Change",
+      "seed": "https://quartetcf.org.uk/apply-for-funding/apply-for-a-grant/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://quartetcf.org.uk/grants/megawatt-community-energy-fund-grant": {
+      "status": "rejected",
+      "reason": "the page describes a closed or paused round",
+      "label": "Megawatt Community Energy Fund Grant",
+      "seed": "https://quartetcf.org.uk/apply-for-funding/apply-for-a-grant/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://quartetcf.org.uk/grants/wessex-water-environment-fund-2": {
+      "status": "rejected",
+      "reason": "the page describes a closed or paused round",
+      "label": "Wessex Water Environment Fund",
+      "seed": "https://quartetcf.org.uk/apply-for-funding/apply-for-a-grant/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://quartetcf.org.uk/grants/r-w-barnes-bursary-grant": {
+      "status": "rejected",
+      "reason": "the page looks aimed at individuals rather than organisations",
+      "label": "R W Barnes Bursary Grant",
+      "seed": "https://quartetcf.org.uk/apply-for-funding/apply-for-a-grant/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://quartetcf.org.uk/grants/bch-nscp-professional-development-bursary-fund-grant": {
+      "status": "rejected",
+      "reason": "the page looks aimed at individuals rather than organisations",
+      "label": "BCH/NSCP Professional Development Bursary Fund Grant",
+      "seed": "https://quartetcf.org.uk/apply-for-funding/apply-for-a-grant/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://quartetcf.org.uk/grants/bristol-city-council-sparking-social-action-in-recovery-grant": {
+      "status": "rejected",
+      "reason": "the page describes a closed or paused round",
+      "label": "Bristol City Council Sparking Social Action in Recovery Grant",
+      "seed": "https://quartetcf.org.uk/apply-for-funding/apply-for-a-grant/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://quartetcf.org.uk/grants/bristol-city-council-culture-fund": {
+      "status": "rejected",
+      "reason": "the page looks aimed at individuals rather than organisations",
+      "label": "Bristol City Council Culture Fund",
+      "seed": "https://quartetcf.org.uk/apply-for-funding/apply-for-a-grant/",
+      "first_seen": "2026-10-27T10:23:57+00:00",
+      "last_checked": "2026-10-27T10:23:57+00:00"
+    },
+    "https://bbcchildreninneed.co.uk/grants/i-have-a-grant-2": {
+      "status": "rejected",
+      "reason": "could not be read: HTTP 404 Not Found",
+      "label": "I have a grant",
+      "seed": "https://www.bbcchildreninneed.co.uk/grants/apply/project-costs-funding-stream/",
+      "first_seen": "2026-10-27T10:32:41+00:00",
+      "last_checked": "2026-10-27T10:32:41+00:00"
+    },
+    "http://gov.uk/business-finance-supportsmallbusiness.co.uk/small-business-grants-uk-2548113": {
+      "status": "rejected",
+      "reason": "could not be read: HTTP 404 Not Found",
+      "label": "www.gov.uk/business-finance-supportsmallbusiness.co.uk/small-business-grants-uk-2548113/",
+      "seed": "https://communityfoundationni.org/grants/swef-enterprise-fund-start-up-grant/",
+      "first_seen": "2026-10-27T10:32:41+00:00",
+      "last_checked": "2026-10-27T10:32:41+00:00"
+    },
+    "https://quartetcf.org.uk/grants/north-somerset-community-partnership-grant": {
+      "status": "rejected",
+      "reason": "the page describes a closed or paused round",
+      "label": "North Somerset Community Partnership Grant",
+      "seed": "https://quartetcf.org.uk/apply-for-funding/apply-for-a-grant/",
+      "first_seen": "2026-10-27T10:32:41+00:00",
+      "last_checked": "2026-10-27T10:32:41+00:00"
+    },
+    "https://quartetcf.org.uk/grants/police-and-crime-commissioners-community-fund": {
+      "status": "rejected",
+      "reason": "the page describes a closed or paused round",
+      "label": "Police and Crime Commissioner\u2019s Community Fund",
+      "seed": "https://quartetcf.org.uk/apply-for-funding/apply-for-a-grant/",
+      "first_seen": "2026-10-27T10:32:41+00:00",
+      "last_checked": "2026-10-27T10:32:41+00:00"
+    },
+    "https://quartetcf.org.uk/grants/wessex-water-community-fund": {
+      "status": "rejected",
+      "reason": "the page describes a closed or paused round",
+      "label": "Wessex Water Community Fund",
+      "seed": "https://quartetcf.org.uk/apply-for-funding/apply-for-a-grant/",
+      "first_seen": "2026-10-27T10:32:41+00:00",
+      "last_checked": "2026-10-27T10:32:41+00:00"
+    },
+    "https://quartetcf.org.uk/grants/bristol-youth-and-play-support-programme": {
+      "status": "rejected",
+      "reason": "the page describes a closed or paused round",
+      "label": "Bristol Youth and Play Support Programme",
+      "seed": "https://quartetcf.org.uk/apply-for-funding/apply-for-a-grant/",
+      "first_seen": "2026-10-27T10:32:41+00:00",
+      "last_checked": "2026-10-27T10:32:41+00:00"
+    },
+    "https://quartetcf.org.uk/philanthropy/set-up-a-fund": {
+      "status": "rejected",
+      "reason": "the page looks aimed at individuals rather than organisations",
+      "label": "Set up a named fund",
+      "seed": "https://quartetcf.org.uk/apply-for-funding/apply-for-a-grant/",
+      "first_seen": "2026-10-27T10:32:41+00:00",
+      "last_checked": "2026-10-27T10:32:41+00:00"
+    },
+    "https://bbcchildreninneed.co.uk/grantiau/gwnewch-gais-am-grant/ffrwd-gyllido-costau-prosiect": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "cliciwch yma",
+      "seed": "https://www.bbcchildreninneed.co.uk/grants/apply/project-costs-funding-stream/",
+      "first_seen": "2026-10-27T10:32:41+00:00",
+      "last_checked": "2026-10-27T10:32:41+00:00"
+    },
+    "https://therobertsontrust.org.uk/our-themes": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "funding themes",
+      "seed": "https://www.therobertsontrust.org.uk/funding/types-of-funding/large-grants",
+      "first_seen": "2026-10-27T10:32:41+00:00",
+      "last_checked": "2026-10-27T10:32:41+00:00"
+    },
+    "http://british-business-bank.co.uk/finance-hub/grants-finance": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "www.british-business-bank.co.uk/finance-hub/grants-finance/",
+      "seed": "https://communityfoundationni.org/grants/swef-enterprise-fund-start-up-grant/",
+      "first_seen": "2026-10-27T10:32:41+00:00",
+      "last_checked": "2026-10-27T10:32:41+00:00"
+    },
+    "https://sibgroup.org.uk/impact/energy-resilience-fund-dashboard": {
+      "status": "rejected",
+      "reason": "almost no readable text (JavaScript-rendered or a stub page)",
+      "label": "Energy Resilience Fund dashboard",
+      "seed": "https://www.sibgroup.org.uk/fund/energy-resilience-fund/",
+      "first_seen": "2026-10-27T10:35:00+00:00",
+      "last_checked": "2026-10-27T10:35:00+00:00"
+    },
+    "https://communityfoundationni.org/grants/rathsherry-community-benefit-fund/": {
+      "status": "added",
+      "id": "rathsherry-community-benefit-fund",
+      "name": "Rathsherry Community Benefit Fund",
+      "funder": "Community Foundation Northern Ireland",
+      "seed": "https://communityfoundationni.org/achieving-impact/available-grants/",
+      "reason": "open programme on communityfoundationni.org, closes 2026-12-03, \u00a31,000\u2013\u00a39,000 as published on the funder's page",
+      "first_seen": "2026-11-07T14:12:47+00:00",
+      "last_checked": "2026-11-07T14:12:47+00:00"
+    },
+    "https://funding.scot/funders/001b000000SsxD1AAJ/falkirk-council": {
+      "status": "rejected",
+      "reason": "the page lists 7 other programmes \u2014 it is a grants index, not one fund",
+      "label": "Funder",
+      "seed": "https://funding.scot/",
+      "first_seen": "2026-11-07T14:12:47+00:00",
+      "last_checked": "2026-11-07T14:12:47+00:00"
+    },
+    "https://quartetcf.org.uk/grants/community-wellbeing-and-health-fund": {
+      "status": "rejected",
+      "reason": "looks like the existing entry \u201cCommunity Wellbeing & Health Fund\u201d",
+      "label": "Community Wellbeing & Health Fund",
+      "seed": "https://quartetcf.org.uk/apply-for-funding/apply-for-a-grant/",
+      "first_seen": "2026-11-07T14:12:47+00:00",
+      "last_checked": "2026-11-07T14:12:47+00:00"
+    },
+    "https://communityfoundationni.org/grants/tyrone-three-wind-farms-gortfinbar-eshmore-and-altamuskin": {
+      "status": "rejected",
+      "reason": "the page looks aimed at individuals rather than organisations",
+      "label": "Find out more",
+      "seed": "https://communityfoundationni.org/achieving-impact/available-grants/",
+      "first_seen": "2026-11-07T14:12:47+00:00",
+      "last_checked": "2026-11-07T14:12:47+00:00"
+    }
+  },
+  "last_run": "2026-11-07T14:12:47+00:00",
+  "added_total": 19
+}
