@@ -29,16 +29,6 @@ jobs:
       - name: Find new funds and re-check sources
         run: python tools/daily.py
 
-      - name: Bump asset version when the dataset changed
-        run: |
-          if git diff --quiet -- js/data.js; then
-            echo "dataset unchanged"
-            exit 0
-          fi
-          STAMP="$(date -u +%Y%m%d)-${GITHUB_SHA::7}"
-          sed -i -E "s/\?v=[0-9A-Za-z._-]+/?v=${STAMP}/g" index.html
-          echo "asset version -> ${STAMP}"
-
       - name: Commit the new data
         run: |
           git config user.name "fund-data-bot"
@@ -68,6 +58,12 @@ jobs:
           cp -r index.html css js data-check _site/
           rm -rf _site/data-check/snapshots _site/data-check/backups
           rm -f _site/data-check/daily.log
+
+      - name: Stamp assets with the dataset revision
+        run: |
+          STAMP="$(git log -1 --format=%h -- js/data.js)"
+          sed -i -E "s/\?v=[0-9A-Za-z._-]+/?v=${STAMP}/g" _site/index.html
+          echo "asset version -> ${STAMP}"
 
       - uses: actions/configure-pages@v5
 
