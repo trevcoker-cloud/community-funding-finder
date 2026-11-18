@@ -69,7 +69,16 @@ DIRECTORY_SEEDS = [
     "https://find-government-grants.service.gov.uk/grants",
     "https://quartetcf.org.uk/apply-for-funding/apply-for-a-grant/",
     "https://mkcommunityfoundation.co.uk/apply-for-a-grant/",
+    # Nottingham CVS posts a dated write-up of each live fund (deadline, who can
+    # apply, how much) under /news-and-events/, so the funding-only topic listing
+    # below works like a directory of programmes.
+    "https://www.nottinghamcvs.co.uk/news-and-events/news-articles?tid%5B12%5D=12&page=0",
 ]
+
+# Listings that publish each programme as a news article: (host, article path prefix).
+# There the article heading and slug name the fund, so links are accepted even
+# though their URLs live under /news/ and carry no grant word.
+NEWS_LISTINGS = [("nottinghamcvs.co.uk", "/news-and-events/")]
 
 # Hosts that never host a funder's own programme page.
 HOST_SKIP = {
@@ -161,11 +170,11 @@ DEADLINE_CUE = re.compile(
 APPLY_CUE = re.compile(
     r"(apply (?:now|online|here|by|for|to|via)|applications? (?:are )?(?:open|welcome|accepted|invited)|"
     r"open for applications|we (?:are )?(?:accepting|invite|welcome)|application form|"
-    r"how to apply|make an application)",
+    r"how to apply|make an application|to apply\b)",
     re.I,
 )
 ROLLING_CUE = re.compile(
-    r"(rolling|ongoing|on a rolling basis|continuous|no deadline|no closing date|open all year|"
+    r"(rolling|ongoing|on a rolling basis|continuous|no (?:stated |set |fixed |specific )?deadline|no closing date|open all year|"
     r"all year round|any time|at any point)",
     re.I,
 )
@@ -233,6 +242,12 @@ WEEKS_RE = re.compile(
     re.I,
 )
 DECISION_CUE = re.compile(r"(decision|outcome|hear|notified|notification|let you know|respond)", re.I)
+FUNDER_SENTENCE = re.compile(
+    r"(?:^|[.;]\s|\n)\s*(?:The\s+)?"
+    r"((?:[A-Z][\w&'’.\-]*|\b(?:of|the|and|for|&)\b)"
+    r"(?:[ \t]+(?:[A-Z][\w&'’.\-]*|\b(?:of|the|and|for|&)\b)){0,5})\s+"
+    r"(?:supports|provides|offers|funds|awards|gives|has funding of|makes grants)",
+)
 CHARITY_NO_RE = re.compile(r"(?:registered )?charity (?:number|no\.?|reg(?:istration)?\.?)\s*:?\s*(\d{6,8})", re.I)
 
 CATEGORY_WORDS = [
@@ -314,6 +329,10 @@ def similar_to_known(index: dict, host: str, name: str) -> str:
         return ""
     for known_host, known_slug, known_name in index["names"]:
         if known_host and host and known_host != host:
+            # An aggregator lists a funder's programme under the funder's own name,
+            # so a long shared opening is the same programme on another site.
+            if len(slug) >= 15 and (known_slug.startswith(slug) or slug.startswith(known_slug)):
+                return known_name
             continue
         if not known_slug or not slug:
             continue
@@ -408,15 +427,19 @@ def programme_link(raw_url: str, label: str, base: str) -> str:
     host = registrable(parts.netloc)
     if not host or host in HOST_SKIP or any(host.endswith("." + skip) for skip in HOST_SKIP):
         return ""
+    seed_host = registrable(urlsplit(base).netloc)
+    article = host == seed_host and any(
+        host == site and parts.path.startswith(prefix) for site, prefix in NEWS_LISTINGS
+    )
     if BAD_EXT.search(parts.path) or parts.path in ("", "/"):
         return ""
-    if BAD_QUERY.search(parts.query) or BAD_PATH.search(parts.path):
+    if not article and (BAD_QUERY.search(parts.query) or BAD_PATH.search(parts.path)):
         return ""
     segments = [segment for segment in strip_locale(parts.path).split("/") if segment]
     if not segments or GENERIC_SEGMENT.match(segments[-1]) or GENERIC_SUFFIX.search(segments[-1]):
         return ""
     look = (parts.path + " " + parts.query).lower()
-    if not (GRANT_WORDS.search(look) or GRANT_WORDS.search(label or "")):
+    if not article and not (GRANT_WORDS.search(look) or GRANT_WORDS.search(label or "")):
         return ""
     if len(label or "") > 90:
         return ""
@@ -629,7 +652,9 @@ def clean_name(page: dict, candidate: dict) -> str:
     if len(raw) > 55 and raw[20:50] and raw[20:50] in raw[:20]:
         raw = raw[: raw.index(raw[20:50]) + 30]
     name = re.sub(r"\s+", " ", raw or "").strip(" -–—|:")
-    name = re.sub(r"^(?:apply (?:for|to)|how to apply (?:for|to)|grants?|funding|about)\s*[:—-]?\s+", "", name, flags=re.I)
+    trimmed = re.sub(r"^(?:apply (?:for|to)|how to apply (?:for|to)|grants?|funding|about)\s*[:—-]?\s+", "", name, flags=re.I)
+    if not re.match(r"(?:for|from|to|of|in|on|and|with)\b", trimmed, re.I):
+        name = trimmed  # "Funding for local charities from …" keeps its opening word
     name = re.sub(r"\s+(?:grant funding|grant application|funding programme|funding application|application form)$", "", name, flags=re.I)
     return name[:110].strip()
 
@@ -642,12 +667,19 @@ def guess_funder(page: dict, candidate: dict, host: str, sibling: dict | None = 
     site_name = clean_title(page["site_name"].split("|")[0])
     if site_name and not GRANT_WORDS.fullmatch(site_name):
         return site_name[:80]
+    named = FUNDER_SENTENCE.search(page["text"])
+    if named:
+        guess = clean_title(named.group(1))
+        if 3 <= len(guess) <= 70:
+            return guess
     title = page["title"]
     for separator in ("|", "–", "—", " - "):
         if separator in title:
             tail = title.split(separator)[-1].strip()
-            if 3 <= len(tail) <= 60:
+            if 3 <= len(tail) <= 60 and " " in tail and "." not in tail:
                 return tail
+    if page["h1"] and not BOILERPLATE_HEADING.match(page["h1"]) and len(page["h1"]) <= 80:
+        return clean_title(page["h1"])[:80]
     base = host.split(".")[0].replace("-", " ")
     return base.title()[:80] or host
 
