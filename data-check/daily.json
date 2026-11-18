@@ -1,22 +1,65 @@
 {
-  "run_at": "2026-11-18T12:55:03+00:00",
+  "run_at": "2026-11-18T13:05:18+00:00",
   "date": "2026-11-18",
-  "duration_s": 57.5,
-  "added": [],
+  "duration_s": 76.0,
+  "added": [
+    {
+      "id": "a-b-charitable-trust",
+      "name": "A B Charitable Trust",
+      "funder": "Dogger Bank Wind Farm operators",
+      "reason": "open programme on redcarfundseekers.org.uk, rolling, \u00a3150,000\u2013\u00a31,500,000 as published on the funder's page",
+      "seed": "https://redcarfundseekers.org.uk/funding-directory/"
+    },
+    {
+      "id": "abbvie-uk-grant-programme",
+      "name": "AbbVie UK Grant Programme",
+      "funder": "Dogger Bank Wind Farm operators",
+      "reason": "open programme on redcarfundseekers.org.uk, rolling, up to \u00a310,000 as published on the funder's page",
+      "seed": "https://redcarfundseekers.org.uk/funding-directory/"
+    },
+    {
+      "id": "albert-gubay-charitable-foundation",
+      "name": "Albert Gubay Charitable Foundation",
+      "funder": "Dogger Bank Wind Farm operators",
+      "reason": "open programme on redcarfundseekers.org.uk, rolling, up to \u00a310,000 as published on the funder's page",
+      "seed": "https://redcarfundseekers.org.uk/funding-directory/"
+    },
+    {
+      "id": "albert-hunt-trust",
+      "name": "Albert Hunt Trust",
+      "funder": "Dogger Bank Wind Farm operators",
+      "reason": "open programme on redcarfundseekers.org.uk, rolling, up to \u00a330,000 as published on the funder's page",
+      "seed": "https://redcarfundseekers.org.uk/funding-directory/"
+    },
+    {
+      "id": "allan-and-nesta-ferguson-charitable-trust",
+      "name": "Allan and Nesta Ferguson Charitable Trust",
+      "funder": "Dogger Bank Wind Farm operators",
+      "reason": "open programme on redcarfundseekers.org.uk, closes 2027-02-28, \u00a310,000\u2013\u00a350,000 as published on the funder's page",
+      "seed": "https://redcarfundseekers.org.uk/funding-directory/"
+    },
+    {
+      "id": "allen-lane-foundation",
+      "name": "Allen Lane Foundation",
+      "funder": "Dogger Bank Wind Farm operators",
+      "reason": "open programme on redcarfundseekers.org.uk, rolling, up to \u00a315,000 as published on the funder's page",
+      "seed": "https://redcarfundseekers.org.uk/funding-directory/"
+    }
+  ],
   "queued": [],
   "queued_total": 0,
-  "auto_total": 19,
+  "auto_total": 25,
   "check": {
-    "total": 79,
+    "total": 86,
     "counts": {
-      "changed": 14,
-      "baseline": 0,
-      "unchanged": 61,
+      "changed": 0,
+      "baseline": 6,
+      "unchanged": 77,
       "blocked": 1,
-      "unreachable": 3
+      "unreachable": 2
     },
     "report": "report-2026-11-18.md",
-    "run_at": "2026-11-18T12:55:33+00:00",
+    "run_at": "2026-11-18T13:06:10+00:00",
     "verified": "2026-10-23"
   },
   "notes": []

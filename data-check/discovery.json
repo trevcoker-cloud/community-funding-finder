@@ -1157,8 +1157,188 @@
       "seed": "https://www.heritagefund.org.uk/funding/national-lottery-heritage-grants-250k-10m/deadlines",
       "first_seen": "2026-11-18T12:55:03+00:00",
       "last_checked": "2026-11-18T12:55:03+00:00"
+    },
+    "https://redcarfundseekers.org.uk/funding/a-b-charitable-trust/": {
+      "status": "added",
+      "id": "a-b-charitable-trust",
+      "name": "A B Charitable Trust",
+      "funder": "Dogger Bank Wind Farm operators",
+      "seed": "https://redcarfundseekers.org.uk/funding-directory/",
+      "reason": "open programme on redcarfundseekers.org.uk, rolling, \u00a3150,000\u2013\u00a31,500,000 as published on the funder's page",
+      "first_seen": "2026-11-18T13:05:18+00:00",
+      "last_checked": "2026-11-18T13:05:18+00:00"
+    },
+    "https://redcarfundseekers.org.uk/funding/abbvie-uk-grant-programme/": {
+      "status": "added",
+      "id": "abbvie-uk-grant-programme",
+      "name": "AbbVie UK Grant Programme",
+      "funder": "Dogger Bank Wind Farm operators",
+      "seed": "https://redcarfundseekers.org.uk/funding-directory/",
+      "reason": "open programme on redcarfundseekers.org.uk, rolling, up to \u00a310,000 as published on the funder's page",
+      "first_seen": "2026-11-18T13:05:18+00:00",
+      "last_checked": "2026-11-18T13:05:18+00:00"
+    },
+    "https://redcarfundseekers.org.uk/funding/albert-gubay-charitable-foundation/": {
+      "status": "added",
+      "id": "albert-gubay-charitable-foundation",
+      "name": "Albert Gubay Charitable Foundation",
+      "funder": "Dogger Bank Wind Farm operators",
+      "seed": "https://redcarfundseekers.org.uk/funding-directory/",
+      "reason": "open programme on redcarfundseekers.org.uk, rolling, up to \u00a310,000 as published on the funder's page",
+      "first_seen": "2026-11-18T13:05:18+00:00",
+      "last_checked": "2026-11-18T13:05:18+00:00"
+    },
+    "https://redcarfundseekers.org.uk/funding/albert-hunt-trust/": {
+      "status": "added",
+      "id": "albert-hunt-trust",
+      "name": "Albert Hunt Trust",
+      "funder": "Dogger Bank Wind Farm operators",
+      "seed": "https://redcarfundseekers.org.uk/funding-directory/",
+      "reason": "open programme on redcarfundseekers.org.uk, rolling, up to \u00a330,000 as published on the funder's page",
+      "first_seen": "2026-11-18T13:05:18+00:00",
+      "last_checked": "2026-11-18T13:05:18+00:00"
+    },
+    "https://redcarfundseekers.org.uk/funding/allan-and-nesta-ferguson-charitable-trust/": {
+      "status": "added",
+      "id": "allan-and-nesta-ferguson-charitable-trust",
+      "name": "Allan and Nesta Ferguson Charitable Trust",
+      "funder": "Dogger Bank Wind Farm operators",
+      "seed": "https://redcarfundseekers.org.uk/funding-directory/",
+      "reason": "open programme on redcarfundseekers.org.uk, closes 2027-02-28, \u00a310,000\u2013\u00a350,000 as published on the funder's page",
+      "first_seen": "2026-11-18T13:05:18+00:00",
+      "last_checked": "2026-11-18T13:05:18+00:00"
+    },
+    "https://redcarfundseekers.org.uk/funding/allen-lane-foundation/": {
+      "status": "added",
+      "id": "allen-lane-foundation",
+      "name": "Allen Lane Foundation",
+      "funder": "Dogger Bank Wind Farm operators",
+      "seed": "https://redcarfundseekers.org.uk/funding-directory/",
+      "reason": "open programme on redcarfundseekers.org.uk, rolling, up to \u00a315,000 as published on the funder's page",
+      "first_seen": "2026-11-18T13:05:18+00:00",
+      "last_checked": "2026-11-18T13:05:18+00:00"
+    },
+    "https://redcarfundseekers.org.uk/funding/7stars-foundation-child-poverty-grants": {
+      "status": "rejected",
+      "reason": "the page lists 6 other programmes \u2014 it is a grants index, not one fund",
+      "label": "7stars Foundation \u2014 Child Poverty Grants",
+      "seed": "https://redcarfundseekers.org.uk/funding-directory/",
+      "first_seen": "2026-11-18T13:05:18+00:00",
+      "last_checked": "2026-11-18T13:05:18+00:00"
+    },
+    "https://redcarfundseekers.org.uk/funding/7stars-foundation-individual-grants": {
+      "status": "rejected",
+      "reason": "the page lists 6 other programmes \u2014 it is a grants index, not one fund",
+      "label": "7stars Foundation \u2014 Individual Grants",
+      "seed": "https://redcarfundseekers.org.uk/funding-directory/",
+      "first_seen": "2026-11-18T13:05:18+00:00",
+      "last_checked": "2026-11-18T13:05:18+00:00"
+    },
+    "https://redcarfundseekers.org.uk/funding/7stars-foundation-project-grants": {
+      "status": "rejected",
+      "reason": "the page lists 6 other programmes \u2014 it is a grants index, not one fund",
+      "label": "7stars Foundation \u2014 Project Grants",
+      "seed": "https://redcarfundseekers.org.uk/funding-directory/",
+      "first_seen": "2026-11-18T13:05:18+00:00",
+      "last_checked": "2026-11-18T13:05:18+00:00"
+    },
+    "https://redcarfundseekers.org.uk/funding/7stars-foundation-shine-bright-long-term-grants": {
+      "status": "rejected",
+      "reason": "the page lists 6 other programmes \u2014 it is a grants index, not one fund",
+      "label": "7stars Foundation \u2014 Shine Bright Long Term Grants",
+      "seed": "https://redcarfundseekers.org.uk/funding-directory/",
+      "first_seen": "2026-11-18T13:05:18+00:00",
+      "last_checked": "2026-11-18T13:05:18+00:00"
+    },
+    "https://redcarfundseekers.org.uk/funding/7stars-foundation-social-impact-grants": {
+      "status": "rejected",
+      "reason": "the page lists 6 other programmes \u2014 it is a grants index, not one fund",
+      "label": "7stars Foundation \u2014 Social Impact Grants",
+      "seed": "https://redcarfundseekers.org.uk/funding-directory/",
+      "first_seen": "2026-11-18T13:05:18+00:00",
+      "last_checked": "2026-11-18T13:05:18+00:00"
+    },
+    "https://redcarfundseekers.org.uk/funding/access-foundation-digital-divide-grants": {
+      "status": "rejected",
+      "reason": "the page describes a closed or paused round",
+      "label": "Access Foundation \u2013 Digital Divide Grants",
+      "seed": "https://redcarfundseekers.org.uk/funding-directory/",
+      "first_seen": "2026-11-18T13:05:18+00:00",
+      "last_checked": "2026-11-18T13:05:18+00:00"
+    },
+    "https://redcarfundseekers.org.uk/funding/acre-small-grants-for-village-halls": {
+      "status": "rejected",
+      "reason": "the page describes a closed or paused round",
+      "label": "ACRE Small Grants for Village Halls",
+      "seed": "https://redcarfundseekers.org.uk/funding-directory/",
+      "first_seen": "2026-11-18T13:05:18+00:00",
+      "last_checked": "2026-11-18T13:05:18+00:00"
+    },
+    "https://redcarfundseekers.org.uk/funding/adult-social-care-learning-and-development-support-scheme-ldss": {
+      "status": "rejected",
+      "reason": "the page lists 5 other programmes \u2014 it is a grants index, not one fund",
+      "label": "Adult Social Care Learning and Development Support Scheme (LDSS)",
+      "seed": "https://redcarfundseekers.org.uk/funding-directory/",
+      "first_seen": "2026-11-18T13:05:18+00:00",
+      "last_checked": "2026-11-18T13:05:18+00:00"
+    },
+    "https://redcarfundseekers.org.uk/funding/advancing-solutions-for-critical-mineral-production-and-recycling-grant": {
+      "status": "rejected",
+      "reason": "the page looks aimed at individuals rather than organisations",
+      "label": "Advancing solutions for critical mineral production and recycling (Grant)",
+      "seed": "https://redcarfundseekers.org.uk/funding-directory/",
+      "first_seen": "2026-11-18T13:05:18+00:00",
+      "last_checked": "2026-11-18T13:05:18+00:00"
+    },
+    "https://redcarfundseekers.org.uk/funding/affordable-warmth-grants": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "Affordable Warmth Grants",
+      "seed": "https://redcarfundseekers.org.uk/funding-directory/",
+      "first_seen": "2026-11-18T13:05:18+00:00",
+      "last_checked": "2026-11-18T13:05:18+00:00"
+    },
+    "https://redcarfundseekers.org.uk/funding/ahrc-responsive-mode-catalyst-awards-grant": {
+      "status": "rejected",
+      "reason": "the page lists 15 other programmes \u2014 it is a grants index, not one fund",
+      "label": "AHRC responsive mode: catalyst awards (Grant)",
+      "seed": "https://redcarfundseekers.org.uk/funding-directory/",
+      "first_seen": "2026-11-18T13:05:18+00:00",
+      "last_checked": "2026-11-18T13:05:18+00:00"
+    },
+    "https://redcarfundseekers.org.uk/funding/ahrc-responsive-mode-curiosity-award-grant": {
+      "status": "rejected",
+      "reason": "the page lists 15 other programmes \u2014 it is a grants index, not one fund",
+      "label": "AHRC responsive mode: Curiosity Award (Grant)",
+      "seed": "https://redcarfundseekers.org.uk/funding-directory/",
+      "first_seen": "2026-11-18T13:05:18+00:00",
+      "last_checked": "2026-11-18T13:05:18+00:00"
+    },
+    "https://redcarfundseekers.org.uk/funding/ahrc-responsive-mode-ukri-nsf-sbe-lead-agency-grant": {
+      "status": "rejected",
+      "reason": "the page lists 14 other programmes \u2014 it is a grants index, not one fund",
+      "label": "AHRC responsive mode: UKRI NSF-SBE lead agency (Grant)",
+      "seed": "https://redcarfundseekers.org.uk/funding-directory/",
+      "first_seen": "2026-11-18T13:05:18+00:00",
+      "last_checked": "2026-11-18T13:05:18+00:00"
+    },
+    "https://redcarfundseekers.org.uk/funding/alchemy-foundation": {
+      "status": "rejected",
+      "reason": "no deadline, no amount and no clear apply route on the page",
+      "label": "Alchemy Foundation",
+      "seed": "https://redcarfundseekers.org.uk/funding-directory/",
+      "first_seen": "2026-11-18T13:05:18+00:00",
+      "last_checked": "2026-11-18T13:05:18+00:00"
+    },
+    "https://redcarfundseekers.org.uk/funding/alpkit-foundation": {
+      "status": "rejected",
+      "reason": "no deadline, no amount and no clear apply route on the page",
+      "label": "Alpkit Foundation",
+      "seed": "https://redcarfundseekers.org.uk/funding-directory/",
+      "first_seen": "2026-11-18T13:05:18+00:00",
+      "last_checked": "2026-11-18T13:05:18+00:00"
     }
   },
-  "last_run": "2026-11-18T12:55:03+00:00",
-  "added_total": 19
+  "last_run": "2026-11-18T13:05:18+00:00",
+  "added_total": 25
 }
