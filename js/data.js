@@ -3817,6 +3817,50 @@ const FUNDS = [
     verified: '2026-11-07',
     confidence: 'check',
   },
+  {
+    id: 'dogger-bank-operators-fund',
+    name: 'Dogger Bank Operators Fund',
+    funder: 'Dogger Bank Wind Farm operators',
+    fundingType: 'Grant',
+    summary:
+      'Small grants of up to £1,000 for community-focused or charitable activity run by constituted local groups in Redcar and Cleveland, South Tyneside or East Riding of Yorkshire.',
+    description:
+      'A community benefit fund from the operators of the Dogger Bank Wind Farm, listed by Redcar Fundseekers, the joint funding service of Redcar & Cleveland Voluntary Development Agency and Tees Valley Rural Action. Awards support community-focused or charitable activities that benefit communities in the three named areas. Applications are accepted at any time, and the directory classifies the funding as revenue.',
+    categories: ['Community'],
+    scope: 'Regional / local',
+    scopeDetail: 'Redcar and Cleveland, South Tyneside, and East Riding of Yorkshire',
+    awardMin: 0,
+    awardMax: 1000,
+    awardNote: 'Up to £1,000 per grant',
+    orgTypes: { cic: 'check', charity: 'yes', nonprofit: 'yes' },
+    eligibility: [
+      'Small, local, constituted community groups.',
+      'Activity must be community-focused or charitable and benefit communities in Redcar and Cleveland, South Tyneside or East Riding of Yorkshire.',
+      'The listing is held by Redcar Fundseekers rather than the funder, so confirm the current criteria and any governing-document requirements before applying.',
+    ],
+    priorities: [
+      'Community-focused or charitable activity benefiting residents of the three eligible areas',
+    ],
+    applicationSteps: [
+      'Check that your project benefits residents of Redcar and Cleveland, South Tyneside or East Riding of Yorkshire.',
+      'Open the Redcar Fundseekers listing for the current application route, or contact kado@equinor.com.',
+      'Apply at any time — there is no fixed deadline.',
+    ],
+    tips: [
+      'This is a directory listing rather than the funder\'s own site, so confirm the live application form and criteria before you spend time on it.',
+      'Awards are up to £1,000, so keep the project and budget small and specific.',
+    ],
+    opens: null,
+    closes: null,
+    deadlineType: 'rolling',
+    dateNote: 'Rolling: applications accepted at any time with no fixed deadline (listing last updated 13 November 2026).',
+    decisionTime: 'Not published',
+    effort: 'Light',
+    applyUrl: 'https://redcarfundseekers.org.uk/funding/dogger-bank-operators-fund/',
+    sourceUrl: 'https://redcarfundseekers.org.uk/funding/dogger-bank-operators-fund/',
+    verified: '2026-11-18',
+    confidence: 'verified',
+  },
 ];
 
 const CATEGORIES = [

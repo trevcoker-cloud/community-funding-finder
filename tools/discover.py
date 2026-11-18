@@ -69,6 +69,7 @@ DIRECTORY_SEEDS = [
     "https://find-government-grants.service.gov.uk/grants",
     "https://quartetcf.org.uk/apply-for-funding/apply-for-a-grant/",
     "https://mkcommunityfoundation.co.uk/apply-for-a-grant/",
+    "https://redcarfundseekers.org.uk/funding-directory/",
 ]
 
 # Hosts that never host a funder's own programme page.

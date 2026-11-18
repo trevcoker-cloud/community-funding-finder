@@ -1,17 +1,17 @@
 {
-  "run_at": "2026-11-18T12:55:33+00:00",
+  "run_at": "2026-11-18T13:04:49+00:00",
   "date": "2026-11-18",
   "verified": "2026-10-23",
   "verified_age_days": 26,
   "partial": false,
   "report": "report-2026-11-18.md",
-  "total": 79,
+  "total": 80,
   "counts": {
-    "changed": 14,
-    "baseline": 0,
-    "unchanged": 61,
+    "changed": 0,
+    "baseline": 2,
+    "unchanged": 75,
     "blocked": 1,
-    "unreachable": 3
+    "unreachable": 2
   },
   "pending_total": 25,
   "pending": [
@@ -458,218 +458,11 @@
       "removed": []
     },
     {
-      "id": "unltd-climate-action",
-      "name": "Community Climate Action",
-      "funder": "UnLtd",
-      "url": "https://unltd.org.uk/community-climate-action/",
-      "change": "changed",
-      "status": 200,
-      "error": "",
-      "note": "redirected",
-      "title_changed": false,
-      "dates": [
-        "6 January 2027"
-      ],
-      "money": [],
-      "signals": [
-        "Next round on 6 January 2027 at 10:00 (48 days)"
-      ],
-      "added": [
-        "Next round on 6 January 2027 at 10:00 (48 days)"
-      ],
-      "removed": [
-        "Next round on 6 January 2027 at 10:00 (59 days)",
-        "At 0% capacity"
-      ]
-    },
-    {
-      "id": "unltd-awards",
-      "name": "Starting Up and Scaling Up Awards",
-      "funder": "UnLtd",
-      "url": "https://unltd.org.uk/awards/eligibility-criteria/",
-      "change": "changed",
-      "status": 200,
-      "error": "",
-      "note": "",
-      "title_changed": false,
-      "dates": [
-        "6 January 2027"
-      ],
-      "money": [],
-      "signals": [
-        "Next round on 6 January 2027 at 10:00 (48 days)"
-      ],
-      "added": [
-        "Next round on 6 January 2027 at 10:00 (48 days)"
-      ],
-      "removed": [
-        "Next round on 6 January 2027 at 10:00 (60 days)",
-        "At 0% capacity"
-      ]
-    },
-    {
-      "id": "key-fund",
-      "name": "Key Fund social investment",
-      "funder": "Key Fund",
-      "url": "https://thekeyfund.co.uk/funding/",
-      "change": "changed",
-      "status": 200,
-      "error": "",
-      "note": "",
-      "title_changed": false,
-      "dates": [],
-      "money": [],
-      "signals": [],
-      "added": [],
-      "removed": [
-        "Skip to content"
-      ]
-    },
-    {
-      "id": "big-issue-invest",
-      "name": "Social impact loans and blended finance",
-      "funder": "Big Issue Invest",
-      "url": "https://www.bigissue.com/invest/",
-      "change": "changed",
-      "status": 200,
-      "error": "",
-      "note": "",
-      "title_changed": false,
-      "dates": [],
-      "money": [],
-      "signals": [],
-      "added": [
-        "The enormous Birmingham charity shop which is helping solve Britain\u2019s NEETs crisis",
-        "Employment"
-      ],
-      "removed": [
-        "Social businesses can deliver systemic change. Here\u2019s how we can help them build a better Britain",
-        "Holger Westphely"
-      ]
-    },
-    {
-      "id": "garfield-weston",
-      "name": "Garfield Weston Foundation \u2014 Regular Grants",
-      "funder": "Garfield Weston Foundation",
-      "url": "https://garfieldweston.org/what-we-fund/",
-      "change": "changed",
-      "status": 200,
-      "error": "",
-      "note": "",
-      "title_changed": false,
-      "dates": [],
-      "money": [],
-      "signals": [],
-      "added": [
-        "Grants and Pledges made from July to October 2026.",
-        "Download our most recent grants and pledges list (pdf 67 KB)"
-      ],
-      "removed": [
-        "Grants and Pledges made from April to June 2026.",
-        "Download our most recent grants and pledges list (pdf 324 KB)"
-      ]
-    },
-    {
-      "id": "city-bridge-economic-change",
-      "name": "Communities Building Economic Change",
-      "funder": "City Bridge Foundation",
-      "url": "https://www.citybridgefoundation.org.uk/funding/economic-justice",
-      "change": "changed",
-      "status": 200,
-      "error": "",
-      "note": "",
-      "title_changed": false,
-      "dates": [],
-      "money": [],
-      "signals": [
-        "To develop the first round of Economic Justice funding, we combined research with engagement across the sector. This included conversations with more than 20 key sector organisations, in-depth discussions with more than eight funders and a staff workshop with Partners for a Ne\u2026"
-      ],
-      "added": [
-        "To develop the first round of Economic Justice funding, we combined research with engagement across the sector. This included conversations with more than 20 key sector organisations, in-depth discussions with more than eight funders and a staff workshop with Partners for a New Economy.",
-        "We also commissioned People\u2019s Economy to help us map community-rooted organisations working on economic justice across London. They also carried out 15 in-depth interviews and focus group discussions with organisations representing different communities and experiences of economic injustice.",
-        "This feedback directly shaped the programme design, including our focus on community power, lived experience leadership, peer learning and sector networks."
-      ],
-      "removed": []
-    },
-    {
       "id": "trust-for-london-disability",
       "name": "Disability Justice Fund",
       "funder": "Trust for London",
       "url": "https://trustforlondon.org.uk/funding/social-justice/disability-justice/",
-      "change": "unreachable",
-      "status": null,
-      "error": "connection failed: The read operation timed out",
-      "note": "",
-      "title_changed": false,
-      "dates": [],
-      "money": [],
-      "signals": [],
-      "added": [],
-      "removed": []
-    },
-    {
-      "id": "acni-small-capital",
-      "name": "Arts Council of Northern Ireland \u2014 Small Capital Grants",
-      "funder": "Arts Council of Northern Ireland",
-      "url": "https://artscouncil-ni.org/funding-for-organisations/small-capital-grants-programme",
-      "change": "changed",
-      "status": 200,
-      "error": "",
-      "note": "",
-      "title_changed": false,
-      "dates": [
-        "17 November 2026"
-      ],
-      "money": [],
-      "signals": [
-        "Please ensure that you leave sufficient time to upload all documents to the system as there can be long delays as the closing deadline approaches and the system will shut down at 12pm precisely on the closing date, Tuesday 17 November 2026. If your complete application is not\u2026"
-      ],
-      "added": [
-        "Please ensure that you leave sufficient time to upload all documents to the system as there can be long delays as the closing deadline approaches and the system will shut down at 12pm precisely on the closing date, Tuesday 17 November 2026. If your complete application is not fully uploaded when the system closes, your application will not be accepted."
-      ],
-      "removed": [
-        "Start a New Application",
-        "Edit an Existing Application",
-        "Please ensure that you leave sufficient time to upload all documents to the system as there can be long delays as the closing deadline approaches and the system will shut down at 12pm precisely on the closing date, Monday 16 November 2026. If your complete application is not fully uploaded when the system closes, your application will not be accepted."
-      ]
-    },
-    {
-      "id": "pilkington-trust",
-      "name": "Austin and Hope Pilkington Trust grants",
-      "funder": "The Austin and Hope Pilkington Trust",
-      "url": "https://austin-hope-pilkington.org.uk/",
-      "change": "changed",
-      "status": 200,
-      "error": "",
-      "note": "",
-      "title_changed": false,
-      "dates": [],
-      "money": [],
-      "signals": [
-        "Grants round 1 and 2",
-        "Grants round 3 and 4"
-      ],
-      "added": [
-        "To be eligible, a project must focus specifically on this age group. We don\u2019t fund salaries for charity staff unless specifically employed for the project concerned.",
-        "Priority will be given to projects where people meet face-to-face, including social activities and home visits.",
-        "Projects focusing on unpaid carers aged 18 and under. To be eligible, a project must focus exclusively on carers as its beneficiaries, without extending services to other groups. We don\u2019t fund salaries for charity staff unless specifically employed for the project concerned.",
-        "Priority will be given to in-person activities and skills.",
-        "2028",
-        "Grants round 1 and 2"
-      ],
-      "removed": [
-        "2026",
-        "Grant rounds 1 and 2",
-        "People experiencing or at risk of homelessness",
-        "Focussing on projects that provide life skills, including food education, healthy living and budgeting. Priority will be given to people leaving the armed forces, leaving prison or care. We don\u2019t fund salaries for charity staff unless specifically employed for the project concerned."
-      ]
-    },
-    {
-      "id": "cfni-foyle",
-      "name": "The Foyle Foundation Fund",
-      "funder": "Community Foundation Northern Ireland",
-      "url": "https://communityfoundationni.org/achieving-impact/available-grants/",
-      "change": "changed",
+      "change": "baseline",
       "status": 200,
       "error": "",
       "note": "",
@@ -678,146 +471,7 @@
       "money": [],
       "signals": [],
       "added": [],
-      "removed": [
-        "Closing Date: Nov 16, 2026 12:00",
-        "Area:",
-        "Northern Ireland",
-        "Grant size:"
-      ]
-    },
-    {
-      "id": "essex-nhs-community-health",
-      "name": "NHS Essex Community Health Partnership Fund",
-      "funder": "Essex Community Foundation",
-      "url": "https://www.essexcommunityfoundation.org.uk/2026/10/nhs-essex-community-health-partnership-fund-opens-for-applications/",
-      "change": "changed",
-      "status": 200,
-      "error": "",
-      "note": "",
-      "title_changed": false,
-      "dates": [],
-      "money": [],
-      "signals": [],
-      "added": [
-        "Our 2026 Annual Review is Available!",
-        "Click here to read the 30th edition of our Annual Review."
-      ],
       "removed": []
-    },
-    {
-      "id": "spen-community-benefit",
-      "name": "SP Energy Networks Community Benefit Programme",
-      "funder": "SP Energy Networks (with Localgiving)",
-      "url": "https://localgiving.org/sp-energy-networks-community-benefit-funding",
-      "change": "changed",
-      "status": 200,
-      "error": "",
-      "note": "",
-      "title_changed": false,
-      "dates": [],
-      "money": [],
-      "signals": [],
-      "added": [
-        "FAQ"
-      ],
-      "removed": [
-        "FAQs"
-      ]
-    },
-    {
-      "id": "biffa-community-buildings",
-      "name": "Main Grants \u2014 Community Buildings",
-      "funder": "Biffa Award",
-      "url": "https://www.biffa-award.org/community-buildings/",
-      "change": "changed",
-      "status": 200,
-      "error": "",
-      "note": "redirected",
-      "title_changed": true,
-      "dates": [],
-      "money": [
-        "\u00a310,000",
-        "\u00a375,000",
-        "\u00a3200,000"
-      ],
-      "signals": [
-        "We can consider projects in places of worship under this theme if the building is used by many wider groups regularly each week, in a similar way to a village hall or community centre. We cannot fund general building repairs, repairs to church windows, spires, steeples or bell\u2026",
-        "Your project site is close enough to an eligible Biffa operation (5 miles) or Biffa landfill site (10 miles)",
-        "The site is open to the public for at least 104 days each year",
-        "The site will be open and fully accessible once the funded work is complete",
-        "We no longer accept grant applications from Scotland and Wales as devolved nations."
-      ],
-      "added": [
-        "Skip to main content",
-        "Share",
-        "facebook",
-        "twitter",
-        "email",
-        "whatsapp"
-      ],
-      "removed": [
-        "Skip to content",
-        "Criteria",
-        "Our Community Buildings theme aims to improve buildings at the heart of their communities, such as village halls, community centres and church halls.",
-        "Examples of costs that we can fund include renovations of community rooms, refurbishments of toilet facilities and kitchens, replacement doors and windows, extensions to create additional space that will benefit community groups, replacement of damaged floors and roofs, and new central heating systems."
-      ]
-    },
-    {
-      "id": "oglesby-climate-action",
-      "name": "Spotlight: Local Climate Action",
-      "funder": "The Oglesby Charitable Trust",
-      "url": "https://oglesbycharitabletrust.org.uk/spotlight-local-climate-action/",
-      "change": "changed",
-      "status": 200,
-      "error": "",
-      "note": "",
-      "title_changed": false,
-      "dates": [],
-      "money": [],
-      "signals": [
-        "*Please note this fund is now closed, thank you for your applications*"
-      ],
-      "added": [
-        "Empowering people who may be excluded from climate action due to factors such as their age, disability, gender, race or income.",
-        "*Please note this fund is now closed, thank you for your applications*"
-      ],
-      "removed": [
-        "Empowering people who are traditionally excluded from climate action due to factors such as their age, disability, gender, race or income.",
-        "*The fund is currently open to applications. APPLICATION FORM HERE*"
-      ]
-    },
-    {
-      "id": "voices-from-the-frontline",
-      "name": "Voices from the Frontline",
-      "funder": "Rosa",
-      "url": "https://rosauk.org/our-programmes/voices-from-the-frontline/",
-      "change": "changed",
-      "status": 200,
-      "error": "",
-      "note": "",
-      "title_changed": false,
-      "dates": [],
-      "money": [],
-      "signals": [
-        "Applications to the Voices from the Frontline Fund are currently closed.",
-        "Fund Status: Closed",
-        "Application Deadline:",
-        "The deadline for applications was 4.00pm on Tuesday 17th November. You need to have submitted your application form and video by this date. Please note that we will not accept applications after the deadline."
-      ],
-      "added": [
-        "Applications to the Voices from the Frontline Fund are currently closed.",
-        "Fund Status: Closed",
-        "Application Deadline:",
-        "The deadline for applications was 4.00pm on Tuesday 17th November. You need to have submitted your application form and video by this date. Please note that we will not accept applications after the deadline.",
-        "Tuesday 20th October, 10-11 am.",
-        "Thursday 5th November, 2-3pm. This webinar will have BSL interpretation provided."
-      ],
-      "removed": [
-        "Applications to the Voices from the Frontline Fund are currently open.",
-        "Fund Status: Open",
-        "Application Deadline: 16/11/2026",
-        "The deadline for applications is 4.00pm on Monday 16th November. You need to have submitted your application form and video by this date. Please note that we will not accept applications after the deadline."
-      ]
     },
     {
       "id": "brockaghboy-community-benefit-fund",
@@ -843,6 +497,22 @@
       "change": "unreachable",
       "status": 404,
       "error": "HTTP 404 Not Found",
+      "note": "",
+      "title_changed": false,
+      "dates": [],
+      "money": [],
+      "signals": [],
+      "added": [],
+      "removed": []
+    },
+    {
+      "id": "dogger-bank-operators-fund",
+      "name": "Dogger Bank Operators Fund",
+      "funder": "Dogger Bank Wind Farm operators",
+      "url": "https://redcarfundseekers.org.uk/funding/dogger-bank-operators-fund/",
+      "change": "baseline",
+      "status": 200,
+      "error": "",
       "note": "",
       "title_changed": false,
       "dates": [],
