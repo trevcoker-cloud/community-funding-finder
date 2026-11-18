@@ -1157,8 +1157,100 @@
       "seed": "https://www.heritagefund.org.uk/funding/national-lottery-heritage-grants-250k-10m/deadlines",
       "first_seen": "2026-11-18T12:55:03+00:00",
       "last_checked": "2026-11-18T12:55:03+00:00"
+    },
+    "https://www.nottinghamcvs.co.uk/news-and-events/support-victims-survivors-child-abuse-fund": {
+      "status": "added",
+      "id": "support-for-victims-and-survivors-of-child-sexua",
+      "name": "Support for Victims and Survivors of Child Sexual Abuse Fund",
+      "funder": "Support for Victims and Survivors of Child Sexual Abuse Fund",
+      "seed": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles?tid%5B12%5D=12&page=0",
+      "reason": "open programme on nottinghamcvs.co.uk, closes 2026-12-18 (amount wording found but no figure parsed)",
+      "first_seen": "2026-11-18T13:50:07+00:00",
+      "last_checked": "2026-11-18T13:50:07+00:00"
+    },
+    "https://www.nottinghamcvs.co.uk/news-and-events/news-articles/boost-charitable-trust": {
+      "status": "added",
+      "id": "boost-charitable-trust",
+      "name": "Boost Charitable Trust",
+      "funder": "Boost Charitable Trust",
+      "seed": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles?tid%5B12%5D=12&page=0",
+      "reason": "open programme on nottinghamcvs.co.uk, rolling, \u00a31,000\u2013\u00a37,000 as published on the funder's page",
+      "first_seen": "2026-11-18T13:50:07+00:00",
+      "last_checked": "2026-11-18T13:50:07+00:00"
+    },
+    "https://www.nottinghamcvs.co.uk/news-and-events/news-articles/jsaw-animal-welfare-fund": {
+      "status": "added",
+      "id": "jean-sainsbury-animal-welfare-trust",
+      "name": "Jean Sainsbury Animal Welfare Trust",
+      "funder": "Jean Sainsbury Animal Welfare Trust",
+      "seed": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles?tid%5B12%5D=12&page=0",
+      "reason": "open programme on nottinghamcvs.co.uk, closes 2026-12-01, up to \u00a335,000 as published on the funder's page",
+      "first_seen": "2026-11-18T13:50:07+00:00",
+      "last_checked": "2026-11-18T13:50:07+00:00"
+    },
+    "https://www.nottinghamcvs.co.uk/news-and-events/news-articles/flexible-finance-fund": {
+      "status": "added",
+      "id": "flexible-finance-fund",
+      "name": "Flexible Finance Fund",
+      "funder": "Flexible Finance Fund",
+      "seed": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles?tid%5B12%5D=12&page=0",
+      "reason": "open programme on nottinghamcvs.co.uk, rolling, up to \u00a3200,000 as published on the funder's page",
+      "first_seen": "2026-11-18T13:50:07+00:00",
+      "last_checked": "2026-11-18T13:50:07+00:00"
+    },
+    "https://www.nottinghamcvs.co.uk/news-and-events/news-articles/severn-trent-core-funding": {
+      "status": "added",
+      "id": "severn-trent-core-funding",
+      "name": "Severn Trent: Core funding",
+      "funder": "Severn Trent",
+      "seed": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles?tid%5B12%5D=12&page=0",
+      "reason": "open programme on nottinghamcvs.co.uk, closes 2026-11-30, \u00a35,000\u2013\u00a320,000 as published on the funder's page",
+      "first_seen": "2026-11-18T13:50:07+00:00",
+      "last_checked": "2026-11-18T13:50:07+00:00"
+    },
+    "https://www.nottinghamcvs.co.uk/news-and-events/news-articles/funding-local-charities-boots-charitable-trust": {
+      "status": "added",
+      "id": "funding-for-local-charities-from-boots-charitabl",
+      "name": "Funding for local charities from Boots Charitable Trust",
+      "funder": "Funding for local charities from Boots Charitable Trust",
+      "seed": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles?tid%5B12%5D=12&page=0",
+      "reason": "open programme on nottinghamcvs.co.uk, closes 2026-11-30, up to \u00a310,000 as published on the funder's page",
+      "first_seen": "2026-11-18T13:50:07+00:00",
+      "last_checked": "2026-11-18T13:50:07+00:00"
+    },
+    "https://nottinghamcvs.co.uk/news-and-events/news-articles/garfield-weston-foundation": {
+      "status": "rejected",
+      "reason": "looks like the existing entry \u201cGarfield Weston Foundation \u2014 Regular Grants\u201d",
+      "label": "Garfield Weston Foundation",
+      "seed": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles?tid%5B12%5D=12&page=0",
+      "first_seen": "2026-11-18T13:50:07+00:00",
+      "last_checked": "2026-11-18T13:50:07+00:00"
+    },
+    "https://nottinghamcvs.co.uk/news-and-events/news-articles/clothworkers-foundation-open-grants-programme": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "The Clothworkers' Foundation Open Grants Programme",
+      "seed": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles?tid%5B12%5D=12&page=0",
+      "first_seen": "2026-11-18T13:50:07+00:00",
+      "last_checked": "2026-11-18T13:50:07+00:00"
+    },
+    "https://nottinghamcvs.co.uk/news-and-events/news-articles/forte-charitable-foundation-major-grants": {
+      "status": "rejected",
+      "reason": "the page looks aimed at individuals rather than organisations",
+      "label": "Forte Charitable Foundation - Major Grants",
+      "seed": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles?tid%5B12%5D=12&page=0",
+      "first_seen": "2026-11-18T13:50:07+00:00",
+      "last_checked": "2026-11-18T13:50:07+00:00"
+    },
+    "https://nottinghamcvs.co.uk/news-and-events/news-articles/speech-language-hearing-foundation": {
+      "status": "rejected",
+      "reason": "no deadline, no amount and no clear apply route on the page",
+      "label": "The Speech, Language and Hearing Foundation",
+      "seed": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles?tid%5B12%5D=12&page=0",
+      "first_seen": "2026-11-18T13:50:07+00:00",
+      "last_checked": "2026-11-18T13:50:07+00:00"
     }
   },
-  "last_run": "2026-11-18T13:18:25+00:00",
-  "added_total": 19
+  "last_run": "2026-11-18T13:50:07+00:00",
+  "added_total": 25
 }
