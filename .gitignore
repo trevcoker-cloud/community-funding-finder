@@ -1,3 +1,5 @@
 data-check/backups/
 data-check/daily.log
 .tools/
+__pycache__/
+*.pyc
