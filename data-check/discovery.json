@@ -1249,8 +1249,40 @@
       "seed": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles?tid%5B12%5D=12&page=0",
       "first_seen": "2026-11-18T13:50:07+00:00",
       "last_checked": "2026-11-18T13:50:07+00:00"
+    },
+    "https://nottinghamcvs.co.uk/news-and-events/news-articles/comms-children-young-people-community-mental-health-grants": {
+      "status": "rejected",
+      "reason": "the page never mentions organisations, charities or community groups",
+      "label": "Children and Young People Community Mental Health Grants",
+      "seed": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles?tid%5B12%5D=12&page=0",
+      "first_seen": "2026-11-19T15:49:17+00:00",
+      "last_checked": "2026-11-19T15:49:17+00:00"
+    },
+    "https://nottinghamcvs.co.uk/news-and-events/news-articles/public-health-small-grants": {
+      "status": "rejected",
+      "reason": "almost no readable text (JavaScript-rendered or a stub page)",
+      "label": "Public Health Grants",
+      "seed": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles?tid%5B12%5D=12&page=0",
+      "first_seen": "2026-11-19T15:49:17+00:00",
+      "last_checked": "2026-11-19T15:49:17+00:00"
+    },
+    "https://find-government-grants.service.gov.uk/grants/support-for-victims-and-survivors-of-child-sexual-abuse-fund-2027---2029-1": {
+      "status": "rejected",
+      "reason": "looks like the existing entry \u201cSupport for Victims and Survivors of Child Sexual Abuse Fund\u201d",
+      "label": "Click here",
+      "seed": "https://www.nottinghamcvs.co.uk/news-and-events/support-victims-survivors-child-abuse-fund",
+      "first_seen": "2026-11-19T15:49:17+00:00",
+      "last_checked": "2026-11-19T15:49:17+00:00"
+    },
+    "https://sibgroup.org.uk/fund/flexible-finance": {
+      "status": "rejected",
+      "reason": "looks like the existing entry \u201cFlexible Finance Fund\u201d",
+      "label": "Click here",
+      "seed": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles/flexible-finance-fund",
+      "first_seen": "2026-11-19T15:49:17+00:00",
+      "last_checked": "2026-11-19T15:49:17+00:00"
     }
   },
-  "last_run": "2026-11-18T13:50:07+00:00",
+  "last_run": "2026-11-19T15:49:17+00:00",
   "added_total": 25
 }

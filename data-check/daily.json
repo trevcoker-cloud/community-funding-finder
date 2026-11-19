@@ -1,65 +1,22 @@
 {
-  "run_at": "2026-11-18T13:50:07+00:00",
-  "date": "2026-11-18",
-  "duration_s": 29.1,
-  "added": [
-    {
-      "id": "support-for-victims-and-survivors-of-child-sexua",
-      "name": "Support for Victims and Survivors of Child Sexual Abuse Fund",
-      "funder": "Support for Victims and Survivors of Child Sexual Abuse Fund",
-      "reason": "open programme on nottinghamcvs.co.uk, closes 2026-12-18 (amount wording found but no figure parsed)",
-      "seed": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles?tid%5B12%5D=12&page=0"
-    },
-    {
-      "id": "boost-charitable-trust",
-      "name": "Boost Charitable Trust",
-      "funder": "Boost Charitable Trust",
-      "reason": "open programme on nottinghamcvs.co.uk, rolling, \u00a31,000\u2013\u00a37,000 as published on the funder's page",
-      "seed": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles?tid%5B12%5D=12&page=0"
-    },
-    {
-      "id": "jean-sainsbury-animal-welfare-trust",
-      "name": "Jean Sainsbury Animal Welfare Trust",
-      "funder": "Jean Sainsbury Animal Welfare Trust",
-      "reason": "open programme on nottinghamcvs.co.uk, closes 2026-12-01, up to \u00a335,000 as published on the funder's page",
-      "seed": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles?tid%5B12%5D=12&page=0"
-    },
-    {
-      "id": "flexible-finance-fund",
-      "name": "Flexible Finance Fund",
-      "funder": "Flexible Finance Fund",
-      "reason": "open programme on nottinghamcvs.co.uk, rolling, up to \u00a3200,000 as published on the funder's page",
-      "seed": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles?tid%5B12%5D=12&page=0"
-    },
-    {
-      "id": "severn-trent-core-funding",
-      "name": "Severn Trent: Core funding",
-      "funder": "Severn Trent",
-      "reason": "open programme on nottinghamcvs.co.uk, closes 2026-11-30, \u00a35,000\u2013\u00a320,000 as published on the funder's page",
-      "seed": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles?tid%5B12%5D=12&page=0"
-    },
-    {
-      "id": "funding-for-local-charities-from-boots-charitabl",
-      "name": "Funding for local charities from Boots Charitable Trust",
-      "funder": "Funding for local charities from Boots Charitable Trust",
-      "reason": "open programme on nottinghamcvs.co.uk, closes 2026-11-30, up to \u00a310,000 as published on the funder's page",
-      "seed": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles?tid%5B12%5D=12&page=0"
-    }
-  ],
+  "run_at": "2026-11-19T15:49:17+00:00",
+  "date": "2026-11-19",
+  "duration_s": 31.4,
+  "added": [],
   "queued": [],
   "queued_total": 0,
   "auto_total": 25,
   "check": {
     "total": 86,
     "counts": {
-      "changed": 0,
-      "baseline": 6,
-      "unchanged": 77,
+      "changed": 4,
+      "baseline": 0,
+      "unchanged": 79,
       "blocked": 1,
       "unreachable": 2
     },
-    "report": "report-2026-11-18.md",
-    "run_at": "2026-11-18T13:50:21+00:00",
+    "report": "report-2026-11-19.md",
+    "run_at": "2026-11-19T15:49:31+00:00",
     "verified": "2026-10-23"
   },
   "notes": []

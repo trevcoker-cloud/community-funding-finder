@@ -1,53 +1,79 @@
 {
-  "run_at": "2026-11-18T13:50:21+00:00",
-  "date": "2026-11-18",
+  "run_at": "2026-11-19T15:49:31+00:00",
+  "date": "2026-11-19",
   "verified": "2026-10-23",
-  "verified_age_days": 26,
+  "verified_age_days": 27,
   "partial": false,
-  "report": "report-2026-11-18.md",
+  "report": "report-2026-11-19.md",
   "total": 86,
   "counts": {
-    "changed": 0,
-    "baseline": 6,
-    "unchanged": 77,
+    "changed": 4,
+    "baseline": 0,
+    "unchanged": 79,
     "blocked": 1,
     "unreachable": 2
   },
-  "pending_total": 25,
+  "pending_total": 27,
   "pending": [
     {
       "id": "unltd-climate-action",
       "first_seen": "2026-10-23T14:41:55+00:00",
-      "runs": 4,
+      "runs": 5,
       "dates": [
         "6 January 2027",
         "5 November 2026"
       ],
       "money": [],
       "signals": [
-        "Next round on 6 January 2027 at 10:00 (48 days)"
+        "Next round on 6 January 2027 at 10:00 (47 days)"
       ],
       "name": "Community Climate Action",
       "funder": "UnLtd",
       "url": "https://unltd.org.uk/community-climate-action/",
-      "last_seen": "2026-11-18T12:55:33+00:00",
+      "last_seen": "2026-11-19T15:49:31+00:00",
       "title_changed": false
     },
     {
       "id": "unltd-awards",
       "first_seen": "2026-10-23T14:41:55+00:00",
-      "runs": 4,
+      "runs": 5,
       "dates": [
         "6 January 2027"
       ],
       "money": [],
       "signals": [
-        "Next round on 6 January 2027 at 10:00 (48 days)"
+        "Next round on 6 January 2027 at 10:00 (47 days)"
       ],
       "name": "Starting Up and Scaling Up Awards",
       "funder": "UnLtd",
       "url": "https://unltd.org.uk/awards/eligibility-criteria/",
-      "last_seen": "2026-11-18T12:55:33+00:00",
+      "last_seen": "2026-11-19T15:49:31+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "acw-major-productions",
+      "first_seen": "2026-11-19T15:49:31+00:00",
+      "runs": 1,
+      "dates": [],
+      "money": [],
+      "signals": [],
+      "name": "Major Productions",
+      "funder": "Arts Council of Wales",
+      "url": "https://arts.wales/funding/organisations/major-productions",
+      "last_seen": "2026-11-19T15:49:31+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "create-and-engage",
+      "first_seen": "2026-11-19T15:49:31+00:00",
+      "runs": 1,
+      "dates": [],
+      "money": [],
+      "signals": [],
+      "name": "Create and Engage",
+      "funder": "Arts Council of Wales",
+      "url": "https://arts.wales/funding/individuals/create-and-engage",
+      "last_seen": "2026-11-19T15:49:31+00:00",
       "title_changed": false
     },
     {
@@ -458,6 +484,94 @@
       "removed": []
     },
     {
+      "id": "acw-major-productions",
+      "name": "Major Productions",
+      "funder": "Arts Council of Wales",
+      "url": "https://arts.wales/funding/organisations/major-productions",
+      "change": "changed",
+      "status": 200,
+      "error": "",
+      "note": "",
+      "title_changed": false,
+      "dates": [],
+      "money": [],
+      "signals": [],
+      "added": [
+        "Accessibility for Creative Projects"
+      ],
+      "removed": []
+    },
+    {
+      "id": "unltd-climate-action",
+      "name": "Community Climate Action",
+      "funder": "UnLtd",
+      "url": "https://unltd.org.uk/community-climate-action/",
+      "change": "changed",
+      "status": 200,
+      "error": "",
+      "note": "redirected",
+      "title_changed": false,
+      "dates": [
+        "6 January 2027"
+      ],
+      "money": [],
+      "signals": [
+        "Next round on 6 January 2027 at 10:00 (47 days)"
+      ],
+      "added": [
+        "Next round on 6 January 2027 at 10:00 (47 days)"
+      ],
+      "removed": [
+        "Next round on 6 January 2027 at 10:00 (48 days)"
+      ]
+    },
+    {
+      "id": "unltd-awards",
+      "name": "Starting Up and Scaling Up Awards",
+      "funder": "UnLtd",
+      "url": "https://unltd.org.uk/awards/eligibility-criteria/",
+      "change": "changed",
+      "status": 200,
+      "error": "",
+      "note": "",
+      "title_changed": false,
+      "dates": [
+        "6 January 2027"
+      ],
+      "money": [],
+      "signals": [
+        "Next round on 6 January 2027 at 10:00 (47 days)"
+      ],
+      "added": [
+        "Next round on 6 January 2027 at 10:00 (47 days)"
+      ],
+      "removed": [
+        "Next round on 6 January 2027 at 10:00 (48 days)"
+      ]
+    },
+    {
+      "id": "create-and-engage",
+      "name": "Create and Engage",
+      "funder": "Arts Council of Wales",
+      "url": "https://arts.wales/funding/individuals/create-and-engage",
+      "change": "changed",
+      "status": 200,
+      "error": "",
+      "note": "",
+      "title_changed": false,
+      "dates": [],
+      "money": [],
+      "signals": [],
+      "added": [
+        "Your proposal will strongly demonstrate how it will support one or more of our principles as set out in our strategy:",
+        "Accessibility for Creative Projects"
+      ],
+      "removed": [
+        "Your proposal will strongly demonstrate how it will support one or more of our principles as set out in our corporate plan:",
+        "Everything supported through this Fund will be expected to demonstrate commitment to the principles of the Welsh Government\u2019s Wellbeing of Future Generations Act (Wales) 2015."
+      ]
+    },
+    {
       "id": "brockaghboy-community-benefit-fund",
       "name": "Brockaghboy Community Benefit Fund",
       "funder": "Community Foundation Northern Ireland",
@@ -488,176 +602,86 @@
       "signals": [],
       "added": [],
       "removed": []
-    },
-    {
-      "id": "support-for-victims-and-survivors-of-child-sexua",
-      "name": "Support for Victims and Survivors of Child Sexual Abuse Fund",
-      "funder": "Support for Victims and Survivors of Child Sexual Abuse Fund",
-      "url": "https://www.nottinghamcvs.co.uk/news-and-events/support-victims-survivors-child-abuse-fund",
-      "change": "baseline",
-      "status": 200,
-      "error": "",
-      "note": "",
-      "title_changed": false,
-      "dates": [],
-      "money": [],
-      "signals": [],
-      "added": [],
-      "removed": []
-    },
-    {
-      "id": "boost-charitable-trust",
-      "name": "Boost Charitable Trust",
-      "funder": "Boost Charitable Trust",
-      "url": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles/boost-charitable-trust",
-      "change": "baseline",
-      "status": 200,
-      "error": "",
-      "note": "",
-      "title_changed": false,
-      "dates": [],
-      "money": [],
-      "signals": [],
-      "added": [],
-      "removed": []
-    },
-    {
-      "id": "jean-sainsbury-animal-welfare-trust",
-      "name": "Jean Sainsbury Animal Welfare Trust",
-      "funder": "Jean Sainsbury Animal Welfare Trust",
-      "url": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles/jsaw-animal-welfare-fund",
-      "change": "baseline",
-      "status": 200,
-      "error": "",
-      "note": "",
-      "title_changed": false,
-      "dates": [],
-      "money": [],
-      "signals": [],
-      "added": [],
-      "removed": []
-    },
-    {
-      "id": "flexible-finance-fund",
-      "name": "Flexible Finance Fund",
-      "funder": "Flexible Finance Fund",
-      "url": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles/flexible-finance-fund",
-      "change": "baseline",
-      "status": 200,
-      "error": "",
-      "note": "",
-      "title_changed": false,
-      "dates": [],
-      "money": [],
-      "signals": [],
-      "added": [],
-      "removed": []
-    },
-    {
-      "id": "severn-trent-core-funding",
-      "name": "Severn Trent: Core funding",
-      "funder": "Severn Trent",
-      "url": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles/severn-trent-core-funding",
-      "change": "baseline",
-      "status": 200,
-      "error": "",
-      "note": "",
-      "title_changed": false,
-      "dates": [],
-      "money": [],
-      "signals": [],
-      "added": [],
-      "removed": []
-    },
-    {
-      "id": "funding-for-local-charities-from-boots-charitabl",
-      "name": "Funding for local charities from Boots Charitable Trust",
-      "funder": "Funding for local charities from Boots Charitable Trust",
-      "url": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles/funding-local-charities-boots-charitable-trust",
-      "change": "baseline",
-      "status": 200,
-      "error": "",
-      "note": "",
-      "title_changed": false,
-      "dates": [],
-      "money": [],
-      "signals": [],
-      "added": [],
-      "removed": []
     }
   ],
   "stale": [
     {
+      "id": "acw-major-productions",
+      "name": "Major Productions",
+      "closes": "2026-11-18",
+      "problem": "deadline passed 1 day ago"
+    },
+    {
       "id": "city-bridge-economic-change",
       "name": "Communities Building Economic Change",
       "closes": "2026-11-03",
-      "problem": "deadline passed 15 days ago"
+      "problem": "deadline passed 16 days ago"
     },
     {
       "id": "acni-small-capital",
       "name": "Arts Council of Northern Ireland \u2014 Small Capital Grants",
       "closes": "2026-11-16",
-      "problem": "deadline passed 2 days ago"
+      "problem": "deadline passed 3 days ago"
     },
     {
       "id": "rosa-voices-frontline",
       "name": "Rosa \u2014 Voices from the Frontline",
       "closes": "2026-11-16",
-      "problem": "deadline passed 2 days ago"
+      "problem": "deadline passed 3 days ago"
     },
     {
       "id": "heritage-grants-large",
       "name": "National Lottery Heritage Grants \u00a3250,000\u2013\u00a310m",
       "closes": "2026-11-12",
-      "problem": "deadline passed 6 days ago"
+      "problem": "deadline passed 7 days ago"
     },
     {
       "id": "cfni-foyle",
       "name": "The Foyle Foundation Fund",
       "closes": "2026-11-16",
-      "problem": "deadline passed 2 days ago"
+      "problem": "deadline passed 3 days ago"
     },
     {
       "id": "spen-community-benefit",
       "name": "SP Energy Networks Community Benefit Programme",
       "closes": "2026-11-06",
-      "problem": "deadline passed 12 days ago"
+      "problem": "deadline passed 13 days ago"
     },
     {
       "id": "oglesby-climate-action",
       "name": "Spotlight: Local Climate Action",
       "closes": "2026-11-03",
-      "problem": "deadline passed 15 days ago"
+      "problem": "deadline passed 16 days ago"
     },
     {
       "id": "sylvia-waddilove",
       "name": "Sylvia Waddilove Foundation UK Grants",
       "closes": "2026-10-30",
-      "problem": "deadline passed 19 days ago"
+      "problem": "deadline passed 20 days ago"
     },
     {
       "id": "voices-from-the-frontline",
       "name": "Voices from the Frontline",
       "closes": "2026-11-16",
-      "problem": "deadline passed 2 days ago"
+      "problem": "deadline passed 3 days ago"
     },
     {
       "id": "bath-west-community-energy-fund",
       "name": "Bath & West Community Energy Fund",
       "closes": "2026-10-29",
-      "problem": "deadline passed 20 days ago"
+      "problem": "deadline passed 21 days ago"
     },
     {
       "id": "brockaghboy-community-benefit-fund",
       "name": "Brockaghboy Community Benefit Fund",
       "closes": "2026-11-05",
-      "problem": "deadline passed 13 days ago"
+      "problem": "deadline passed 14 days ago"
     },
     {
       "id": "community-wellbeing-health-fund",
       "name": "Community Wellbeing & Health Fund",
       "closes": "2026-11-02",
-      "problem": "deadline passed 16 days ago"
+      "problem": "deadline passed 17 days ago"
     }
   ]
 }
