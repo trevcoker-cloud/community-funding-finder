@@ -1,36 +1,68 @@
 {
-  "run_at": "2026-11-19T15:49:31+00:00",
-  "date": "2026-11-19",
+  "run_at": "2026-11-20T15:30:37+00:00",
+  "date": "2026-11-20",
   "verified": "2026-10-23",
-  "verified_age_days": 27,
+  "verified_age_days": 28,
   "partial": false,
-  "report": "report-2026-11-19.md",
+  "report": "report-2026-11-20.md",
   "total": 86,
   "counts": {
-    "changed": 4,
+    "changed": 3,
     "baseline": 0,
-    "unchanged": 79,
+    "unchanged": 80,
     "blocked": 1,
     "unreachable": 2
   },
-  "pending_total": 27,
+  "pending_total": 29,
   "pending": [
     {
       "id": "unltd-climate-action",
       "first_seen": "2026-10-23T14:41:55+00:00",
-      "runs": 5,
+      "runs": 6,
       "dates": [
         "6 January 2027",
         "5 November 2026"
       ],
       "money": [],
       "signals": [
-        "Next round on 6 January 2027 at 10:00 (47 days)"
+        "Next round on 6 January 2027 at 10:00 (46 days)"
       ],
       "name": "Community Climate Action",
       "funder": "UnLtd",
       "url": "https://unltd.org.uk/community-climate-action/",
-      "last_seen": "2026-11-19T15:49:31+00:00",
+      "last_seen": "2026-11-20T15:30:37+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "matthew-good-grants-for-good",
+      "first_seen": "2026-11-20T15:30:37+00:00",
+      "runs": 1,
+      "dates": [],
+      "money": [],
+      "signals": [
+        "Fuse Youth Services is a grassroots charity in Bridlington, East Yorkshire. It offers early support to children and young people aged 8 - 25, so problems do not reach crisis point. Fuse began in 2021 after a local youth organisation closed, and young people chose its name them\u2026"
+      ],
+      "name": "Grants for Good",
+      "funder": "Matthew Good Foundation",
+      "url": "https://www.matthewgoodfoundation.org/amplify-fund-grants-for-good/",
+      "last_seen": "2026-11-20T15:30:37+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "dogger-bank-operators-fund",
+      "first_seen": "2026-11-20T15:30:37+00:00",
+      "runs": 1,
+      "dates": [
+        "20 November 2026"
+      ],
+      "money": [],
+      "signals": [
+        "Reference: RFS-00314 \u00b7 Last updated: 20 November 2026"
+      ],
+      "name": "Dogger Bank Operators Fund",
+      "funder": "Dogger Bank Wind Farm operators",
+      "url": "https://redcarfundseekers.org.uk/funding/dogger-bank-operators-fund/",
+      "last_seen": "2026-11-20T15:30:37+00:00",
       "title_changed": false
     },
     {
@@ -484,10 +516,10 @@
       "removed": []
     },
     {
-      "id": "acw-major-productions",
-      "name": "Major Productions",
-      "funder": "Arts Council of Wales",
-      "url": "https://arts.wales/funding/organisations/major-productions",
+      "id": "matthew-good-grants-for-good",
+      "name": "Grants for Good",
+      "funder": "Matthew Good Foundation",
+      "url": "https://www.matthewgoodfoundation.org/amplify-fund-grants-for-good/",
       "change": "changed",
       "status": 200,
       "error": "",
@@ -495,11 +527,22 @@
       "title_changed": false,
       "dates": [],
       "money": [],
-      "signals": [],
-      "added": [
-        "Accessibility for Creative Projects"
+      "signals": [
+        "Fuse Youth Services is a grassroots charity in Bridlington, East Yorkshire. It offers early support to children and young people aged 8 - 25, so problems do not reach crisis point. Fuse began in 2021 after a local youth organisation closed, and young people chose its name them\u2026"
       ],
-      "removed": []
+      "added": [
+        "Mandy\u2019s Pantry CIC teaches practical, low-cost cooking in Grimsby and across North East Lincolnshire. Its sessions help people build cooking skills, make friends and feel less alone. Founder Mandy Todd runs the sessions with families, carers, older people and people with disabilities in community venues. In about 16 months,",
+        "Body Image Coach CIC is a Bradford-based organisation offering preventive support to young people aged 11\u201325 who struggle with body image. Its six-week online programme combines animated workshops, peer support groups and practical workbooks. Since launching, it has supported over 380 participants, and 78% said they felt better or",
+        "Hedon and District Shed is a new community group in Hedon, east of Hull, tackling loneliness and social isolation. Members meet each week to chat, make friends and share skills. The group draws on the men\u2019s shed movement, yet it welcomes anyone aged 18 or over. Now, the team",
+        "Fuse Youth Services is a grassroots charity in Bridlington, East Yorkshire. It offers early support to children and young people aged 8 - 25, so problems do not reach crisis point. Fuse began in 2021 after a local youth organisation closed, and young people chose its name themselves. Through",
+        "Blue Light Weekend is a volunteer-led initiative in Withernsea that strengthens relationships between local people and those who protect them. By helping residents meet emergency service personnel and military veterans, it builds trust and community resilience. The event also promotes life skills, including water safety education, in a coastal"
+      ],
+      "removed": [
+        "The Mastectomy Tattooing Alliance supports people recovering from breast cancer, BRCA-related surgery, or gender-affirming surgery. Founded by tattoo artist Tanya Buxton in Cheltenham 2021, MTA helps people access high-quality areola and mastectomy tattoos. It does this through a voucher scheme and a growing network of vetted artists across the",
+        "The MoneyHeave Community Project is a grassroots organisation helping young adults and underrepresented communities take control of their finances. Founded by finance professional Roneish Myers, MoneyHeave runs practical workshops on budgeting, debt and saving. These sessions build skills and confidence in places where financial advice is often out of",
+        "Recycle-IT! is a community interest company based in Bolton, tackling digital exclusion and e-waste by collecting, refurbishing and redistributing IT equipment to people and community groups who need it most. Since launching, the organisation has diverted over 270 tonnes of e-waste from landfill, redistributed more than 3,500 devices, and",
+        "Otterhead is an off-grid nature reserve on the Somerset/Devon border, south of Taunton, freely open to the public. The Otterhead Estate Trust manages much of the site, maximising biodiversity and wildlife habitats, while restoring heritage features. The Forest School, based at the Coach House, supports children with complex needs."
+      ]
     },
     {
       "id": "unltd-climate-action",
@@ -516,59 +559,13 @@
       ],
       "money": [],
       "signals": [
-        "Next round on 6 January 2027 at 10:00 (47 days)"
+        "Next round on 6 January 2027 at 10:00 (46 days)"
       ],
       "added": [
-        "Next round on 6 January 2027 at 10:00 (47 days)"
+        "Next round on 6 January 2027 at 10:00 (46 days)"
       ],
       "removed": [
-        "Next round on 6 January 2027 at 10:00 (48 days)"
-      ]
-    },
-    {
-      "id": "unltd-awards",
-      "name": "Starting Up and Scaling Up Awards",
-      "funder": "UnLtd",
-      "url": "https://unltd.org.uk/awards/eligibility-criteria/",
-      "change": "changed",
-      "status": 200,
-      "error": "",
-      "note": "",
-      "title_changed": false,
-      "dates": [
-        "6 January 2027"
-      ],
-      "money": [],
-      "signals": [
         "Next round on 6 January 2027 at 10:00 (47 days)"
-      ],
-      "added": [
-        "Next round on 6 January 2027 at 10:00 (47 days)"
-      ],
-      "removed": [
-        "Next round on 6 January 2027 at 10:00 (48 days)"
-      ]
-    },
-    {
-      "id": "create-and-engage",
-      "name": "Create and Engage",
-      "funder": "Arts Council of Wales",
-      "url": "https://arts.wales/funding/individuals/create-and-engage",
-      "change": "changed",
-      "status": 200,
-      "error": "",
-      "note": "",
-      "title_changed": false,
-      "dates": [],
-      "money": [],
-      "signals": [],
-      "added": [
-        "Your proposal will strongly demonstrate how it will support one or more of our principles as set out in our strategy:",
-        "Accessibility for Creative Projects"
-      ],
-      "removed": [
-        "Your proposal will strongly demonstrate how it will support one or more of our principles as set out in our corporate plan:",
-        "Everything supported through this Fund will be expected to demonstrate commitment to the principles of the Welsh Government\u2019s Wellbeing of Future Generations Act (Wales) 2015."
       ]
     },
     {
@@ -602,6 +599,30 @@
       "signals": [],
       "added": [],
       "removed": []
+    },
+    {
+      "id": "dogger-bank-operators-fund",
+      "name": "Dogger Bank Operators Fund",
+      "funder": "Dogger Bank Wind Farm operators",
+      "url": "https://redcarfundseekers.org.uk/funding/dogger-bank-operators-fund/",
+      "change": "changed",
+      "status": 200,
+      "error": "",
+      "note": "",
+      "title_changed": false,
+      "dates": [
+        "20 November 2026"
+      ],
+      "money": [],
+      "signals": [
+        "Reference: RFS-00314 \u00b7 Last updated: 20 November 2026"
+      ],
+      "added": [
+        "Reference: RFS-00314 \u00b7 Last updated: 20 November 2026"
+      ],
+      "removed": [
+        "Reference: RFS-00314 \u00b7 Last updated: 13 November 2026"
+      ]
     }
   ],
   "stale": [
@@ -609,79 +630,85 @@
       "id": "acw-major-productions",
       "name": "Major Productions",
       "closes": "2026-11-18",
+      "problem": "deadline passed 2 days ago"
+    },
+    {
+      "id": "forest-of-dean-startup",
+      "name": "Business Start Up Grant",
+      "closes": "2026-11-19",
       "problem": "deadline passed 1 day ago"
     },
     {
       "id": "city-bridge-economic-change",
       "name": "Communities Building Economic Change",
       "closes": "2026-11-03",
-      "problem": "deadline passed 16 days ago"
+      "problem": "deadline passed 17 days ago"
     },
     {
       "id": "acni-small-capital",
       "name": "Arts Council of Northern Ireland \u2014 Small Capital Grants",
       "closes": "2026-11-16",
-      "problem": "deadline passed 3 days ago"
+      "problem": "deadline passed 4 days ago"
     },
     {
       "id": "rosa-voices-frontline",
       "name": "Rosa \u2014 Voices from the Frontline",
       "closes": "2026-11-16",
-      "problem": "deadline passed 3 days ago"
+      "problem": "deadline passed 4 days ago"
     },
     {
       "id": "heritage-grants-large",
       "name": "National Lottery Heritage Grants \u00a3250,000\u2013\u00a310m",
       "closes": "2026-11-12",
-      "problem": "deadline passed 7 days ago"
+      "problem": "deadline passed 8 days ago"
     },
     {
       "id": "cfni-foyle",
       "name": "The Foyle Foundation Fund",
       "closes": "2026-11-16",
-      "problem": "deadline passed 3 days ago"
+      "problem": "deadline passed 4 days ago"
     },
     {
       "id": "spen-community-benefit",
       "name": "SP Energy Networks Community Benefit Programme",
       "closes": "2026-11-06",
-      "problem": "deadline passed 13 days ago"
+      "problem": "deadline passed 14 days ago"
     },
     {
       "id": "oglesby-climate-action",
       "name": "Spotlight: Local Climate Action",
       "closes": "2026-11-03",
-      "problem": "deadline passed 16 days ago"
+      "problem": "deadline passed 17 days ago"
     },
     {
       "id": "sylvia-waddilove",
       "name": "Sylvia Waddilove Foundation UK Grants",
       "closes": "2026-10-30",
-      "problem": "deadline passed 20 days ago"
+      "problem": "deadline passed 21 days ago"
     },
     {
       "id": "voices-from-the-frontline",
       "name": "Voices from the Frontline",
       "closes": "2026-11-16",
-      "problem": "deadline passed 3 days ago"
+      "problem": "deadline passed 4 days ago"
     },
     {
       "id": "bath-west-community-energy-fund",
       "name": "Bath & West Community Energy Fund",
       "closes": "2026-10-29",
-      "problem": "deadline passed 21 days ago"
+      "problem": "deadline passed 22 days ago"
     },
     {
       "id": "brockaghboy-community-benefit-fund",
       "name": "Brockaghboy Community Benefit Fund",
       "closes": "2026-11-05",
-      "problem": "deadline passed 14 days ago"
+      "problem": "deadline passed 15 days ago"
     },
     {
       "id": "community-wellbeing-health-fund",
       "name": "Community Wellbeing & Health Fund",
       "closes": "2026-11-02",
-      "problem": "deadline passed 17 days ago"
+      "problem": "deadline passed 18 days ago"
     }
   ]
 }

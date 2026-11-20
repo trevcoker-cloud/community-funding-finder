@@ -1281,8 +1281,16 @@
       "seed": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles/flexible-finance-fund",
       "first_seen": "2026-11-19T15:49:17+00:00",
       "last_checked": "2026-11-19T15:49:17+00:00"
+    },
+    "https://funding.scot/funders/001b000000Sszw3AAB/henry-smith-foundation": {
+      "status": "rejected",
+      "reason": "the page lists 10 other programmes \u2014 it is a grants index, not one fund",
+      "label": "Funder",
+      "seed": "https://funding.scot/",
+      "first_seen": "2026-11-20T15:30:21+00:00",
+      "last_checked": "2026-11-20T15:30:21+00:00"
     }
   },
-  "last_run": "2026-11-19T15:49:17+00:00",
+  "last_run": "2026-11-20T15:30:21+00:00",
   "added_total": 25
 }
