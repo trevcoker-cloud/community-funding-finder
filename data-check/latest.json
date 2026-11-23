@@ -1,53 +1,52 @@
 {
-  "run_at": "2026-11-22T14:38:52+00:00",
-  "date": "2026-11-22",
+  "run_at": "2026-11-23T18:16:48+00:00",
+  "date": "2026-11-23",
   "verified": "2026-10-23",
-  "verified_age_days": 30,
+  "verified_age_days": 31,
   "partial": false,
-  "report": "report-2026-11-22.md",
+  "report": "report-2026-11-23.md",
   "total": 86,
   "counts": {
     "changed": 2,
-    "baseline": 0,
+    "baseline": 1,
     "unchanged": 80,
-    "blocked": 2,
+    "blocked": 1,
     "unreachable": 2
   },
   "pending_total": 29,
   "pending": [
     {
       "id": "unltd-climate-action",
-      "first_seen": "2026-10-23T14:41:55+00:00",
-      "runs": 8,
-      "dates": [
-        "6 January 2027",
-        "5 November 2026"
-      ],
-      "money": [],
-      "signals": [
-        "Next round on 6 January 2027 at 10:00 (44 days)"
-      ],
-      "name": "Community Climate Action",
-      "funder": "UnLtd",
-      "url": "https://unltd.org.uk/community-climate-action/",
-      "last_seen": "2026-11-22T14:38:52+00:00",
-      "title_changed": false
-    },
-    {
-      "id": "unltd-awards",
-      "first_seen": "2026-10-23T14:41:55+00:00",
-      "runs": 7,
+      "first_seen": "2026-11-23T18:16:48+00:00",
+      "runs": 1,
       "dates": [
         "6 January 2027"
       ],
       "money": [],
       "signals": [
-        "Next round on 6 January 2027 at 10:00 (45 days)"
+        "Next round on 6 January 2027 at 10:00 (43 days)"
+      ],
+      "name": "Community Climate Action",
+      "funder": "UnLtd",
+      "url": "https://unltd.org.uk/community-climate-action/",
+      "last_seen": "2026-11-23T18:16:48+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "unltd-awards",
+      "first_seen": "2026-11-23T18:16:48+00:00",
+      "runs": 1,
+      "dates": [
+        "6 January 2027"
+      ],
+      "money": [],
+      "signals": [
+        "Next round on 6 January 2027 at 10:00 (44 days)"
       ],
       "name": "Starting Up and Scaling Up Awards",
       "funder": "UnLtd",
       "url": "https://unltd.org.uk/awards/eligibility-criteria/",
-      "last_seen": "2026-11-22T14:38:52+00:00",
+      "last_seen": "2026-11-23T18:16:48+00:00",
       "title_changed": false
     },
     {
@@ -530,13 +529,13 @@
       ],
       "money": [],
       "signals": [
-        "Next round on 6 January 2027 at 10:00 (44 days)"
+        "Next round on 6 January 2027 at 10:00 (43 days)"
       ],
       "added": [
-        "Next round on 6 January 2027 at 10:00 (44 days)"
+        "Next round on 6 January 2027 at 10:00 (43 days)"
       ],
       "removed": [
-        "Next round on 6 January 2027 at 10:00 (45 days)"
+        "Next round on 6 January 2027 at 10:00 (44 days)"
       ]
     },
     {
@@ -554,13 +553,13 @@
       ],
       "money": [],
       "signals": [
-        "Next round on 6 January 2027 at 10:00 (45 days)"
+        "Next round on 6 January 2027 at 10:00 (44 days)"
       ],
       "added": [
-        "Next round on 6 January 2027 at 10:00 (45 days)"
+        "Next round on 6 January 2027 at 10:00 (44 days)"
       ],
       "removed": [
-        "Next round on 6 January 2027 at 10:00 (46 days)"
+        "Next round on 6 January 2027 at 10:00 (45 days)"
       ]
     },
     {
@@ -568,9 +567,9 @@
       "name": "Disability Justice Fund",
       "funder": "Trust for London",
       "url": "https://trustforlondon.org.uk/funding/social-justice/disability-justice/",
-      "change": "blocked",
-      "status": 403,
-      "error": "HTTP 403 Forbidden",
+      "change": "baseline",
+      "status": 200,
+      "error": "",
       "note": "",
       "title_changed": false,
       "dates": [],
@@ -617,85 +616,85 @@
       "id": "acw-major-productions",
       "name": "Major Productions",
       "closes": "2026-11-18",
-      "problem": "deadline passed 4 days ago"
+      "problem": "deadline passed 5 days ago"
     },
     {
       "id": "forest-of-dean-startup",
       "name": "Business Start Up Grant",
       "closes": "2026-11-19",
-      "problem": "deadline passed 3 days ago"
+      "problem": "deadline passed 4 days ago"
     },
     {
       "id": "city-bridge-economic-change",
       "name": "Communities Building Economic Change",
       "closes": "2026-11-03",
-      "problem": "deadline passed 19 days ago"
+      "problem": "deadline passed 20 days ago"
     },
     {
       "id": "acni-small-capital",
       "name": "Arts Council of Northern Ireland \u2014 Small Capital Grants",
       "closes": "2026-11-16",
-      "problem": "deadline passed 6 days ago"
+      "problem": "deadline passed 7 days ago"
     },
     {
       "id": "rosa-voices-frontline",
       "name": "Rosa \u2014 Voices from the Frontline",
       "closes": "2026-11-16",
-      "problem": "deadline passed 6 days ago"
+      "problem": "deadline passed 7 days ago"
     },
     {
       "id": "heritage-grants-large",
       "name": "National Lottery Heritage Grants \u00a3250,000\u2013\u00a310m",
       "closes": "2026-11-12",
-      "problem": "deadline passed 10 days ago"
+      "problem": "deadline passed 11 days ago"
     },
     {
       "id": "cfni-foyle",
       "name": "The Foyle Foundation Fund",
       "closes": "2026-11-16",
-      "problem": "deadline passed 6 days ago"
+      "problem": "deadline passed 7 days ago"
     },
     {
       "id": "spen-community-benefit",
       "name": "SP Energy Networks Community Benefit Programme",
       "closes": "2026-11-06",
-      "problem": "deadline passed 16 days ago"
+      "problem": "deadline passed 17 days ago"
     },
     {
       "id": "oglesby-climate-action",
       "name": "Spotlight: Local Climate Action",
       "closes": "2026-11-03",
-      "problem": "deadline passed 19 days ago"
+      "problem": "deadline passed 20 days ago"
     },
     {
       "id": "sylvia-waddilove",
       "name": "Sylvia Waddilove Foundation UK Grants",
       "closes": "2026-10-30",
-      "problem": "deadline passed 23 days ago"
+      "problem": "deadline passed 24 days ago"
     },
     {
       "id": "voices-from-the-frontline",
       "name": "Voices from the Frontline",
       "closes": "2026-11-16",
-      "problem": "deadline passed 6 days ago"
+      "problem": "deadline passed 7 days ago"
     },
     {
       "id": "bath-west-community-energy-fund",
       "name": "Bath & West Community Energy Fund",
       "closes": "2026-10-29",
-      "problem": "deadline passed 24 days ago"
+      "problem": "deadline passed 25 days ago"
     },
     {
       "id": "brockaghboy-community-benefit-fund",
       "name": "Brockaghboy Community Benefit Fund",
       "closes": "2026-11-05",
-      "problem": "deadline passed 17 days ago"
+      "problem": "deadline passed 18 days ago"
     },
     {
       "id": "community-wellbeing-health-fund",
       "name": "Community Wellbeing & Health Fund",
       "closes": "2026-11-02",
-      "problem": "deadline passed 20 days ago"
+      "problem": "deadline passed 21 days ago"
     }
   ]
 }
