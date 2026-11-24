@@ -1,18 +1,13 @@
 {
   "daily": {
-    "last_run": "2026-11-23T18:16:30+00:00",
-    "duration_s": 41.9,
+    "last_run": "2026-11-24T17:50:22+00:00",
+    "duration_s": 33.2,
     "added": [],
     "added_total": 25,
     "queued_total": 0,
-    "report": "report-2026-11-23.md"
+    "report": "report-2026-11-24.md"
   },
   "daily_history": [
-    {
-      "run_at": "2026-11-18T13:10:59+00:00",
-      "added": [],
-      "queued": 0
-    },
     {
       "run_at": "2026-11-18T13:13:25+00:00",
       "added": [],
@@ -64,14 +59,19 @@
       "run_at": "2026-11-23T18:16:30+00:00",
       "added": [],
       "queued": 0
+    },
+    {
+      "run_at": "2026-11-24T17:50:22+00:00",
+      "added": [],
+      "queued": 0
     }
   ],
-  "last_run": "2026-11-23T18:16:48+00:00",
+  "last_run": "2026-11-24T17:50:36+00:00",
   "verified": "2026-10-23",
   "checks": {
     "afl-england": {
       "url": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/national-lottery-awards-for-all-england/who-can-apply",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/national-lottery-awards-for-all-england/who-can-apply",
@@ -81,7 +81,7 @@
     },
     "afl-scotland": {
       "url": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/national-lottery-awards-for-all-scotland/who-can-apply",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/national-lottery-awards-for-all-scotland/who-can-apply",
@@ -91,7 +91,7 @@
     },
     "afl-wales": {
       "url": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/national-lottery-awards-for-all-wales/who-can-apply",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/national-lottery-awards-for-all-wales/who-can-apply",
@@ -101,7 +101,7 @@
     },
     "afl-ni": {
       "url": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/national-lottery-awards-for-all-northern-ireland/who-can-apply",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/national-lottery-awards-for-all-northern-ireland/who-can-apply",
@@ -111,7 +111,7 @@
     },
     "afl-england-environment": {
       "url": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/national-lottery-awards-for-all-england-environment",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/national-lottery-awards-for-all-england-environment",
@@ -121,7 +121,7 @@
     },
     "reaching-communities": {
       "url": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/reaching-communities-england/who-can-apply",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/reaching-communities-england/who-can-apply",
@@ -131,7 +131,7 @@
     },
     "uk-fund": {
       "url": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/the-uk-fund/how-to-apply",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/the-uk-fund/how-to-apply",
@@ -141,7 +141,7 @@
     },
     "strengthening-communities-ni": {
       "url": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/strengthening-communities/how-to-apply",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/strengthening-communities/how-to-apply",
@@ -151,7 +151,7 @@
     },
     "young-start": {
       "url": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/young-start-main-grants/who-can-apply",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.tnlcommunityfund.org.uk/funding/funding-programmes/young-start-main-grants/who-can-apply",
@@ -161,7 +161,7 @@
     },
     "heritage-grants": {
       "url": "https://www.heritagefund.org.uk/funding/national-lottery-heritage-grants-10k-250k-0",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.heritagefund.org.uk/funding/national-lottery-heritage-grants-10k-250k-0",
@@ -171,7 +171,7 @@
     },
     "ace-project-grants": {
       "url": "https://www.artscouncil.org.uk/ProjectGrants/national-lottery-project-grants-guidance-library",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 403,
       "ok": false,
       "final_url": "https://www.artscouncil.org.uk/ProjectGrants/national-lottery-project-grants-guidance-library",
@@ -181,7 +181,7 @@
     },
     "creative-scotland-open-fund": {
       "url": "https://www.creativescotland.com/funding/help-with-your-application/who-can-apply",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.creativescotland.com/funding/help-with-your-application/who-can-apply",
@@ -191,7 +191,7 @@
     },
     "acw-major-productions": {
       "url": "https://arts.wales/funding/organisations/major-productions",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://arts.wales/funding/organisations/major-productions",
@@ -201,7 +201,7 @@
     },
     "movement-fund": {
       "url": "https://www.sportengland.org/funding-and-campaigns/our-funding/movement-fund",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.sportengland.org/funding-and-campaigns/our-funding/movement-fund",
@@ -211,7 +211,7 @@
     },
     "matthew-good-grants-for-good": {
       "url": "https://www.matthewgoodfoundation.org/amplify-fund-grants-for-good/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.matthewgoodfoundation.org/amplify-fund-grants-for-good/",
@@ -221,37 +221,37 @@
     },
     "warwick-climate-nature": {
       "url": "https://www.warwickdc.gov.uk/info/20468/sustainability_and_climate_change/2111/community_climate_and_nature_fund",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.warwickdc.gov.uk/info/20468/sustainability_and_climate_change/2111/community_climate_and_nature_fund",
       "title": "Community Climate and Nature Fund - Warwick District Council.",
-      "hash": "a84a89c70a7755eb6ea8614616d08adb9017b3759160e08bfa357f367cb7f3d8",
+      "hash": "451b0e1308c7f6fefcfdc4cb3429589449d3434c4d4bb029aaa53e515c069614",
       "content_type": "text/html"
     },
     "unltd-climate-action": {
       "url": "https://unltd.org.uk/community-climate-action/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://unltd.org.uk/community-climate-action",
       "title": "Community Climate Action | UnLtdUnLtd logoUnLtd logoUnLtd logoUnLtd logoUnLtd logoUnLtd logo",
-      "hash": "0ac620fd35c5a274ffccfe26e7438f2e404a4984a8f9ee8774501efabf90836b",
+      "hash": "333a2924e68b18bb35f4a8a91ef4e5ae3d42d33700f3c8fc99df4477bd75c45f",
       "content_type": "text/html"
     },
     "unltd-awards": {
       "url": "https://unltd.org.uk/awards/eligibility-criteria/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://unltd.org.uk/awards/eligibility-criteria/",
       "title": "Eligibility Criteria | UnLtdUnLtd logoUnLtd logoUnLtd logoUnLtd logoUnLtd logoUnLtd logo",
-      "hash": "3789d46bee90e8bae4b0d87f604061c107551218af225b768d290e73d860e123",
+      "hash": "963a273dc6ab4b1aa5f84c789c16df6f2236b9a2d71234b49fb5da8e73980ade",
       "content_type": "text/html"
     },
     "bbc-children-in-need": {
       "url": "https://www.bbcchildreninneed.co.uk/grants/apply/minimum-standards/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.bbcchildreninneed.co.uk/grants/apply/minimum-standards/",
@@ -261,7 +261,7 @@
     },
     "reach-fund": {
       "url": "https://www.sibgroup.org.uk/fund/reach-fund/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.sibgroup.org.uk/fund/reach-fund/",
@@ -271,7 +271,7 @@
     },
     "key-fund": {
       "url": "https://thekeyfund.co.uk/funding/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://thekeyfund.co.uk/funding/",
@@ -281,7 +281,7 @@
     },
     "big-issue-invest": {
       "url": "https://www.bigissue.com/invest/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.bigissue.com/invest/",
@@ -291,7 +291,7 @@
     },
     "forest-of-dean-startup": {
       "url": "https://www.gov.uk/business-finance-support/forest-of-dean-district-council-business-start-up-grant",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.gov.uk/business-finance-support/forest-of-dean-district-council-business-start-up-grant",
@@ -301,7 +301,7 @@
     },
     "lloyds-new-beginnings": {
       "url": "https://www.lloydsbankfoundation.org.uk/funding/good-place-to-live-new-beginnings",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.lloydsbankfoundation.org.uk/funding/good-place-to-live-new-beginnings",
@@ -311,7 +311,7 @@
     },
     "coop-green-opportunities": {
       "url": "https://www.coopfoundation.org.uk/how-we-fund/green-opportunities-fund/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.coopfoundation.org.uk/how-we-fund/green-opportunities-fund/",
@@ -321,7 +321,7 @@
     },
     "yef-open-call": {
       "url": "https://youthendowmentfund.org.uk/grants/open-call/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://youthendowmentfund.org.uk/grants/open-call/",
@@ -331,7 +331,7 @@
     },
     "community-ownership-fund": {
       "url": "https://www.gov.uk/government/publications/community-ownership-fund-prospectus/community-ownership-fund-round-4-prospectus",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.gov.uk/government/publications/community-ownership-fund-prospectus/community-ownership-fund-round-4-prospectus",
@@ -341,7 +341,7 @@
     },
     "garfield-weston": {
       "url": "https://garfieldweston.org/what-we-fund/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://garfieldweston.org/what-we-fund/",
@@ -351,7 +351,7 @@
     },
     "paul-hamlyn-youth": {
       "url": "https://www.phf.org.uk/funding/youth-fund",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.phf.org.uk/funding/youth-fund",
@@ -361,7 +361,7 @@
     },
     "paul-hamlyn-migration": {
       "url": "https://www.phf.org.uk/funding/migration",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.phf.org.uk/funding/migration",
@@ -371,7 +371,7 @@
     },
     "the-fore-spring-2027": {
       "url": "https://thefore.org/who-we-fund/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://thefore.org/who-we-fund/",
@@ -381,7 +381,7 @@
     },
     "leathersellers-small-grants": {
       "url": "https://leathersellers.org/grant/small-grants-programme/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://leathersellers.org/grant/small-grants-programme/",
@@ -391,7 +391,7 @@
     },
     "city-bridge-economic-change": {
       "url": "https://www.citybridgefoundation.org.uk/funding/economic-justice",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.citybridgefoundation.org.uk/funding/economic-justice",
@@ -401,7 +401,7 @@
     },
     "trust-for-london-disability": {
       "url": "https://trustforlondon.org.uk/funding/social-justice/disability-justice/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://trustforlondon.org.uk/funding/social-justice/disability-justice/",
@@ -411,7 +411,7 @@
     },
     "acni-small-capital": {
       "url": "https://artscouncil-ni.org/funding-for-organisations/small-capital-grants-programme",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://artscouncil-ni.org/funding-for-organisations/small-capital-grants-programme",
@@ -421,7 +421,7 @@
     },
     "rosa-voices-frontline": {
       "url": "https://rosauk.org/2026/10/06/applications-open-for-rosas-voices-from-the-frontline-fund-2026/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://rosauk.org/2026/10/06/applications-open-for-rosas-voices-from-the-frontline-fund-2026/",
@@ -431,17 +431,17 @@
     },
     "leche-trust-heritage": {
       "url": "https://www.lechetrust.org/what-we-fund",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.lechetrust.org/what-we-fund",
       "title": "What we fund | The Leche Trust",
-      "hash": "f1a7697bfa97d79ee5a8e84114b3fd57ed25e58120803f1d4642339a2ddea447",
+      "hash": "9ef64b761e191373b3502a33edc19f0c0a11245d0da11b6d2fe490fd6c854da8",
       "content_type": "text/html"
     },
     "heritage-grants-large": {
       "url": "https://www.heritagefund.org.uk/funding/national-lottery-heritage-grants-250k-10m/deadlines",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.heritagefund.org.uk/funding/national-lottery-heritage-grants-250k-10m/deadlines",
@@ -451,7 +451,7 @@
     },
     "clothworkers-open": {
       "url": "https://www.clothworkersfoundation.org.uk/apply-for-a-grant",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.clothworkersfoundation.org.uk/apply-for-a-grant",
@@ -461,7 +461,7 @@
     },
     "bernard-sunley": {
       "url": "https://bernardsunley.org/our-grant-giving/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://bernardsunley.org/our-grant-giving/",
@@ -471,7 +471,7 @@
     },
     "pilkington-trust": {
       "url": "https://austin-hope-pilkington.org.uk/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://austin-hope-pilkington.org.uk/",
@@ -481,17 +481,17 @@
     },
     "doyly-carte": {
       "url": "https://doylycartecharitabletrust.org/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://doylycartecharitabletrust.org/",
       "title": "The D'Oyly Carte Charitable Trust | A UK-based charitable trust that provides grants to other UK-registered charities.",
-      "hash": "6b9341efbb99a31a0a4ca9c43367772e020abde1574a14bf0f057e7f537c8d66",
+      "hash": "b036ab1706c0d3205e0e70f04bfccf2dd20a8c7371940f3ad8bbf22e7613d6d9",
       "content_type": "text/html"
     },
     "morrisons-connecting": {
       "url": "https://www.morrisonsfoundation.com/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.morrisonsfoundation.com/",
@@ -501,7 +501,7 @@
     },
     "robertson-wee": {
       "url": "https://www.therobertsontrust.org.uk/funding/types-of-funding",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.therobertsontrust.org.uk/funding/types-of-funding",
@@ -511,7 +511,7 @@
     },
     "robertson-big-change": {
       "url": "https://www.therobertsontrust.org.uk/funding/types-of-funding",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.therobertsontrust.org.uk/funding/types-of-funding",
@@ -521,7 +521,7 @@
     },
     "cfni-foyle": {
       "url": "https://communityfoundationni.org/achieving-impact/available-grants/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://communityfoundationni.org/achieving-impact/available-grants/",
@@ -531,7 +531,7 @@
     },
     "cgrf-ni-small": {
       "url": "https://www.executiveoffice-ni.gov.uk/articles/central-good-relations-fund",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.executiveoffice-ni.gov.uk/articles/central-good-relations-fund",
@@ -541,7 +541,7 @@
     },
     "fund-for-wales": {
       "url": "https://communityfoundationwales.org.uk/grants/fund-for-wales/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://communityfoundationwales.org.uk/grants/fund-for-wales/",
@@ -551,17 +551,17 @@
     },
     "quartet-express": {
       "url": "https://quartetcf.org.uk/grants/express-grant-programme/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://quartetcf.org.uk/grants/express-grant-programme/",
       "title": "Express Grant Programme",
-      "hash": "c2cbcabb2399550d4cf77aa498e14c9bbdac2606ef11955b0bae4b0b3ccee93f",
+      "hash": "ddbf748c7d2a662d69c3556c2129576bd5c695f7404e7030a66a8a9399417363",
       "content_type": "text/html"
     },
     "mk-community-roots": {
       "url": "https://mkcommunityfoundation.co.uk/apply-for-a-grant/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://mkcommunityfoundation.co.uk/apply-for-a-grant/",
@@ -571,7 +571,7 @@
     },
     "mk-sapling": {
       "url": "https://mkcommunityfoundation.co.uk/apply-for-a-grant/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://mkcommunityfoundation.co.uk/apply-for-a-grant/",
@@ -581,7 +581,7 @@
     },
     "essex-nhs-community-health": {
       "url": "https://www.essexcommunityfoundation.org.uk/2026/10/nhs-essex-community-health-partnership-fund-opens-for-applications/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.essexcommunityfoundation.org.uk/2026/10/nhs-essex-community-health-partnership-fund-opens-for-applications/",
@@ -591,7 +591,7 @@
     },
     "norfolk-breckland": {
       "url": "https://www.norfolkfoundation.com/funding-support/grants/groups/breckland-council-communities-grants/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.norfolkfoundation.com/funding-support/grants/groups/breckland-council-communities-grants/",
@@ -601,7 +601,7 @@
     },
     "spen-community-benefit": {
       "url": "https://localgiving.org/sp-energy-networks-community-benefit-funding",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://localgiving.org/sp-energy-networks-community-benefit-funding",
@@ -611,7 +611,7 @@
     },
     "pilgrim-historic-buildings": {
       "url": "https://www.thepilgrimtrust.org.uk/preservation-and-conservation-grants/historic-buildings-and-structures/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.thepilgrimtrust.org.uk/preservation-and-conservation-grants/historic-buildings-and-structures/",
@@ -621,7 +621,7 @@
     },
     "biffa-community-buildings": {
       "url": "https://www.biffa-award.org/community-buildings/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.biffa-award.org/who-we-support/community/community-buildings",
@@ -631,7 +631,7 @@
     },
     "tesco-fruit-veg": {
       "url": "https://tescostrongerstarts.org.uk/apply-for-a-grant/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://tescostrongerstarts.org.uk/apply-for-a-grant/",
@@ -641,7 +641,7 @@
     },
     "oglesby-climate-action": {
       "url": "https://oglesbycharitabletrust.org.uk/spotlight-local-climate-action/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://oglesbycharitabletrust.org.uk/spotlight-local-climate-action/",
@@ -651,7 +651,7 @@
     },
     "sylvia-waddilove": {
       "url": "https://pwwsolicitors.co.uk/charity-grants/waddilove-foundation-uk/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://pwwsolicitors.co.uk/charity-grants/waddilove-foundation-uk/",
@@ -661,7 +661,7 @@
     },
     "toy-trust": {
       "url": "https://www.toytrust.co.uk/apply/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.toytrust.co.uk/apply/",
@@ -671,7 +671,7 @@
     },
     "seed-grants": {
       "url": "https://mkcommunityfoundation.co.uk/apply-for-a-grant/seed-grants",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://mkcommunityfoundation.co.uk/apply-for-a-grant/seed-grants",
@@ -681,7 +681,7 @@
     },
     "create-and-engage": {
       "url": "https://arts.wales/funding/individuals/create-and-engage",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://arts.wales/funding/individuals/create-and-engage",
@@ -691,7 +691,7 @@
     },
     "social-impact-loans-for-social-enterprises-and-c": {
       "url": "https://www.bigissue.com/invest/apply-for-funding/loans/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.bigissue.com/invest/apply-for-funding/loans/",
@@ -701,7 +701,7 @@
     },
     "voices-from-the-frontline": {
       "url": "https://rosauk.org/our-programmes/voices-from-the-frontline/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://rosauk.org/our-programmes/voices-from-the-frontline/",
@@ -711,7 +711,7 @@
     },
     "community-spaces-grants": {
       "url": "https://www.therobertsontrust.org.uk/funding/types-of-funding/community-spaces-grants",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.therobertsontrust.org.uk/funding/types-of-funding/community-spaces-grants",
@@ -721,17 +721,17 @@
     },
     "bath-west-community-energy-fund": {
       "url": "https://quartetcf.org.uk/grants/bath-west-community-energy-fund/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://quartetcf.org.uk/grants/bath-west-community-energy-fund/",
       "title": "Bath and West community energy grant",
-      "hash": "32f14abd2798af3215e73883323d383a87f203b06a0c0c5958956aab6630d966",
+      "hash": "1935b08b6653f02b03451fb2f883cf1231cc1b79b5e411bc7a8589e3efbe974a",
       "content_type": "text/html"
     },
     "equity-revenue-participation-or-quasi-equity": {
       "url": "https://www.bigissue.com/invest/apply-for-funding/equity/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.bigissue.com/invest/apply-for-funding/equity/",
@@ -741,7 +741,7 @@
     },
     "small-grants": {
       "url": "https://www.therobertsontrust.org.uk/funding/types-of-funding/small-grants",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.therobertsontrust.org.uk/funding/types-of-funding/small-grants",
@@ -751,17 +751,17 @@
     },
     "north-somerset-community-transport-grant": {
       "url": "https://quartetcf.org.uk/grants/north-somerset-community-transport-grant/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://quartetcf.org.uk/grants/north-somerset-community-transport-grant/",
       "title": "North Somerset Community Transport Grant - Quartet CF",
-      "hash": "6571498002c74a2df52f1b2b1fad29cd4a519fcb0633265407d58b6cfa6a22d7",
+      "hash": "42fbb7ef3e684e36268fd83a58d9b2c3228899451dd795cfc80d19e11457b103",
       "content_type": "text/html"
     },
     "project-grants": {
       "url": "https://www.bbcchildreninneed.co.uk/grants/apply/project-costs-funding-stream/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.bbcchildreninneed.co.uk/grants/apply/project-costs-funding-stream/",
@@ -771,7 +771,7 @@
     },
     "large-grants": {
       "url": "https://www.therobertsontrust.org.uk/funding/types-of-funding/large-grants",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.therobertsontrust.org.uk/funding/types-of-funding/large-grants",
@@ -781,7 +781,7 @@
     },
     "brockaghboy-community-benefit-fund": {
       "url": "https://communityfoundationni.org/grants/brockaghboy-wind-farm/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 404,
       "ok": false,
       "final_url": "https://communityfoundationni.org/grants/brockaghboy-wind-farm/",
@@ -791,7 +791,7 @@
     },
     "growth-impact-fund": {
       "url": "https://www.bigissue.com/invest/growth-impact-fund-big-issue-invest/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.bigissue.com/invest/growth-impact-fund-big-issue-invest/",
@@ -801,7 +801,7 @@
     },
     "community-wellbeing-health-fund": {
       "url": "https://quartetcf.org.uk/grants/to-improve-wellbeing-and-health-outcomes-through-community-based-support/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 404,
       "ok": false,
       "final_url": "https://quartetcf.org.uk/grants/to-improve-wellbeing-and-health-outcomes-through-community-based-support/",
@@ -811,7 +811,7 @@
     },
     "swef-enterprise-fund-start-up-grant": {
       "url": "https://communityfoundationni.org/grants/swef-enterprise-fund-start-up-grant/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://communityfoundationni.org/grants/swef-enterprise-fund-start-up-grant/",
@@ -821,7 +821,7 @@
     },
     "swef-enterprise-fund-business-grant": {
       "url": "https://communityfoundationni.org/grants/swef-enterprise-fund-business-grant/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://communityfoundationni.org/grants/swef-enterprise-fund-business-grant/",
@@ -831,7 +831,7 @@
     },
     "energy-resilience-fund": {
       "url": "https://www.sibgroup.org.uk/fund/energy-resilience-fund/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.sibgroup.org.uk/fund/energy-resilience-fund/",
@@ -841,7 +841,7 @@
     },
     "oak-grants": {
       "url": "https://mkcommunityfoundation.co.uk/apply-for-a-grant/oak-grants",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://mkcommunityfoundation.co.uk/apply-for-a-grant/oak-grants",
@@ -851,7 +851,7 @@
     },
     "rathsherry-community-benefit-fund": {
       "url": "https://communityfoundationni.org/grants/rathsherry-community-benefit-fund/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://communityfoundationni.org/grants/rathsherry-community-benefit-fund/",
@@ -861,7 +861,7 @@
     },
     "dogger-bank-operators-fund": {
       "url": "https://redcarfundseekers.org.uk/funding/dogger-bank-operators-fund/",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://redcarfundseekers.org.uk/funding/dogger-bank-operators-fund/",
@@ -871,7 +871,7 @@
     },
     "support-for-victims-and-survivors-of-child-sexua": {
       "url": "https://www.nottinghamcvs.co.uk/news-and-events/support-victims-survivors-child-abuse-fund",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.nottinghamcvs.co.uk/news-and-events/support-victims-survivors-child-abuse-fund",
@@ -881,7 +881,7 @@
     },
     "boost-charitable-trust": {
       "url": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles/boost-charitable-trust",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles/boost-charitable-trust",
@@ -891,7 +891,7 @@
     },
     "jean-sainsbury-animal-welfare-trust": {
       "url": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles/jsaw-animal-welfare-fund",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles/jsaw-animal-welfare-fund",
@@ -901,7 +901,7 @@
     },
     "flexible-finance-fund": {
       "url": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles/flexible-finance-fund",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles/flexible-finance-fund",
@@ -911,7 +911,7 @@
     },
     "severn-trent-core-funding": {
       "url": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles/severn-trent-core-funding",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles/severn-trent-core-funding",
@@ -921,7 +921,7 @@
     },
     "funding-for-local-charities-from-boots-charitabl": {
       "url": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles/funding-local-charities-boots-charitable-trust",
-      "checked": "2026-11-23T18:16:48+00:00",
+      "checked": "2026-11-24T17:50:36+00:00",
       "status": 200,
       "ok": true,
       "final_url": "https://www.nottinghamcvs.co.uk/news-and-events/news-articles/funding-local-charities-boots-charitable-trust",
@@ -934,7 +934,24 @@
     {
       "id": "unltd-climate-action",
       "first_seen": "2026-11-23T18:16:48+00:00",
-      "runs": 1,
+      "runs": 2,
+      "dates": [
+        "6 January 2027"
+      ],
+      "money": [],
+      "signals": [
+        "Next round on 6 January 2027 at 10:00 (42 days)"
+      ],
+      "name": "Community Climate Action",
+      "funder": "UnLtd",
+      "url": "https://unltd.org.uk/community-climate-action/",
+      "last_seen": "2026-11-24T17:50:36+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "unltd-awards",
+      "first_seen": "2026-11-23T18:16:48+00:00",
+      "runs": 2,
       "dates": [
         "6 January 2027"
       ],
@@ -942,27 +959,132 @@
       "signals": [
         "Next round on 6 January 2027 at 10:00 (43 days)"
       ],
-      "name": "Community Climate Action",
-      "funder": "UnLtd",
-      "url": "https://unltd.org.uk/community-climate-action/",
-      "last_seen": "2026-11-23T18:16:48+00:00",
-      "title_changed": false
-    },
-    {
-      "id": "unltd-awards",
-      "first_seen": "2026-11-23T18:16:48+00:00",
-      "runs": 1,
-      "dates": [
-        "6 January 2027"
-      ],
-      "money": [],
-      "signals": [
-        "Next round on 6 January 2027 at 10:00 (44 days)"
-      ],
       "name": "Starting Up and Scaling Up Awards",
       "funder": "UnLtd",
       "url": "https://unltd.org.uk/awards/eligibility-criteria/",
-      "last_seen": "2026-11-23T18:16:48+00:00",
+      "last_seen": "2026-11-24T17:50:36+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "quartet-express",
+      "first_seen": "2026-11-07T14:13:14+00:00",
+      "runs": 2,
+      "dates": [
+        "2 November 2026",
+        "28 October 2026",
+        "24 November 2026"
+      ],
+      "money": [],
+      "signals": [
+        "24 November 2026"
+      ],
+      "name": "Express Grant Programme",
+      "funder": "Quartet Community Foundation",
+      "url": "https://quartetcf.org.uk/grants/express-grant-programme/",
+      "last_seen": "2026-11-24T17:50:36+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "bath-west-community-energy-fund",
+      "first_seen": "2026-11-07T14:13:14+00:00",
+      "runs": 2,
+      "dates": [
+        "2 November 2026",
+        "28 October 2026",
+        "24 November 2026"
+      ],
+      "money": [],
+      "signals": [
+        "24 November 2026"
+      ],
+      "name": "Bath & West Community Energy Fund",
+      "funder": "Quartet Community Foundation",
+      "url": "https://quartetcf.org.uk/grants/bath-west-community-energy-fund/",
+      "last_seen": "2026-11-24T17:50:36+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "north-somerset-community-transport-grant",
+      "first_seen": "2026-11-07T14:13:14+00:00",
+      "runs": 2,
+      "dates": [
+        "2 November 2026",
+        "28 October 2026",
+        "24 November 2026"
+      ],
+      "money": [],
+      "signals": [
+        "24 November 2026"
+      ],
+      "name": "North Somerset Community Transport Grant",
+      "funder": "Quartet Community Foundation",
+      "url": "https://quartetcf.org.uk/grants/north-somerset-community-transport-grant/",
+      "last_seen": "2026-11-24T17:50:36+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "warwick-climate-nature",
+      "first_seen": "2026-11-24T17:50:36+00:00",
+      "runs": 1,
+      "dates": [],
+      "money": [],
+      "signals": [],
+      "name": "Community Climate and Nature Fund",
+      "funder": "Warwick District Council",
+      "url": "https://www.warwickdc.gov.uk/info/20468/sustainability_and_climate_change/2111/community_climate_and_nature_fund",
+      "last_seen": "2026-11-24T17:50:36+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "leche-trust-heritage",
+      "first_seen": "2026-11-24T17:50:36+00:00",
+      "runs": 1,
+      "dates": [
+        "11/01/2027",
+        "12/04/2027",
+        "07/02/2027",
+        "09/05/2027",
+        "19/03/2027",
+        "18/06/2027",
+        "30/11/2026",
+        "15/03/2027"
+      ],
+      "money": [],
+      "signals": [
+        "The trustees meet three times each year to consider applications. The Benefactor Cloud database opens for applications in line with the dates in the tables below. At other times the database is 'locked'.",
+        "11/01/2027",
+        "12/04/2027",
+        "07/02/2027",
+        "09/05/2027",
+        "19/03/2027",
+        "18/06/2027",
+        "Round 2",
+        "Round 3",
+        "EOI applications open:"
+      ],
+      "name": "The Leche Trust \u2014 Heritage Conservation Grants",
+      "funder": "The Leche Trust",
+      "url": "https://www.lechetrust.org/what-we-fund",
+      "last_seen": "2026-11-24T17:50:36+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "doyly-carte",
+      "first_seen": "2026-11-24T17:50:36+00:00",
+      "runs": 1,
+      "dates": [
+        "18 December 2026"
+      ],
+      "money": [
+        "\u00a35m"
+      ],
+      "signals": [
+        "Charities with an annual income of above \u00a35m First-stage application deadline: 5pm 18 December 2026."
+      ],
+      "name": "Small Charity Grants",
+      "funder": "The D'Oyly Carte Charitable Trust",
+      "url": "https://doylycartecharitabletrust.org/",
+      "last_seen": "2026-11-24T17:50:36+00:00",
       "title_changed": false
     },
     {
@@ -1274,25 +1396,6 @@
       "title_changed": false
     },
     {
-      "id": "quartet-express",
-      "first_seen": "2026-11-07T14:13:14+00:00",
-      "runs": 1,
-      "dates": [
-        "2 November 2026",
-        "28 October 2026"
-      ],
-      "money": [],
-      "signals": [
-        "2 November 2026",
-        "28 October 2026"
-      ],
-      "name": "Express Grant Programme",
-      "funder": "Quartet Community Foundation",
-      "url": "https://quartetcf.org.uk/grants/express-grant-programme/",
-      "last_seen": "2026-11-07T14:13:14+00:00",
-      "title_changed": false
-    },
-    {
       "id": "pilgrim-historic-buildings",
       "first_seen": "2026-11-07T14:13:14+00:00",
       "runs": 1,
@@ -1344,45 +1447,6 @@
       "name": "Toy Trust Grants",
       "funder": "The Toy Trust",
       "url": "https://www.toytrust.co.uk/apply/",
-      "last_seen": "2026-11-07T14:13:14+00:00",
-      "title_changed": false
-    },
-    {
-      "id": "bath-west-community-energy-fund",
-      "first_seen": "2026-11-07T14:13:14+00:00",
-      "runs": 1,
-      "dates": [
-        "2 November 2026",
-        "28 October 2026"
-      ],
-      "money": [],
-      "signals": [
-        "This grant programme is currently closed to applications.",
-        "2 November 2026",
-        "28 October 2026"
-      ],
-      "name": "Bath & West Community Energy Fund",
-      "funder": "Quartet Community Foundation",
-      "url": "https://quartetcf.org.uk/grants/bath-west-community-energy-fund/",
-      "last_seen": "2026-11-07T14:13:14+00:00",
-      "title_changed": false
-    },
-    {
-      "id": "north-somerset-community-transport-grant",
-      "first_seen": "2026-11-07T14:13:14+00:00",
-      "runs": 1,
-      "dates": [
-        "2 November 2026",
-        "28 October 2026"
-      ],
-      "money": [],
-      "signals": [
-        "2 November 2026",
-        "28 October 2026"
-      ],
-      "name": "North Somerset Community Transport Grant",
-      "funder": "Quartet Community Foundation",
-      "url": "https://quartetcf.org.uk/grants/north-somerset-community-transport-grant/",
       "last_seen": "2026-11-07T14:13:14+00:00",
       "title_changed": false
     },
