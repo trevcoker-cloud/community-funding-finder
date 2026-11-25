@@ -1,7 +1,7 @@
 {
-  "run_at": "2026-11-24T17:50:22+00:00",
-  "date": "2026-11-24",
-  "duration_s": 33.2,
+  "run_at": "2026-11-25T17:16:49+00:00",
+  "date": "2026-11-25",
+  "duration_s": 52.2,
   "added": [],
   "queued": [],
   "queued_total": 0,
@@ -11,12 +11,12 @@
     "counts": {
       "changed": 8,
       "baseline": 0,
-      "unchanged": 75,
+      "unchanged": 74,
       "blocked": 1,
-      "unreachable": 2
+      "unreachable": 3
     },
-    "report": "report-2026-11-24.md",
-    "run_at": "2026-11-24T17:50:36+00:00",
+    "report": "report-2026-11-25.md",
+    "run_at": "2026-11-25T17:17:15+00:00",
     "verified": "2026-10-23"
   },
   "notes": []

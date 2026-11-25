@@ -1,24 +1,41 @@
 {
-  "run_at": "2026-11-24T17:50:36+00:00",
-  "date": "2026-11-24",
+  "run_at": "2026-11-25T17:17:15+00:00",
+  "date": "2026-11-25",
   "verified": "2026-10-23",
-  "verified_age_days": 32,
+  "verified_age_days": 33,
   "partial": false,
-  "report": "report-2026-11-24.md",
+  "report": "report-2026-11-25.md",
   "total": 86,
   "counts": {
     "changed": 8,
     "baseline": 0,
-    "unchanged": 75,
+    "unchanged": 74,
     "blocked": 1,
-    "unreachable": 2
+    "unreachable": 3
   },
   "pending_total": 32,
   "pending": [
     {
       "id": "unltd-climate-action",
       "first_seen": "2026-11-23T18:16:48+00:00",
-      "runs": 2,
+      "runs": 3,
+      "dates": [
+        "6 January 2027"
+      ],
+      "money": [],
+      "signals": [
+        "Next round on 6 January 2027 at 10:00 (41 days)"
+      ],
+      "name": "Community Climate Action",
+      "funder": "UnLtd",
+      "url": "https://unltd.org.uk/community-climate-action/",
+      "last_seen": "2026-11-25T17:17:15+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "unltd-awards",
+      "first_seen": "2026-11-23T18:16:48+00:00",
+      "runs": 3,
       "dates": [
         "6 January 2027"
       ],
@@ -26,97 +43,125 @@
       "signals": [
         "Next round on 6 January 2027 at 10:00 (42 days)"
       ],
-      "name": "Community Climate Action",
-      "funder": "UnLtd",
-      "url": "https://unltd.org.uk/community-climate-action/",
-      "last_seen": "2026-11-24T17:50:36+00:00",
-      "title_changed": false
-    },
-    {
-      "id": "unltd-awards",
-      "first_seen": "2026-11-23T18:16:48+00:00",
-      "runs": 2,
-      "dates": [
-        "6 January 2027"
-      ],
-      "money": [],
-      "signals": [
-        "Next round on 6 January 2027 at 10:00 (43 days)"
-      ],
       "name": "Starting Up and Scaling Up Awards",
       "funder": "UnLtd",
       "url": "https://unltd.org.uk/awards/eligibility-criteria/",
-      "last_seen": "2026-11-24T17:50:36+00:00",
+      "last_seen": "2026-11-25T17:17:15+00:00",
       "title_changed": false
     },
     {
       "id": "quartet-express",
       "first_seen": "2026-11-07T14:13:14+00:00",
-      "runs": 2,
+      "runs": 3,
       "dates": [
         "2 November 2026",
         "28 October 2026",
-        "24 November 2026"
+        "24 November 2026",
+        "25 November 2026"
       ],
-      "money": [],
+      "money": [
+        "\u00a34,000"
+      ],
       "signals": [
-        "24 November 2026"
+        "25 November 2026"
       ],
       "name": "Express Grant Programme",
       "funder": "Quartet Community Foundation",
       "url": "https://quartetcf.org.uk/grants/express-grant-programme/",
-      "last_seen": "2026-11-24T17:50:36+00:00",
+      "last_seen": "2026-11-25T17:17:15+00:00",
       "title_changed": false
     },
     {
       "id": "bath-west-community-energy-fund",
       "first_seen": "2026-11-07T14:13:14+00:00",
-      "runs": 2,
+      "runs": 3,
       "dates": [
         "2 November 2026",
         "28 October 2026",
-        "24 November 2026"
+        "24 November 2026",
+        "25 November 2026"
       ],
       "money": [],
       "signals": [
-        "24 November 2026"
+        "25 November 2026"
       ],
       "name": "Bath & West Community Energy Fund",
       "funder": "Quartet Community Foundation",
       "url": "https://quartetcf.org.uk/grants/bath-west-community-energy-fund/",
-      "last_seen": "2026-11-24T17:50:36+00:00",
+      "last_seen": "2026-11-25T17:17:15+00:00",
       "title_changed": false
     },
     {
       "id": "north-somerset-community-transport-grant",
       "first_seen": "2026-11-07T14:13:14+00:00",
-      "runs": 2,
+      "runs": 3,
       "dates": [
         "2 November 2026",
         "28 October 2026",
-        "24 November 2026"
+        "24 November 2026",
+        "25 November 2026"
       ],
       "money": [],
       "signals": [
-        "24 November 2026"
+        "25 November 2026"
       ],
       "name": "North Somerset Community Transport Grant",
       "funder": "Quartet Community Foundation",
       "url": "https://quartetcf.org.uk/grants/north-somerset-community-transport-grant/",
-      "last_seen": "2026-11-24T17:50:36+00:00",
+      "last_seen": "2026-11-25T17:17:15+00:00",
       "title_changed": false
     },
     {
       "id": "warwick-climate-nature",
       "first_seen": "2026-11-24T17:50:36+00:00",
-      "runs": 1,
+      "runs": 2,
       "dates": [],
       "money": [],
       "signals": [],
       "name": "Community Climate and Nature Fund",
       "funder": "Warwick District Council",
       "url": "https://www.warwickdc.gov.uk/info/20468/sustainability_and_climate_change/2111/community_climate_and_nature_fund",
-      "last_seen": "2026-11-24T17:50:36+00:00",
+      "last_seen": "2026-11-25T17:17:15+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "doyly-carte",
+      "first_seen": "2026-11-24T17:50:36+00:00",
+      "runs": 2,
+      "dates": [
+        "18 December 2026"
+      ],
+      "money": [
+        "\u00a35m"
+      ],
+      "signals": [
+        "Charities with an annual income of above \u00a35m First-stage application deadline: 5pm 18 December 2026."
+      ],
+      "name": "Small Charity Grants",
+      "funder": "The D'Oyly Carte Charitable Trust",
+      "url": "https://doylycartecharitabletrust.org/",
+      "last_seen": "2026-11-25T17:17:15+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "create-and-engage",
+      "first_seen": "2026-11-19T15:49:31+00:00",
+      "runs": 2,
+      "dates": [
+        "28 April 2027",
+        "29 September 2027",
+        "12 January 2028"
+      ],
+      "money": [],
+      "signals": [
+        "Wednesday 28 April 2027",
+        "Wednesday 29 September 2027",
+        "Wednesday 12 January 2028"
+      ],
+      "name": "Create and Engage",
+      "funder": "Arts Council of Wales",
+      "url": "https://arts.wales/funding/individuals/create-and-engage",
+      "last_seen": "2026-11-25T17:17:15+00:00",
       "title_changed": false
     },
     {
@@ -149,25 +194,6 @@
       "name": "The Leche Trust \u2014 Heritage Conservation Grants",
       "funder": "The Leche Trust",
       "url": "https://www.lechetrust.org/what-we-fund",
-      "last_seen": "2026-11-24T17:50:36+00:00",
-      "title_changed": false
-    },
-    {
-      "id": "doyly-carte",
-      "first_seen": "2026-11-24T17:50:36+00:00",
-      "runs": 1,
-      "dates": [
-        "18 December 2026"
-      ],
-      "money": [
-        "\u00a35m"
-      ],
-      "signals": [
-        "Charities with an annual income of above \u00a35m First-stage application deadline: 5pm 18 December 2026."
-      ],
-      "name": "Small Charity Grants",
-      "funder": "The D'Oyly Carte Charitable Trust",
-      "url": "https://doylycartecharitabletrust.org/",
       "last_seen": "2026-11-24T17:50:36+00:00",
       "title_changed": false
     },
@@ -226,19 +252,6 @@
       "name": "Major Productions",
       "funder": "Arts Council of Wales",
       "url": "https://arts.wales/funding/organisations/major-productions",
-      "last_seen": "2026-11-19T15:49:31+00:00",
-      "title_changed": false
-    },
-    {
-      "id": "create-and-engage",
-      "first_seen": "2026-11-19T15:49:31+00:00",
-      "runs": 1,
-      "dates": [],
-      "money": [],
-      "signals": [],
-      "name": "Create and Engage",
-      "funder": "Arts Council of Wales",
-      "url": "https://arts.wales/funding/individuals/create-and-engage",
       "last_seen": "2026-11-19T15:49:31+00:00",
       "title_changed": false
     },
@@ -591,11 +604,11 @@
       "dates": [],
       "money": [],
       "signals": [],
-      "added": [
+      "added": [],
+      "removed": [
         "Systems maintenance from 3.30pm to 8pm on Tuesday 24 November",
         "Bin collection dates and some waste and recycling forms will be unavailable (along with reporting by phone) while we carry out system maintenance. We apologise for any inconvenience."
-      ],
-      "removed": []
+      ]
     },
     {
       "id": "unltd-climate-action",
@@ -612,13 +625,13 @@
       ],
       "money": [],
       "signals": [
-        "Next round on 6 January 2027 at 10:00 (42 days)"
+        "Next round on 6 January 2027 at 10:00 (41 days)"
       ],
       "added": [
-        "Next round on 6 January 2027 at 10:00 (42 days)"
+        "Next round on 6 January 2027 at 10:00 (41 days)"
       ],
       "removed": [
-        "Next round on 6 January 2027 at 10:00 (43 days)"
+        "Next round on 6 January 2027 at 10:00 (42 days)"
       ]
     },
     {
@@ -636,62 +649,30 @@
       ],
       "money": [],
       "signals": [
-        "Next round on 6 January 2027 at 10:00 (43 days)"
+        "Next round on 6 January 2027 at 10:00 (42 days)"
       ],
       "added": [
-        "Next round on 6 January 2027 at 10:00 (43 days)"
+        "Next round on 6 January 2027 at 10:00 (42 days)"
       ],
       "removed": [
-        "Next round on 6 January 2027 at 10:00 (44 days)"
+        "Next round on 6 January 2027 at 10:00 (43 days)"
       ]
     },
     {
-      "id": "leche-trust-heritage",
-      "name": "The Leche Trust \u2014 Heritage Conservation Grants",
-      "funder": "The Leche Trust",
-      "url": "https://www.lechetrust.org/what-we-fund",
-      "change": "changed",
-      "status": 200,
-      "error": "",
+      "id": "the-fore-spring-2027",
+      "name": "The Fore \u2014 Spring 2027 Funding Round",
+      "funder": "The Fore",
+      "url": "https://thefore.org/who-we-fund/",
+      "change": "unreachable",
+      "status": null,
+      "error": "connection failed: The read operation timed out",
       "note": "",
       "title_changed": false,
-      "dates": [
-        "11/01/2027",
-        "12/04/2027",
-        "07/02/2027",
-        "09/05/2027",
-        "19/03/2027",
-        "18/06/2027",
-        "30/11/2026",
-        "15/03/2027"
-      ],
+      "dates": [],
       "money": [],
-      "signals": [
-        "The trustees meet three times each year to consider applications. The Benefactor Cloud database opens for applications in line with the dates in the tables below. At other times the database is 'locked'.",
-        "11/01/2027",
-        "12/04/2027",
-        "07/02/2027",
-        "09/05/2027",
-        "19/03/2027",
-        "18/06/2027",
-        "Round 2",
-        "Round 3",
-        "EOI applications open:"
-      ],
-      "added": [
-        "The trustees meet three times each year to consider applications. The Benefactor Cloud database opens for applications in line with the dates in the tables below. At other times the database is 'locked'.",
-        "NB: Please note that the applications for Performing Arts funding will now follow a different procedure from previous rounds. This includes a first stage EOI application and subsequent, invite only, full application. Dates for this amended application procedure are listed below.",
-        "HERITAGE CONSERVATION APPLICATIONS",
-        "11/01/2027",
-        "12/04/2027",
-        "07/02/2027"
-      ],
-      "removed": [
-        "The trustees meet three times each year to consider applications. The Benefactor Cloud database opens for applications 10-12 weeks before the Trustees' meeting. At other times the database is 'locked'. Below is the timetable for grant rounds in 2026-27.",
-        "Round 1",
-        "03/08/2026",
-        "07/12/2026"
-      ]
+      "signals": [],
+      "added": [],
+      "removed": []
     },
     {
       "id": "doyly-carte",
@@ -703,20 +684,12 @@
       "error": "",
       "note": "",
       "title_changed": false,
-      "dates": [
-        "18 December 2026"
-      ],
-      "money": [
-        "\u00a35m"
-      ],
-      "signals": [
-        "Charities with an annual income of above \u00a35m First-stage application deadline: 5pm 18 December 2026."
-      ],
-      "added": [
-        "Charities with an annual income of above \u00a35m First-stage application deadline: 5pm 18 December 2026."
-      ],
+      "dates": [],
+      "money": [],
+      "signals": [],
+      "added": [],
       "removed": [
-        "Charities with an annual income of above \u00a35m First-stage application deadline: 5pm 8 January 2027."
+        "The next application window will open week commencing 23 November 2026."
       ]
     },
     {
@@ -730,25 +703,58 @@
       "note": "",
       "title_changed": false,
       "dates": [
-        "24 November 2026"
+        "25 November 2026"
+      ],
+      "money": [
+        "\u00a34,000"
+      ],
+      "signals": [
+        "25 November 2026"
+      ],
+      "added": [
+        "Please note: The funds available for this programme are limited, so we can\u2019t approve every application. Currently, 48% of applications received for the Express programme are successful. We aim to fully fund a request, but may occasionally award partial funding where a contribution would still be valuable. Currently, our average grant awarded for this programme is around \u00a34,000. You can see examples of Express grants we\u2019ve awarded here.",
+        "Funding in action: West of England Rural Network",
+        "Discover how the West of England Rural Network (WERN) is addressing the needs of rural communities.",
+        "More",
+        "25 November 2026"
+      ],
+      "removed": [
+        "Please note: The funds available for this programme are limited, so we can\u2019t approve every application. Currently, 54% of applications received for the Express programme are successful. We aim to fully fund a request, but may occasionally award partial funding where a contribution would still be valuable. Currently, our average grant awarded for this programme is around \u00a34,000. You can see examples of Express grants we\u2019ve awarded here.",
+        "More",
+        "24 November 2026",
+        "Celebrating 40 years of local giving"
+      ]
+    },
+    {
+      "id": "create-and-engage",
+      "name": "Create and Engage",
+      "funder": "Arts Council of Wales",
+      "url": "https://arts.wales/funding/individuals/create-and-engage",
+      "change": "changed",
+      "status": 200,
+      "error": "",
+      "note": "",
+      "title_changed": false,
+      "dates": [
+        "28 April 2027",
+        "29 September 2027",
+        "12 January 2028"
       ],
       "money": [],
       "signals": [
-        "24 November 2026"
+        "Wednesday 28 April 2027",
+        "Wednesday 29 September 2027",
+        "Wednesday 12 January 2028"
       ],
       "added": [
-        "Funding in action: Nailsea and District Community Transport",
-        "Find out how local funding is helping this accessible transport service in North Somerset.",
-        "24 November 2026",
-        "Behind the Scenes: \u201cOpportunities and Aspirations for Racially Minoritised People\u201d",
-        "Find out about our latest Behind the Scenes event for fund holders.",
-        "Celebrating 40 years of local giving"
+        "Wednesday 28 April 2027",
+        "Wednesday 29 September 2027",
+        "Wednesday 12 January 2028"
       ],
       "removed": [
-        "October 2026 newsletter",
-        "Read our latest news and funding opportunities in the October newsletter.",
-        "2 November 2026",
-        "A new fund for community-led climate and nature action"
+        "Wednesday 29 April 2026",
+        "Wednesday 29 July 2026",
+        "Wednesday 30 September 2026"
       ]
     },
     {
@@ -762,25 +768,23 @@
       "note": "",
       "title_changed": false,
       "dates": [
-        "24 November 2026"
+        "25 November 2026"
       ],
       "money": [],
       "signals": [
-        "24 November 2026"
+        "25 November 2026"
       ],
       "added": [
-        "Funding in action: Nailsea and District Community Transport",
-        "Find out how local funding is helping this accessible transport service in North Somerset.",
-        "24 November 2026",
-        "Behind the Scenes: \u201cOpportunities and Aspirations for Racially Minoritised People\u201d",
-        "Find out about our latest Behind the Scenes event for fund holders.",
-        "Celebrating 40 years of local giving"
+        "Funding in action: West of England Rural Network",
+        "Discover how the West of England Rural Network (WERN) is addressing the needs of rural communities.",
+        "More",
+        "25 November 2026"
       ],
       "removed": [
-        "October 2026 newsletter",
-        "Read our latest news and funding opportunities in the October newsletter.",
-        "2 November 2026",
-        "A new fund for community-led climate and nature action"
+        "More",
+        "24 November 2026",
+        "Celebrating 40 years of local giving",
+        "Watch the highlights from our 2026 annual celebration."
       ]
     },
     {
@@ -794,25 +798,23 @@
       "note": "",
       "title_changed": false,
       "dates": [
-        "24 November 2026"
+        "25 November 2026"
       ],
       "money": [],
       "signals": [
-        "24 November 2026"
+        "25 November 2026"
       ],
       "added": [
-        "Funding in action: Nailsea and District Community Transport",
-        "Find out how local funding is helping this accessible transport service in North Somerset.",
-        "24 November 2026",
-        "Behind the Scenes: \u201cOpportunities and Aspirations for Racially Minoritised People\u201d",
-        "Find out about our latest Behind the Scenes event for fund holders.",
-        "Celebrating 40 years of local giving"
+        "Funding in action: West of England Rural Network",
+        "Discover how the West of England Rural Network (WERN) is addressing the needs of rural communities.",
+        "More",
+        "25 November 2026"
       ],
       "removed": [
-        "October 2026 newsletter",
-        "Read our latest news and funding opportunities in the October newsletter.",
-        "2 November 2026",
-        "A new fund for community-led climate and nature action"
+        "More",
+        "24 November 2026",
+        "Celebrating 40 years of local giving",
+        "Watch the highlights from our 2026 annual celebration."
       ]
     },
     {
@@ -853,85 +855,85 @@
       "id": "acw-major-productions",
       "name": "Major Productions",
       "closes": "2026-11-18",
-      "problem": "deadline passed 6 days ago"
+      "problem": "deadline passed 7 days ago"
     },
     {
       "id": "forest-of-dean-startup",
       "name": "Business Start Up Grant",
       "closes": "2026-11-19",
-      "problem": "deadline passed 5 days ago"
+      "problem": "deadline passed 6 days ago"
     },
     {
       "id": "city-bridge-economic-change",
       "name": "Communities Building Economic Change",
       "closes": "2026-11-03",
-      "problem": "deadline passed 21 days ago"
+      "problem": "deadline passed 22 days ago"
     },
     {
       "id": "acni-small-capital",
       "name": "Arts Council of Northern Ireland \u2014 Small Capital Grants",
       "closes": "2026-11-16",
-      "problem": "deadline passed 8 days ago"
+      "problem": "deadline passed 9 days ago"
     },
     {
       "id": "rosa-voices-frontline",
       "name": "Rosa \u2014 Voices from the Frontline",
       "closes": "2026-11-16",
-      "problem": "deadline passed 8 days ago"
+      "problem": "deadline passed 9 days ago"
     },
     {
       "id": "heritage-grants-large",
       "name": "National Lottery Heritage Grants \u00a3250,000\u2013\u00a310m",
       "closes": "2026-11-12",
-      "problem": "deadline passed 12 days ago"
+      "problem": "deadline passed 13 days ago"
     },
     {
       "id": "cfni-foyle",
       "name": "The Foyle Foundation Fund",
       "closes": "2026-11-16",
-      "problem": "deadline passed 8 days ago"
+      "problem": "deadline passed 9 days ago"
     },
     {
       "id": "spen-community-benefit",
       "name": "SP Energy Networks Community Benefit Programme",
       "closes": "2026-11-06",
-      "problem": "deadline passed 18 days ago"
+      "problem": "deadline passed 19 days ago"
     },
     {
       "id": "oglesby-climate-action",
       "name": "Spotlight: Local Climate Action",
       "closes": "2026-11-03",
-      "problem": "deadline passed 21 days ago"
+      "problem": "deadline passed 22 days ago"
     },
     {
       "id": "sylvia-waddilove",
       "name": "Sylvia Waddilove Foundation UK Grants",
       "closes": "2026-10-30",
-      "problem": "deadline passed 25 days ago"
+      "problem": "deadline passed 26 days ago"
     },
     {
       "id": "voices-from-the-frontline",
       "name": "Voices from the Frontline",
       "closes": "2026-11-16",
-      "problem": "deadline passed 8 days ago"
+      "problem": "deadline passed 9 days ago"
     },
     {
       "id": "bath-west-community-energy-fund",
       "name": "Bath & West Community Energy Fund",
       "closes": "2026-10-29",
-      "problem": "deadline passed 26 days ago"
+      "problem": "deadline passed 27 days ago"
     },
     {
       "id": "brockaghboy-community-benefit-fund",
       "name": "Brockaghboy Community Benefit Fund",
       "closes": "2026-11-05",
-      "problem": "deadline passed 19 days ago"
+      "problem": "deadline passed 20 days ago"
     },
     {
       "id": "community-wellbeing-health-fund",
       "name": "Community Wellbeing & Health Fund",
       "closes": "2026-11-02",
-      "problem": "deadline passed 22 days ago"
+      "problem": "deadline passed 23 days ago"
     }
   ]
 }
