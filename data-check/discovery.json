@@ -1289,8 +1289,16 @@
       "seed": "https://funding.scot/",
       "first_seen": "2026-11-20T15:30:21+00:00",
       "last_checked": "2026-11-20T15:30:21+00:00"
+    },
+    "https://funding.scot/funders/0013z00002Pz8JgAAJ/the-leathersellers-foundation": {
+      "status": "rejected",
+      "reason": "no deadline, no amount and no clear apply route on the page",
+      "label": "Funder",
+      "seed": "https://funding.scot/",
+      "first_seen": "2026-11-26T16:57:51+00:00",
+      "last_checked": "2026-11-26T16:57:51+00:00"
     }
   },
-  "last_run": "2026-11-25T17:16:50+00:00",
+  "last_run": "2026-11-26T16:57:51+00:00",
   "added_total": 25
 }
