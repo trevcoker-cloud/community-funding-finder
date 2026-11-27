@@ -1,15 +1,15 @@
 {
-  "run_at": "2026-11-26T16:58:05+00:00",
-  "date": "2026-11-26",
+  "run_at": "2026-11-27T16:43:45+00:00",
+  "date": "2026-11-27",
   "verified": "2026-10-23",
-  "verified_age_days": 34,
+  "verified_age_days": 35,
   "partial": false,
-  "report": "report-2026-11-26.md",
+  "report": "report-2026-11-27.md",
   "total": 86,
   "counts": {
     "changed": 3,
-    "baseline": 1,
-    "unchanged": 79,
+    "baseline": 0,
+    "unchanged": 80,
     "blocked": 1,
     "unreachable": 2
   },
@@ -18,7 +18,24 @@
     {
       "id": "unltd-climate-action",
       "first_seen": "2026-11-23T18:16:48+00:00",
-      "runs": 4,
+      "runs": 5,
+      "dates": [
+        "6 January 2027"
+      ],
+      "money": [],
+      "signals": [
+        "Next round on 6 January 2027 at 10:00 (39 days)"
+      ],
+      "name": "Community Climate Action",
+      "funder": "UnLtd",
+      "url": "https://unltd.org.uk/community-climate-action/",
+      "last_seen": "2026-11-27T16:43:45+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "unltd-awards",
+      "first_seen": "2026-11-23T18:16:48+00:00",
+      "runs": 5,
       "dates": [
         "6 January 2027"
       ],
@@ -26,27 +43,28 @@
       "signals": [
         "Next round on 6 January 2027 at 10:00 (40 days)"
       ],
-      "name": "Community Climate Action",
-      "funder": "UnLtd",
-      "url": "https://unltd.org.uk/community-climate-action/",
-      "last_seen": "2026-11-26T16:58:05+00:00",
-      "title_changed": false
-    },
-    {
-      "id": "unltd-awards",
-      "first_seen": "2026-11-23T18:16:48+00:00",
-      "runs": 4,
-      "dates": [
-        "6 January 2027"
-      ],
-      "money": [],
-      "signals": [
-        "Next round on 6 January 2027 at 10:00 (41 days)"
-      ],
       "name": "Starting Up and Scaling Up Awards",
       "funder": "UnLtd",
       "url": "https://unltd.org.uk/awards/eligibility-criteria/",
-      "last_seen": "2026-11-26T16:58:05+00:00",
+      "last_seen": "2026-11-27T16:43:45+00:00",
+      "title_changed": false
+    },
+    {
+      "id": "dogger-bank-operators-fund",
+      "first_seen": "2026-11-20T15:30:37+00:00",
+      "runs": 2,
+      "dates": [
+        "20 November 2026",
+        "27 November 2026"
+      ],
+      "money": [],
+      "signals": [
+        "Reference: RFS-00314 \u00b7 Last updated: 27 November 2026"
+      ],
+      "name": "Dogger Bank Operators Fund",
+      "funder": "Dogger Bank Wind Farm operators",
+      "url": "https://redcarfundseekers.org.uk/funding/dogger-bank-operators-fund/",
+      "last_seen": "2026-11-27T16:43:45+00:00",
       "title_changed": false
     },
     {
@@ -237,23 +255,6 @@
       "name": "Grants for Good",
       "funder": "Matthew Good Foundation",
       "url": "https://www.matthewgoodfoundation.org/amplify-fund-grants-for-good/",
-      "last_seen": "2026-11-20T15:30:37+00:00",
-      "title_changed": false
-    },
-    {
-      "id": "dogger-bank-operators-fund",
-      "first_seen": "2026-11-20T15:30:37+00:00",
-      "runs": 1,
-      "dates": [
-        "20 November 2026"
-      ],
-      "money": [],
-      "signals": [
-        "Reference: RFS-00314 \u00b7 Last updated: 20 November 2026"
-      ],
-      "name": "Dogger Bank Operators Fund",
-      "funder": "Dogger Bank Wind Farm operators",
-      "url": "https://redcarfundseekers.org.uk/funding/dogger-bank-operators-fund/",
       "last_seen": "2026-11-20T15:30:37+00:00",
       "title_changed": false
     },
@@ -608,13 +609,13 @@
       ],
       "money": [],
       "signals": [
-        "Next round on 6 January 2027 at 10:00 (40 days)"
+        "Next round on 6 January 2027 at 10:00 (39 days)"
       ],
       "added": [
-        "Next round on 6 January 2027 at 10:00 (40 days)"
+        "Next round on 6 January 2027 at 10:00 (39 days)"
       ],
       "removed": [
-        "Next round on 6 January 2027 at 10:00 (41 days)"
+        "Next round on 6 January 2027 at 10:00 (40 days)"
       ]
     },
     {
@@ -632,53 +633,13 @@
       ],
       "money": [],
       "signals": [
-        "Next round on 6 January 2027 at 10:00 (41 days)"
+        "Next round on 6 January 2027 at 10:00 (40 days)"
       ],
       "added": [
+        "Next round on 6 January 2027 at 10:00 (40 days)"
+      ],
+      "removed": [
         "Next round on 6 January 2027 at 10:00 (41 days)"
-      ],
-      "removed": [
-        "Next round on 6 January 2027 at 10:00 (42 days)"
-      ]
-    },
-    {
-      "id": "the-fore-spring-2027",
-      "name": "The Fore \u2014 Spring 2027 Funding Round",
-      "funder": "The Fore",
-      "url": "https://thefore.org/who-we-fund/",
-      "change": "baseline",
-      "status": 200,
-      "error": "",
-      "note": "",
-      "title_changed": false,
-      "dates": [],
-      "money": [],
-      "signals": [],
-      "added": [],
-      "removed": []
-    },
-    {
-      "id": "leathersellers-small-grants",
-      "name": "The Leathersellers \u2014 Small Grants Programme",
-      "funder": "The Leathersellers",
-      "url": "https://leathersellers.org/grant/small-grants-programme/",
-      "change": "changed",
-      "status": 200,
-      "error": "",
-      "note": "",
-      "title_changed": false,
-      "dates": [],
-      "money": [],
-      "signals": [
-        "We are open for applications from 10.00am on the 26th of November 2026."
-      ],
-      "added": [
-        "Apply now",
-        "We are open for applications from 10.00am on the 26th of November 2026."
-      ],
-      "removed": [
-        "Our 8th of October window has reached the maximum number of applications and is now closed. We reopen for applications on the 26th of November 2026.",
-        "Join our mailing list"
       ]
     },
     {
@@ -712,6 +673,30 @@
       "signals": [],
       "added": [],
       "removed": []
+    },
+    {
+      "id": "dogger-bank-operators-fund",
+      "name": "Dogger Bank Operators Fund",
+      "funder": "Dogger Bank Wind Farm operators",
+      "url": "https://redcarfundseekers.org.uk/funding/dogger-bank-operators-fund/",
+      "change": "changed",
+      "status": 200,
+      "error": "",
+      "note": "",
+      "title_changed": false,
+      "dates": [
+        "27 November 2026"
+      ],
+      "money": [],
+      "signals": [
+        "Reference: RFS-00314 \u00b7 Last updated: 27 November 2026"
+      ],
+      "added": [
+        "Reference: RFS-00314 \u00b7 Last updated: 27 November 2026"
+      ],
+      "removed": [
+        "Reference: RFS-00314 \u00b7 Last updated: 20 November 2026"
+      ]
     }
   ],
   "stale": [
@@ -719,91 +704,91 @@
       "id": "acw-major-productions",
       "name": "Major Productions",
       "closes": "2026-11-18",
-      "problem": "deadline passed 8 days ago"
+      "problem": "deadline passed 9 days ago"
     },
     {
       "id": "forest-of-dean-startup",
       "name": "Business Start Up Grant",
       "closes": "2026-11-19",
-      "problem": "deadline passed 7 days ago"
+      "problem": "deadline passed 8 days ago"
     },
     {
       "id": "city-bridge-economic-change",
       "name": "Communities Building Economic Change",
       "closes": "2026-11-03",
-      "problem": "deadline passed 23 days ago"
+      "problem": "deadline passed 24 days ago"
     },
     {
       "id": "acni-small-capital",
       "name": "Arts Council of Northern Ireland \u2014 Small Capital Grants",
       "closes": "2026-11-16",
-      "problem": "deadline passed 10 days ago"
+      "problem": "deadline passed 11 days ago"
     },
     {
       "id": "rosa-voices-frontline",
       "name": "Rosa \u2014 Voices from the Frontline",
       "closes": "2026-11-16",
-      "problem": "deadline passed 10 days ago"
+      "problem": "deadline passed 11 days ago"
     },
     {
       "id": "heritage-grants-large",
       "name": "National Lottery Heritage Grants \u00a3250,000\u2013\u00a310m",
       "closes": "2026-11-12",
-      "problem": "deadline passed 14 days ago"
+      "problem": "deadline passed 15 days ago"
     },
     {
       "id": "cfni-foyle",
       "name": "The Foyle Foundation Fund",
       "closes": "2026-11-16",
-      "problem": "deadline passed 10 days ago"
+      "problem": "deadline passed 11 days ago"
     },
     {
       "id": "essex-nhs-community-health",
       "name": "NHS Essex Community Health Partnership Fund",
       "closes": "2026-11-25",
-      "problem": "deadline passed 1 day ago"
+      "problem": "deadline passed 2 days ago"
     },
     {
       "id": "spen-community-benefit",
       "name": "SP Energy Networks Community Benefit Programme",
       "closes": "2026-11-06",
-      "problem": "deadline passed 20 days ago"
+      "problem": "deadline passed 21 days ago"
     },
     {
       "id": "oglesby-climate-action",
       "name": "Spotlight: Local Climate Action",
       "closes": "2026-11-03",
-      "problem": "deadline passed 23 days ago"
+      "problem": "deadline passed 24 days ago"
     },
     {
       "id": "sylvia-waddilove",
       "name": "Sylvia Waddilove Foundation UK Grants",
       "closes": "2026-10-30",
-      "problem": "deadline passed 27 days ago"
+      "problem": "deadline passed 28 days ago"
     },
     {
       "id": "voices-from-the-frontline",
       "name": "Voices from the Frontline",
       "closes": "2026-11-16",
-      "problem": "deadline passed 10 days ago"
+      "problem": "deadline passed 11 days ago"
     },
     {
       "id": "bath-west-community-energy-fund",
       "name": "Bath & West Community Energy Fund",
       "closes": "2026-10-29",
-      "problem": "deadline passed 28 days ago"
+      "problem": "deadline passed 29 days ago"
     },
     {
       "id": "brockaghboy-community-benefit-fund",
       "name": "Brockaghboy Community Benefit Fund",
       "closes": "2026-11-05",
-      "problem": "deadline passed 21 days ago"
+      "problem": "deadline passed 22 days ago"
     },
     {
       "id": "community-wellbeing-health-fund",
       "name": "Community Wellbeing & Health Fund",
       "closes": "2026-11-02",
-      "problem": "deadline passed 24 days ago"
+      "problem": "deadline passed 25 days ago"
     }
   ]
 }
